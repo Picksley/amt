@@ -102,6 +102,7 @@ AMT Contract Hire & Leasing Ltd is subsidiary of AMT Global Investments Ltd - Re
 </footer>
 
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="js/jquery-1.12.4.min.js"></script>
 
 <!-- Include all compiled plugins (below), or include individual files as needed -->
 <script src="js/bootstrap.min.js"></script>
@@ -124,7 +125,7 @@ AMT Contract Hire & Leasing Ltd is subsidiary of AMT Global Investments Ltd - Re
 
 
 
-<script>
+<script type="text/jQuery">
 $(document).ready(function(){
     jQuery.goup({trigger: 10,
 	containerSize:40,
@@ -162,11 +163,18 @@ $(document).ready(function(){
 
 
 });
+
 </script>
 
 
 
 <script type="text/javascript">
+$( ".team-member-block" ).hover(function() {
+  $( ".team-second-info" ).slideToggle("slow");
+  $( ".team-hovered" ).slideToggle("slow");
+});
+
+
     /**
      * Get viewport/window size (width and height).
      *
@@ -281,6 +289,7 @@ $(document).ready(function(){
             });
         })();
     });
+
 
 
 </script>

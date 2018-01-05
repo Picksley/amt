@@ -28,12 +28,12 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
 
-    <script src="js/jquery-3.2.0.js"></script>
+
 </head>
 <body>
   <!-- Temporary code, will be fixed in yii implementation -->
   <?php
-    $domain = 'http://localhost/amt';
+    $domain = 'http://localhost/amt/amt';
     $page_banner = '';
   ?>
 
@@ -44,8 +44,10 @@ $url = 'http://' . $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI'];
 
 if (strpos($url,'about-us') !== false) {
     $page_banner = 'about';
+} elseif (strpos($url,'index') !== false) {
+    $page_banner = 'home';
 } else {
-      $page_banner = 'home';
+      $page_banner = 'short';
 }
 
 
@@ -224,6 +226,18 @@ if (strpos($url,'about-us') !== false) {
         <div class="top_phone">
           <p>Mon-Fri 9am - 5.30pm</p>
            <h4><img src="images/icons/phone.svg">0113 3502784</h4>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="site-breadcrum">
+    <div class=" container">
+      <div class="col-md-12">
+        <div class="sitebread-inner">
+          <ul>
+            <li><a href="#"><img src="images/home.png"></a></li>
+            <li class="active"><?php print basename($_SERVER['PHP_SELF']); ?></li>
+          </ul>
         </div>
       </div>
     </div>

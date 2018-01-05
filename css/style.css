@@ -1598,6 +1598,23 @@ textarea {
 	font-size: 16px;
 	font-family: 'Aller-Bold';
 }
+/***********Short Banner css********/
+.short_banner {
+	background-image: url(../images/short-banner.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	position: relative;
+	height: 500px;
+}
+.short_banner_des {
+	margin: auto;
+	width: 75%;
+}
+.short_banner_des .page-title p {
+	width: 84%;
+	margin: auto;
+}
 /***********Home Banner css********/
 .home_banner {
 	background-image: url(../images/home-banner.jpg);
@@ -2870,3 +2887,72 @@ right: -10px;}
     margin-top: 110px;
 }
 .hm_blog_last::after{ display:none;}
+
+/****** MEET THE TEAM PAGE ****/
+.default-border-bottom {
+		border-bottom: solid 4px #BA0C2F;
+}
+.page-title, .meet-team {
+	margin-bottom:110px
+}
+.meet-the-team {
+	background-color: #fff
+}
+.meet-the-team h2 {
+	font-size:42px;
+	font-family: 'Aller';
+	margin: 60px 0 60px 15px;
+}
+.team-member-name {
+		font-family: 'Aller';
+}
+.team-role {
+	font-family: 'Aller';
+}
+.team-member-block{
+	border-radius: 4px;
+	transition: all 0.4s ease;
+	text-align:center;
+	margin:20px 20px 20px 20px;
+}
+.team-member-block:hover, .team-member-block:focus {
+	transition: all 0.4s ease;
+  box-shadow: 2px 9px 18px 4px rgba(0,0,0,0.2);
+	border-bottom: solid 4px #BA0C2F;
+}
+.team-main-info {
+	border-radius: 2px;
+border-bottom: 1px solid #e2e2e2;
+	padding-bottom:20px
+}
+.team-second-info {
+		transition: all 0.4s ease;
+	display:none;
+	margin: 20px 5px 20px 5px;
+
+}
+.team-second-title {
+	font-family: 'Aller';
+	font-size:16px;
+	font-weight:30px;
+}
+.team-second-title + p {
+	font-family: 'Aller';
+	margin-bottom:30px
+}
+.team-member-image {
+	margin-top:20px;
+	border-radius:100%
+}
+.team-role {
+	margin-bottom:20px
+}
+.team-more-info {
+	color:#ba0c2f;
+	cursor:pointer;
+	text-transform:uppercase;
+	font-size:14px;
+		font-family: 'Aller';
+	font-weight:600;
+	letter-spacing:1px;
+}
