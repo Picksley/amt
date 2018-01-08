@@ -37,8 +37,29 @@
     $page_banner = '';
   ?>
 
+<?php
 
-<header class="light_banner">
+$url = 'http://' . $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI'];
+
+
+if (strpos($url,'about-us') !== false) {
+    $page_banner = 'about';
+} elseif (strpos($url,'index') !== false) {
+    $page_banner = 'home';
+} elseif (strpos($url,' ') !== false) {
+    $page_banner = 'home';
+} elseif  (strpos($url,'meet-the-team') !== false) {
+      $page_banner = 'meet_team';
+} else {
+  $page_banner = 'light';
+}
+
+
+
+?>
+
+
+<header class="<?= $page_banner ?>_banner">
   <div class="top-head hidden-xs">
     <div class="container">
       <div class="col-md-12">
@@ -100,7 +121,7 @@
 
           <div class="navbar-header">
             <button type="button" class="navbar-toggle x collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
-            <a class="navbar-brand" href="<?= $domain ?>/index.php"><img src="images/logo-lg.png" class="hidden-xs hidden-sm hidden-md hidden-lg"> <img src="images/logo-mob.png" class=""></a> <a href="<?= $domain ?>/index.php" class="icon-mob"><img src="images/mob-phone.png"></a> <a href="#" class="icon-mob"><img src="images/email-mob.png"></a> </div>
+            <a class="navbar-brand" href="<?= $domain ?>/index.php"><img src="images/logo-lg.png" class="hidden-xs"> <img src="images/logo-mob.png" class="hidden-sm hidden-sm hidden-md hidden-lg"></a> <a href="<?= $domain ?>/index.php" class="icon-mob"><img src="images/mob-phone.png"></a> <a href="#" class="icon-mob"><img src="images/email-mob.png"></a> </div>
 
           <!-- Collect the nav links, forms, and other content for toggling -->
           <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -207,22 +228,22 @@
           <div class="feefologo"> <img src="images/feefo-logo.png"> </div>
         </div>
         <div class="top_phone">
-          <p>Mon-Fri <strong> 9am - 5.30pm </strong></p>
+          <p>Mon-Fri 9am - 5.30pm</p>
            <h4><img src="images/icons/phone.svg">0113 3502784</h4>
         </div>
       </div>
     </div>
   </div>
-
+  <!--
   <div class="site-breadcrum">
     <div class=" container">
       <div class="col-md-12">
         <div class="sitebread-inner">
           <ul>
             <li><a href="#"><img src="images/home.png"></a></li>
-            <li class="active"><?php print basename($_SERVER['PHP_SELF']); ?></li>
+            <li class="active"><?php // print basename($_SERVER['PHP_SELF']); ?></li>
           </ul>
         </div>
       </div>
     </div>
-  </div>
+  </div>-->

@@ -38,7 +38,7 @@
             </div>
             <div class="listing_line">
               <ul>
-                <li><a class="nav-link js-scroll-trigger" href="#home1">Services</a></li>
+                <li><a class="nav-link js-scroll-trigger" href="<?php print $domain ?>/services.php">Services</a></li>
                 <li><a class="nav-link js-scroll-trigger"  href="#about">Leasing guides</a></li>
                 <li><a  class="nav-link js-scroll-trigger" href="#works_row">About AMT</a></li>
                 <li><a class="nav-link js-scroll-trigger" href="#ourservice">Blog</a></li>
@@ -122,7 +122,7 @@ AMT Contract Hire & Leasing Ltd is subsidiary of AMT Global Investments Ltd - Re
 
 <script src="js/slider/js/jquery.requestAnimationFrame.js"></script>
 <script src="js/slider/js/ilightbox/js/ilightbox.packed.js"></script>
-
+<script src="js/amt.js" type="text/javascript"></script>
 
 
 <script type="text/jQuery">
@@ -169,11 +169,12 @@ $(document).ready(function(){
 
 
 <script type="text/javascript">
+/*
 $( ".team-member-block" ).hover(function() {
   $( ".team-second-info" ).slideToggle("slow");
   $( ".team-hovered" ).slideToggle("slow");
 });
-
+*/
 
     /**
      * Get viewport/window size (width and height).

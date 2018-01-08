@@ -1598,8 +1598,37 @@ textarea {
 	font-size: 16px;
 	font-family: 'Aller-Bold';
 }
+/*********** Light Banner ****/
+
+.light_banner {
+	background-image: url(../images/short-banner.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	position: relative;
+	height: 0px;
+}
+.light_banner_des {
+	margin: auto;
+	width: 75%;
+}
+.light_banner_des .page-title p {
+	width: 84%;
+	margin: auto;
+}
+.light_banner .menu .navbar-nav > li > a{
+color: #33414E;
+}
+ .light_banner .top_phone p{
+	color: #33414E;
+ }
+.light_banner .top_phone h4{
+	color:#000
+}
+/****/
+
 /***********Short Banner css********/
-.short_banner {
+.meet_team_banner {
 	background-image: url(../images/short-banner.jpg);
 	background-repeat: no-repeat;
 	background-position: center;
@@ -1607,11 +1636,11 @@ textarea {
 	position: relative;
 	height: 500px;
 }
-.short_banner_des {
+.meet_team_banner_des {
 	margin: auto;
 	width: 75%;
 }
-.short_banner_des .page-title p {
+.meet_team_banner_des .page-title p {
 	width: 84%;
 	margin: auto;
 }
