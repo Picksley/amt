@@ -5774,7 +5774,7 @@ color: rgba(255,255,255,0.6);
 }
 .contact-cont h2{
 	padding-top: 20px;
-	padding-bottom:20px;
+	padding-bottom:10px;
 
 }
 .ct-checkbox{
@@ -5785,7 +5785,7 @@ color: rgba(255,255,255,0.6);
 	padding:5px;
 }
 .contact-cont input{
-	width:100%;
+	width:99%;
 	border-radius:3px;
 	font-size:16px;
 	padding:15px;
@@ -5794,14 +5794,14 @@ color: rgba(255,255,255,0.6);
 
 }
 .contact-cont textarea{
-	width:100%;
+	width:99%;
 	border-radius: 3px;
 	padding:15px;
 	margin:5px;
 	border: solid 1px #000;
 }
 .ct-border-right{
-	border-right: 1px solid grey;
+	border-right: 1px solid #F3F3F4;
 }
 .btn-ct{
 	background-color:#BA0C2F;
@@ -5816,4 +5816,20 @@ color: rgba(255,255,255,0.6);
 .btn-ct:hover, .btn-ct:focus, .btn-ct:active{
 	background-color:#8f0823;
 	color:#fff;
+}
+.ct-more-info h4{
+	color:#5B6670;
+	font-weight:normal;
+	padding-bottom:20px;
+}
+.ct-more-info p {
+	margin-bottom:20px;
+	letter-spacing:1px;
+}
+.ct-more-info img{
+	padding-right:10px;
+}
+.contact-icon{
+	margin-top:20px;
+	margin-bottom:20px;
 }
