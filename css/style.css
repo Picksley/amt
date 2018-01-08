@@ -1350,7 +1350,6 @@ textarea {
 	color: #33414e;
 	line-height: 25px;
 }
- @import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css");
 .panel-title > a:before {
 	float: right !important;
 	font-family: FontAwesome;
@@ -2132,10 +2131,7 @@ button.hm_redbtns:hover img {
 .hm_oursodtl:hover {
 	transition: all 0.4s ease;box-shadow: 2px 9px 18px 4px rgba(0,0,0,0.2);
 }
-
-
 .hm_oursodtl figure {
-  position: ;
   position: relative;
   text-align: center;
   padding: 53px 5px 28px 5px;
@@ -4284,7 +4280,8 @@ color:#33414E;
 	display: inline-block;
 	transition: all 0.4s ease;
 	color: #fff;
-	border-bottom: solid 4px transparent border-radius: 0;
+	border-bottom: solid 4px transparent;
+	border-radius: 0;
 	padding: 16px 5px;
 	font-size: 12px;
 	text-transform: uppercase;
@@ -4552,3 +4549,1227 @@ width: 136px;
 /****cpost-slider end****/
 
 /****car post end Lovepreet****/
+
+.audi-title{ width:100%; float:left; padding:50px 0px;}
+.audi-title h1{ font-size:60px; margin-top:0px; font-family: 'Aller'; margin-bottom:0px; color:#000;}
+.audi-title h1 img{ margin-right:27px;}
+.deals-bg {
+    width: 100%;
+    float: left;
+    background-image: url(../images/audi-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+padding: 50px 0px;
+    background-position: center;
+}
+.audio-content {
+	width: 100%;
+	float: left;
+	padding-right: 10px;
+}
+.audio-content p{ font-size:16px; color:#33414e; line-height:26px; margin-bottom:30px; }
+.refine_colpsfiltr {
+    text-align: right;
+}
+.advance_srchpg h2{ font-size:40px; margin-top:0px; margin-bottom:15px; font-family: 'Aller-Bold'; color:#000;}
+.refine_colpsfiltr .adv_colpsfiltr button{ margin-top:20px;}
+.refine_checkbox_col {
+    width: 100%;
+    float: left;
+    border-bottom: solid 1px #EDEEEE;
+    padding: 35px 0px;
+    margin-bottom: 35px;
+}
+.refine_search_col{ width:100%; float:left;}
+.refine_search_col .form-control{ border-color:#33414e;}
+.refine_search_col .form-inline .form-control {
+    width: 194px;
+    margin-right: 10px;
+    height: 58px;
+    font-family: 'Aller-Bold';
+    font-size: 16px;
+    padding-top: 18px;
+}
+.refine_search-btn {
+    width: 100%;
+    float: left;
+    text-align: center;
+    padding: 50px 0px;
+}
+.btn-refine {
+    background-color: #ba0c2f;
+    color: #fff;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-family: 'Aller-Bold'; border:none;
+    padding: 15px 150px; transition: all 0.4s ease;
+}
+.btn-refine i{ margin-right:6px; transition: all 0.4s ease;}
+.btn-refine:hover{background: #8F0823;
+color: rgba(255,255,255,0.6);}
+.btn-refine:hover i{opacity: 0.6;
+left: -5px;}
+
+.advchkbx_lft input:disabled + label {
+    background-color: #edeeee;
+  opacity:0.4;
+
+}
+.mob_audiimg{ display:none; width:100%; float:left;}
+
+/****search-manufacturer ccs********/
+.manufa_deals-bg{ width:100%; float:left; background-image:url(../images/menuf_deals_bg.jpg); background-repeat:no-repeat; background-size:cover; padding:50px 0px; position:relative; background-position: center top;}
+.choose_model {
+    width: 100%;
+    float: left;
+    margin-top: 27px;
+}
+.choose_model .form-control{ background-color:#fff; border-color:#3e4b58; height:50px; width:50%;}
+.choose_model p a{ color:#33414e; font-size:16px; font-family: 'TrebuchetMS-Bold'; text-decoration:underline;}
+.choose_model p a:hover{ text-decoration:none;}
+.choose_model p{font-family: 'TrebuchetMS'; font-size:16px; color:#33414e;}
+/*.manufa_deals-bg::after {
+    position: absolute;
+    right: 0;
+    top: 50px;
+    content: '';
+    width: 600px;
+    height: 426px;
+    background-image: url(../images/audi-blue.jpg);
+    background-repeat: no-repeat;
+}*/
+
+.refine_search_col .form-inline .form-group {
+    position: relative;
+}
+.refine_search_col .form-group label {
+    position: absolute;
+    top: 8px;
+    left: 17px;
+    font-size: 12px;
+    color: #33414e;
+    font-family: 'TrebuchetMS';
+}
+.svr_model .adv_dealslistinfo .col-lg-3 {
+    width: 22%;
+    padding-left: 25px;
+}
+.svr_model .adv_dlistinam {
+    padding-top: 0;
+}
+.svr_model .adv_dlistinam h5 {
+    margin: 3px 0 0 0;
+}
+.svr_model .adv_dlistimg {
+    margin-top: 19px;
+}
+
+
+.svr_model .adv_dlistinam::after {
+    top: -53px;
+}
+.svr_model .adv_namspofr {
+    top: -34px;
+}
+.active_blank {
+    margin-top: 39px;
+}
+.active_blank::after {
+    top: -41px !important;
+}
+.image-section .image {
+    background-size: cover;
+    background-position: center; height:480px;
+}
+.image-section .item {
+	position: absolute;
+	right: 0;
+	background: url('../images/audi-blue.jpg') right top no-repeat;
+	background-size: 100%;
+}
+.image-section .image img {
+    display: none;
+}
+
+
+/****search manfacture car list Lovepreet****/
+
+
+
+.srchmodls_carlist {
+  padding: 40px 0 0px 0;
+}
+
+.sm_carinfo {
+	margin: 0 0 45px 0;
+}
+
+.sm_cardtl {
+  background: #fff;
+  border-radius: 4px;
+  border-bottom: solid 4px #BA0C2F;
+  box-shadow: 1px 5px 15px 2px rgba(0,0,0,0.1);
+  transition: all 0.4s ease;
+}
+
+.sm_cardtl:hover{ box-shadow: 2px 9px 18px 4px rgba(0,0,0,0.2);}
+
+.sm_cardtlimg {
+  text-align: center;
+  position: relative;
+  padding: 40px 0 10px 0;
+}
+.sm_cardtlimg figcaption {
+  position: absolute;
+  top: 8px;
+  left: 13px;
+  background: #D6D9DC;
+  border-radius: 3px;
+  padding: 4px 12px;
+  text-transform: uppercase;
+  letter-spacing: 1.0px;
+  font-family: 'Aller-Bold';
+  font-size: 12px;
+  color: #33414e;
+}
+
+.sm_carcontt{
+	 padding: 0 20px;
+	}
+
+.sm_carfeatur ul {
+	margin: 0 0 10px 0;
+	padding: 0;
+	list-style: none;
+}
+.sm_carfeatur ul li {
+  font-size: 14px;
+  line-height: 28px;
+}
+.sm_carfeatur ul li span {
+	margin: 0 0 0 0px;
+	font-weight: 600;
+}
+
+.sm_carnam h3 {
+	font-size: 24px;
+	margin: 0 0 15px 0;
+	line-height: 30px;
+	font-family: 'Aller';
+	color: #33414e;
+}
+
+.sm_carnamsap {
+	margin: 0 0 15px -20px;
+}
+
+.sm_carpersbus {
+	background: #33414E;
+	border-radius: 5px;
+	overflow: hidden;
+}
+.sm_carperlft {
+  height: 52px;
+  color: #fff;
+  text-align: center;
+}
+.sm_carperrgt {
+  height: 65px;
+  text-align: center;
+  background: #485460;
+  margin: 0 0 1px 0;
+}
+.sm_carperlft h5 {
+  font-size: 12px;
+  margin: 0;
+}
+.sm_carperlft h4 {
+  font-size: 15px;
+  margin: 12px 0 3px 0;
+}
+.sm_carperrgt h3 {
+  font-size: 30px;
+  color: #fff;
+  margin: 0px 0 0 0;
+  letter-spacing: 0.2px;
+  font-family: 'Aller-Bold';
+  text-align: center;
+  line-height: 65px;
+}
+
+.sm_carrngviewbtn {
+	width: 100%;
+	padding: 30px 0;
+}
+
+.sm_carrngviewbtn button.hm_redbtns {
+	width: 100%;
+}
+
+.sm_cardtl:hover button.hm_redbtns {
+    background: #8F0823;
+    color: rgba(255,255,255,0.6);
+
+}
+
+.sm_cardtl:hover button.hm_redbtns img {
+    left: 11px;
+    opacity: 0.6;
+}
+
+/****search manfacture car list end Lovepreet****/
+
+/**********business-car-leasing page css Neeraj Sharma*******/
+.search_van{ padding:150px 0px 80px 0px;}
+.search_van .hm_carbrands {
+    margin: 0 0 26px 0;
+}
+.bus_car_col {
+    width: 100%;
+    float: left;
+    padding: 65px 0px 255px 0px;
+}
+.bus_car-des {
+    width: 63%;
+    text-align: center;
+    margin: auto;
+}
+.bus_car-des h1{ font-size:60px; margin-top:0px; margin-bottom:15px; color:#000; font-family: 'Aller';}
+.bus_car-des p{ font-size:16px; color:#33414e;}
+.bcar_leasing_search{
+    top: -161px;
+}
+.bcar_leasing_search .home_tab_search .tab-content {
+    box-shadow: 0px 3px 15px rgba(0,0,0,0.2);
+}
+
+.benefits_amt {
+    width: 100%;
+    float: left;
+    padding: 60px 0px 80px 0px;
+    border-bottom: 1px solid #e4e5e6;
+}
+.search_brand .hm_carbrands {
+    margin: 0 0 20px 0;
+}
+.search_brand {
+    padding: 120px 0 95px 0;
+}
+.benefits-main {
+    width: 100%;
+    float: left;
+    padding: 75px 0px 30px 0px;
+}
+.benefits-list {
+    width: 100%;
+    float: left;
+    border-bottom: 1px solid #e4e5e6;
+    border-right: 1px solid #e4e5e6;
+    padding: 30px;
+    min-height: 355px;
+}
+.benefits-num{ display:block; color:#ba0c2f; font-size:16px; font-family: 'Aller-Bold'; margin-bottom:10px; }
+.benefits-list h2 {
+    color: #33414e;
+    font-size: 24px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    font-family: 'Aller';
+}
+.benefits-list p{ font-size:16px; line-height:26px; color:#33414e;}
+.no-padd{ padding-left:0px; padding-right:0px;}
+.rtl-nopadd{ padding-right:0px;}
+.left-nopadd{ padding-left:0px;}
+.rtl-noborder{ border-right:none;}
+.bm-border0{ border-bottom:none;}
+.first-l {
+    min-height: 250px;
+}
+.last-h {
+    min-height: 255px;
+}
+.options-finance{ width:100%; float:left; padding: 90px 0px 100px 0px; border-bottom: 1px solid #e4e5e6;}
+.options-header{ text-align:center; margin:auto; width:60%;}
+.options-header h1{ font-size:40px; color:#000; font-family: 'Aller-Bold'; margin-top:0px; margin-bottom:15px;}
+.options-header p {
+    color: #000;
+    font-size: 16px;
+    margin-bottom: 25px;
+}
+.contract-hire-box {
+    width: 100%;
+    float: left;
+    background-color: #33414e;
+    padding: 40px;
+    text-align: center;
+    color: #fff;
+    margin-top: 30px; margin-bottom:20px;
+}
+.contract-hire-box h3{ font-size:24px; margin-top:0px; margin-bottom:15px; font-family: 'Aller';}
+.cont_main{ width:60%; margin:auto;}
+.cont_main a {
+    margin-top: 25px;
+}
+.other_options{ width:100%; float:left;}
+.other_options .veh_sol {
+    padding: 0px 30px;
+}
+.opther_head {
+    width: 100%;
+    float: left;
+    text-align: center;
+    border-bottom: 1px solid #edeeee;
+    padding-bottom: 15px;
+}
+.opther_head p{ color:#ba0c2f; font-family: 'Aller-Bold'; font-size:16px;}
+.other_options .twopart {
+    padding-bottom: 30px;
+}
+.choose-car {
+    width: 100%;
+    float: left;
+    padding: 90px 0px 120px 0px;
+}
+.choose-carhead{ width:50%; text-align:center; margin:auto;}
+.choose-carhead h2{ font-size:40px; margin-top:0px; margin-bottom:15px; font-family: 'Aller-Bold'; color:#000;}
+.choose-carhead h2 span{ display:block; margin-bottom:20px; text-align:center;}
+.choose-carhead p {
+    color: #33414e;
+    font-size: 16px;
+    margin-bottom: 60px;
+}
+.still_not{ width:65%; margin:auto; text-align:center; padding:40px; background-color:#edeeee; border-radius:7px;}
+.still_not h2{ font-size:30px; font-family: 'Aller'; margin-top:0px; margin-bottom:20px; color:#ba0c2f;}
+.still_not p{ color:#33414e; font-size:16px; margin-bottom:20px;}
+.still_not h6{ color:#33414e; margin-top:0px; margin-bottom:15px; font-family: 'TrebuchetMS-Bold'; font-size:16px;}
+.still_not h6 img{ width:17px; margin-right:10px; }
+
+.advance_srchpg {
+	float: left;
+	width: 100%;
+	padding: 45px 0 0px 0;
+}
+.advcars_vans.advnclftlink {
+	float: right;
+}
+
+.advcars_vans ul {
+	margin: 0 0 30px 0;
+	padding: 0;
+	list-style: none;
+	float: left;
+	width: 100%;
+}
+.advcars_vans ul li {
+  float: left;
+}
+.advcars_vans ul li a {
+  border: solid 1px #A7A9AC;
+  font-size: 12px;
+  text-transform: uppercase;
+  font-family: 'Aller-Bold';
+  letter-spacing: 1px;
+  transition: all 0.4s ease;
+  color: #33414E;
+  padding: 4px 11px;
+}
+
+.advcars_vans ul li:first-child a {
+  border-radius: 3px 0px 0px 3px;
+  border-right:none;
+
+}
+
+.advcars_vans ul li:last-child a {
+  border-radius: 0px 3px 3px 0px;
+}
+
+.advcars_vans ul li a:hover, .advcars_vans ul li.active a {
+	background: #33414E;
+	color: #fff;
+	border-color: #33414E;
+}
+
+.advcars_vans ul li.ad_spofr a { color:#BA0C2F; border-left:none;}
+
+.advcars_vans ul li.ad_spofr a:hover { background:#BA0C2F; color:#fff; border-color:#BA0C2F;}
+
+
+
+.ad_titl h1 {
+	font-size: 60px;
+	color: #000;
+	padding: 0px 0px 10px 0px;
+	font-family: 'Aller';
+	margin: 0;
+	letter-spacing: 0.2px;
+}
+
+
+.ad_restfiltr button {
+	background: none;
+	color: #33414e;
+	border: solid 1px #33414E;
+	border-radius: 4px;
+	padding: 14px 18px 14px 51px;
+	font-size: 12px;
+	text-transform: uppercase;
+	font-family: 'Aller-Bold';
+	letter-spacing: 1px;
+	transition: all 0.4s ease;
+	position: relative;
+	margin: 10px 0 0 0;
+}
+
+
+.ad_restfiltr button:hover {
+	background: #33414e;
+	color: #fff;
+}
+
+.ad_restfiltr button::after {
+	position: absolute;
+	left: 24px;
+	bottom: 15px;
+	content: "";
+	width: 18px;
+	height: 15px;
+	background: url(../images/advnc_refreshicon.png) left top no-repeat;
+	background-position: 0 0px;	transition: all 0.4s ease;
+}
+
+.ad_restfiltr button:hover:after {background-position: 0 -15px;}
+
+.advsrch_tabssectn .resp-tabs-list li.resp-tab-active {
+	color: #000;
+	background: none;
+}
+
+.advsrch_tabssectn .resp-tabs-list li {
+	font-weight: normal;
+	font-size: 16px;
+	display: inline-block;
+	padding: 13px 30px 24px 30px;
+	margin: 0 2px 0 0;
+	list-style: none;
+	cursor: pointer;
+	float: left;
+	font-family: 'Aller-Bold';
+	color: #000;
+	background: none;
+	border-radius: 2px 2px 0 0;
+	transition: all 0.4s ease;
+	text-align: center;
+	opacity: 0.5;
+	filter: grayscale(100%);
+}
+
+.advsrch_tabssectn .resp-tabs-list li.resp-tab-active {
+	color: #000;
+	background: none;
+	opacity: 1.0;
+	filter: grayscale(0%);
+	border-bottom: solid 4px #D3BC8D;
+}
+
+.advsrch_tabssectn .resp-tabs-list li:hover {
+	color: #000;
+	background: none;
+	opacity: 1.0;
+	filter: grayscale(0%);border-bottom: solid 4px #D3BC8D;
+}
+
+
+
+.advsrch_tabssectn .resp-tabs-list li .advimgtbs_slectd {
+	font-family: 'TrebuchetMS';
+	font-weight: normal;
+	min-height: 23px;
+}
+
+
+.advsrch_tabssectn .resp-tab-content {
+	min-height: 80px;
+}
+
+.advsrch_tabssectn .resp-tabs-list li .advsrch_tabnm {
+	margin: 5px 0 2px 0;
+}
+
+.advn_container {
+	padding: 0 15px;
+	position: relative;
+}
+
+.advn_container::after {
+	top: 299px;
+	left: 0;
+	right: 0;
+	width: 100%;
+	height: 1px;
+	background: #EDEEEE;
+	content: "";
+	position: absolute;
+}
+
+.advsrch_tabssectn .advsrch_imgtbs {
+	width: 1022px;
+	margin: 0 auto 0 auto;
+	padding: 20px 0 0 116px;
+}
+
+.advsrch_tabssectn .resp-tabs-container {
+  width: 1280px;
+  margin: 0 auto;
+}
+
+.adv_innrlinks {
+	width: 340px;
+	margin: 0 auto;
+}
+
+.adv_innrlinks ul {
+	margin: 0 0 30px 0;
+	padding: 0;
+	list-style: none;
+	float: left;
+	width: 100%;
+}
+
+.adv_innrlinks ul li {
+	float: left;
+}
+
+.adv_innrlinks ul li a {
+	border: solid 1px #A7A9AC;
+	font-size: 12px;
+	text-transform: uppercase;
+	font-family: 'Aller-Bold';
+	letter-spacing: 1px;
+	transition: all 0.4s ease;
+	color: #33414E;
+	padding: 4px 11px;
+}
+
+.adv_innrlinks ul li a:hover, .adv_innrlinks ul li.active a {
+	background: #33414E;
+	color: #fff;
+	border-color: #33414E;
+}
+
+.adv_innrlinks ul li:first-child a {
+	border-radius: 3px 0px 0px 3px;
+	border-right: none;
+}
+
+
+
+.adv_innrlinks ul li:last-child a {
+	border-radius: 0px 3px 3px 0px;	border-left: none;
+}
+
+
+.adv_slctboxes {
+	float: left;
+	width: 100%;
+	text-align: center;
+}
+
+
+
+/******advance search-checkbox*****/
+
+.advchkbx_lft input {
+  position: absolute;
+  left: -9999px;
+}
+
+.advchkbx_lft label {
+	display: block;
+	position: relative;
+	margin: 0 0 0 0;
+	padding: 15px 0px 15px 0px;
+	border-right: 1px solid #33414e;
+	border-radius: 0px;
+	color: #33414e;
+	background-color: #fff;
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0);
+	white-space: nowrap;
+	cursor: pointer;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	-webkit-transition: background-color .2s, box-shadow .2s;
+	transition: background-color .2s, box-shadow .2s;
+	text-align: center;
+	height: 120px;
+	font-size: 12px;
+    text-transform: uppercase;
+    font-family: 'Aller-Bold';
+    letter-spacing: 1px;
+    color: #33414E;
+	border-top: solid 1px #33414E;
+    border-bottom: solid 1px #33414E;
+}
+
+.advchkbx_lft label::before {
+	content: '';
+	display: block;
+	position: absolute;
+	top: -11px;
+	left: 0;
+	width: 22px;
+	height: 22px;
+	margin: 0 auto;
+	-webkit-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+	background: url(../images/adv_chkicon.png) center top no-repeat;
+	opacity: 0;
+	right: 0;
+	z-index:11;
+}
+
+.advchkbx_lft label:first-of-type {
+  -webkit-transform: translateX(-40px);
+          transform: translateX(-40px);
+}
+
+.advchkbx_lft label:last-of-type {
+  -webkit-transform: translateX(0px);
+          transform: translateX(0px);
+}
+
+.advchkbx_lft label:hover, .advchkbx_lft input:focus + label {
+	box-shadow: 0px 3px 14px 2px rgba(0, 0, 0, .1);
+}
+
+.advchkbx_lft input:checked + label {
+    background-color: #fff;
+    border: solid 1px #BA0C2F;
+    color: #BA0C2F;
+    border-left: none;
+}
+
+
+
+.advothr_shape .advchkbx_lft label h5 {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 12px;
+    z-index: 9;
+	font-size: 12px;
+	text-transform: uppercase;
+	font-family: 'Aller-Bold';
+	letter-spacing: 1px;
+	color: #33414E;
+}
+
+.advothr_shape .advchkbx_lft input:checked + label h5 { color:#BA0C2F; }
+
+/*.advothr_shape .advchkbx_lft label:after {
+    background: #fff;
+    content: "";
+    left: 0;
+    right: 0;
+    height: 28px;
+    width: 98px;
+    position: absolute;
+    bottom: 25px;
+	transition:all 0.4s ease;
+}*/
+
+.advchkbx_lft label img {
+    width: 58px;
+    margin: 0px 0 0 34px;
+	transition:all 0.4s ease;
+}
+
+.advchkbx_lft label img.adv_activeimg { opacity:0;  }
+
+.advchkbx_lft input:checked + label img.adv_activeimg {
+	opacity:1;
+	margin: 0px 0 0 -91px;
+}
+
+.advchkbx_lft input:checked + label img.adv_unactiveimg {opacity:0;
+}
+
+
+.advchkbx_lft input:checked + label::before {
+	opacity:1;
+
+}
+
+
+.advany_shape {
+    float: left;
+    width: 11%;
+    border: none;
+    border-radius: 3px;
+    margin: 0 20px 0 0;
+    height: 120px;
+}
+.advothr_shape {
+    float: left;
+    width: 86%;
+    border-left: solid 1px #33414E;
+    border-radius: 3px;
+    height: 120px;
+    border-right: solid 1px #33414E;
+}
+.advchkbx_lft {
+	float: left;
+	width: 12.5%;
+	text-align: center;
+}
+.adv_chkbxlist {
+  float: left;
+  width: 100%;
+  position: relative;
+      margin: 15px 0 0 0;
+}
+
+.advany_shape .advchkbx_lft {
+    width: 100%;
+    padding: 0 0px;
+}
+
+.advany_shape .advchkbx_lft label {
+	padding: 29px 45px;
+	white-space: initial;
+	font-size: 12px;
+	text-transform: uppercase;
+	font-family: 'Aller-Bold';
+	letter-spacing: 1px;
+	color: #33414E;
+	height: 118px;  border: solid 1px #33414E; border-radius:3px;
+}
+
+
+.advany_shape .advchkbx_lft input:checked + label {
+    background-color: #fff;
+    border: solid 1px #BA0C2F;
+    color: #BA0C2F;
+}
+
+.adv_colpsfiltr button {
+	background: none;
+	color: #33414e;
+	border: solid 1px #33414E;
+	border-radius: 4px;
+	padding: 5px 18px 5px 41px;
+	font-size: 12px;
+	text-transform: uppercase;
+	font-family: 'Aller-Bold';
+	letter-spacing: 1px;
+	transition: all 0.4s ease;
+	position: relative;
+	margin: 30px 0 0 0;
+}
+
+.adv_colpsfiltr button::after {
+	position: absolute;
+	left: 24px;
+	bottom: 12px;
+	content: "";
+	width: 11px;
+	height: 6px;
+	background: url(../images/adv_collapsicon.png) left top no-repeat;
+	background-position: 0 0px;
+	transition: all 0.4s ease;
+}
+
+.adv_colpsfiltr button:hover::after {
+	background-position: 0 -6px;
+}
+
+.adv_colpsfiltr button:hover {
+	background: #33414e;
+	color: #fff;
+}
+
+.advpg_sortby {
+	float: right; position:relative;
+}
+.advpg_sortby .form-group label {
+    position: absolute;
+    left: 17px; font-size:12px; color:#33414e;
+    top: 8px;
+}
+
+.advpg_sortby select {
+    height: 58px;
+    border-color: #33414e;
+    font-size: 16px;
+	    width: 243px; padding-top: 20px;
+}
+
+
+
+
+/********/
+
+.advance_srchpglist {
+	float: left;
+	width: 100%;
+	padding: 85px 0 105px 0;
+	border-top: solid 1px #EDEEEE;
+}
+
+.adv_dealsfound {
+	font-size: 24px;
+	color: #fff;
+	padding: 10px 25px 12px 25px;
+	font-family: 'Aller';
+	margin: 0;
+	letter-spacing: 0.2px;
+	background: #000;
+	display: inline-block;
+}
+
+/****/
+
+.adv_dealslistinfo {
+	background: #fff;
+	box-shadow: 1px 4px 9px 1px rgba(0,0,0,0.1);
+	transition: all 0.4s ease;
+	border-radius: 5px;
+	border-right: solid 3px #BA0C2F;
+	padding: 5px 17px;
+	margin-bottom: 40px;
+}
+
+.adv_dealslistinfo:hover {
+	box-shadow: 1px 5px 13px 5px rgba(0,0,0,0.2);
+}
+
+
+.adv_dlistimg figure img {
+  width: 82px;
+}
+.adv_dealslistinfo .col-lg-1 {
+  width: 10%;
+}
+.adv_dlistinam h3 {
+  font-size: 24px;
+  color: #33414E;
+  padding: 0;
+  font-family: 'Aller';
+  margin: 0;
+  letter-spacing: 0.2px;
+  margin: 0;
+}
+.adv_dlistinam h5 {
+  font-size: 14px;
+  color: #33414E;
+  padding: 0;
+  margin: 5px 0 0 0;
+  letter-spacing: 0.2px;
+  font-family: 'Aller-Bold';    line-height: 20px;
+
+}
+.adv_dlistinam {
+  padding: 35px 0 0 0;
+  position: relative;
+}
+.adv_namspofr {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #BA0C2F;
+  border-radius: 3px;
+  padding: 4px 12px;
+  text-transform: uppercase;
+  letter-spacing: 1.0px;
+  font-family: 'Aller-Bold';
+  font-size: 12px;
+  color: #fff;
+}
+.adv_dlistimg {
+  padding: 35px 0 0 0;
+  position: relative;
+}
+.adv_dlistimg figure figcaption {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #D6D9DC;
+  border-radius: 3px;
+  padding: 4px 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.75px;
+  font-family: 'Aller-Bold';
+  font-size: 11px;
+  color: #33414e;
+  right: 0; width:90px;
+}
+.adv_dealslist {
+  padding: 35px 0 0 0;
+}
+.adv_dealslistinfo .col-lg-2 {
+	width: 18%;
+}
+.adv_dlistinam:after {
+  right: 0;
+  top: 0;
+  content: "";
+  background: url(../images/adv_namsap.png) right top no-repeat;
+  height:134px;
+  width: 1px;
+  position: absolute;
+}
+
+.adv_carspeci ul {
+  margin: 5px 0 0 0;
+  padding: 0;
+  list-style: none;
+}
+.adv_carspeci ul li {
+  line-height: 30px;
+  font-size: 14px;
+}
+.adv_carspeci ul li span {
+  font-weight: bold;
+  margin: 0 0 0 10px;
+}
+.adv_dealslistinfo .col-lg-3 {
+	width: 16%;
+	margin-left: -10px;
+}
+
+.adv_dealslistinfo .col-lg-5 {
+	width: 40%;
+	margin-left: -22px;
+}
+
+
+.adv_dlisttblinfo {
+  background: #485460;
+  border-radius: 4px;
+}
+
+.table.adv_outrtbleinfo {
+	margin-bottom: 0;
+}
+
+
+.adv_dlisttblinfo .table .table {
+	background-color: transparent;
+	color: #fff;
+	margin-bottom: 0;
+}
+
+
+.adv_dlisttblinfo .table > thead > tr > th, .adv_dlisttblinfo .table > thead > tr > td {
+	vertical-align: top;
+	border-bottom: none;
+	padding:8px;
+	text-align: center;
+}
+
+.adv_dlisttblinfo .table > tbody > tr > td {
+	padding: 6px 8px 6.7px 8px;
+	border-top: none;
+}
+
+
+.adv_dlisttblinfo .table > tbody > tr:nth-child(odd){
+	background:#33414E;
+}
+
+.table.adv_outrtbleinfo thead tr th {
+	padding: 0;
+}
+
+.adv_dlisttblinfo .table tbody tr td h3 {
+  font-size: 14px;
+  color: #fff;
+  padding: 0;
+  margin: 0px 0 0 0;
+  letter-spacing: 0.2px;
+  font-family: 'Aller-Bold';
+  text-align: center;
+}
+.adv_dlisttblinfo .table thead tr th h5 {
+  font-size: 12px;
+  text-align: center;
+  margin: 0;
+}
+.adv_dlisttblinfo .table thead tr th h4 {
+  font-size: 16px;
+  margin: 0;
+}
+
+.table.adv_outrtbleinfo  .table thead tr th {
+	padding:8px;
+}
+
+.table.adv_outrtbleinfo thead  tr th:nth-child(2) .table tbody  tr td {
+	vertical-align: middle;
+}
+
+.table.adv_outrtbleinfo thead tr th:nth-child(2) .table tbody tr td {
+	padding: 14px 8px 14px 8px;
+}
+
+.table.adv_outrtbleinfo thead tr th:nth-child(2) .table tbody tr:nth-child(2n+1) td {
+	background: #33414E;
+}
+
+.adv_dealslistinfo .col-lg-4 {
+	width: 19%;
+	margin-left: -10px;
+	margin-right: -10px;
+}
+
+.adv_dlistview {
+  text-align: center;
+}
+
+.adv_dlistview .adv_viewbtn {
+	background: #BA0C2F;
+	border-radius: 3px;
+	padding: 14px 56px;
+	text-transform: uppercase;
+	letter-spacing: 1.0px;
+	font-family: 'Aller-Bold';
+	font-size: 12px;
+	color: #fff;
+	border: none;
+	margin: 15px 0 20px 0;
+	transition:all 0.4s ease;
+}
+
+.adv_dlistview .adv_viewbtn:hover {
+	background: #8F0823;
+color: rgba(255,255,255,0.6);
+}
+
+.adv_dlistview .adv_addbtn {
+  border-radius: 3px;
+  padding: 0px 16px;
+  text-transform: uppercase;
+  letter-spacing: 1.0px;
+  font-family: 'Aller-Bold';
+  font-size: 12px;
+  color: #485460;
+  border: none;
+  margin: 0;
+  background: no-repeat;transition:all 0.4s ease;
+}
+.adv_dlistview .adv_addbtn img {
+    margin-right: 3px;
+    visibility: hidden; margin-top: -3px;
+}
+
+.adv_dlistview .adv_addbtn:hover{ color: #BA0C2F;}
+.adv_dlistview .adv_addbtn:hover img {
+    visibility:visible;
+}
+
+
+
+.advlistbtn_shwmor {
+	text-align: center;
+}
+
+.advlistbtn_shwmor button {
+	background: none;
+	color: #33414e;
+	border: solid 1px #33414E;
+	border-radius: 4px;
+	padding: 14px 68px 14px 111px;
+	font-size: 12px;
+	text-transform: uppercase;
+	font-family: 'Aller-Bold';
+	letter-spacing: 1px;
+	transition: all 0.4s ease;
+	position: relative;
+	margin: 10px 0 0 0;
+}
+
+.advlistbtn_shwmor button:hover {
+	background: #33414e;
+	color: #fff;
+}
+
+.advlistbtn_shwmor button::after {
+	position: absolute;
+	left: 25%;
+	bottom: 15px;
+	content: "";
+	width: 16px;
+	height: 15px;
+	background: url(../images/adv_shwmoricon.png) left top no-repeat;
+	background-position: 0 0px;
+	transition: all 0.4s ease;
+}
+
+
+.advlistbtn_shwmor button:hover::after {
+	background-position: 0 -15px;
+}
+
+.menu2 .navbar-nav .dropdown-menu {
+	box-shadow: -1px 4px 40px rgba(0, 0, 0, .175);
+}
+
+
+.menu2 .navbar-nav > li > a {
+    color: #000;
+}
+
+.whtbg_menu .top_phone h4 {
+	color: #000;
+}
+
+
+.whtbg_menu .top_phone p {
+	color: #000;
+}
+
+.middle-head.whtbg_menu {
+	border-bottom: 1px solid #E4E5E6;
+}
+
+.adv_topcolps {
+	text-align: right;
+}
+
+.adv_topcolps button {
+	background: none;
+	color: #33414e;
+	border: solid 1px #33414E;
+	border-radius: 4px;
+	padding: 5px 18px 5px 41px;
+	font-size: 12px;
+	text-transform: uppercase;
+	font-family: 'Aller-Bold';
+	letter-spacing: 1px;
+	transition: all 0.4s ease;
+	position: relative;
+	margin: 0px 0 0 0;
+}
+
+.adv_topcolps button::after {
+	position: absolute;
+	left: 24px;
+	bottom: 12px;
+	content: "";
+	width: 11px;
+	height: 6px;
+	background: url(../images/adv_collapsicon.png) left top no-repeat;
+	background-position: 0 0px;
+	transition: all 0.4s ease;
+}
+
+.adv_topcolps button:hover::after {
+	background-position: 0 -6px;
+}
+
+.adv_topcolps button:hover {
+	background: #33414e;
+	color: #fff;
+}

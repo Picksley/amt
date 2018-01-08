@@ -594,11 +594,6 @@
 
 </section>
 
-
-
-
-
-
 <section class="keep_mail">
   <div class="container">
     <div class="row">
