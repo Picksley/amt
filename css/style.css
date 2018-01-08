@@ -5738,3 +5738,18 @@ color: rgba(255,255,255,0.6);
 	background: #33414e;
 	color: #fff;
 }
+.van-leasing-benefits{
+	padding:80px
+}
+
+.van-leasing-benefits h2{
+	font-family:'Aller-bold';
+
+}
+@media screen and (max-width: 992px) {
+
+	.van-leasing-benefits{
+		padding:20px;
+	}
+
+}

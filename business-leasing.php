@@ -449,7 +449,7 @@ contract hire and 100% of VAT of any maintenance fees.
 <h3>Business Contract Hire (BCH)</h3>
 <p>Business contract hire (or business leasing) is by far the most popular method by which businesses lease their vehicles with AMT. With Business contract hire you pay a monthly fee over a set period of time, typically between 2 to 5 years. At the end of the contract term the vehicle is returned to us and you can choose to take out another business lease. </p>
 
-<a class="btn btn-readfaq" href="#" role="button">read more about pch</a>
+<a class="btn btn-readfaq" href="#" role="button">read more about bch</a>
 
 </div>
 
