@@ -1,115 +1,103 @@
 <?php include('header.php'); ?>
 
 <section class="bus_car_col">
-<div class="container">
-<div class="row">
-<div class="col-md-12">
-<div class="bus_car-des">
-<h1>Business car leasing</h1>
-<p>Due to the initial outlay required in purchasing vehicles outright, business leasing has long been a popular route for companies to acquire vehicles. Business leasing allows companies to finance their vehicles without a large outlay of capital and the risk of depreciation. Monthly payments are also fixed against mileage and term, allowing companies the ability to easily predict their ongoing budget.</p>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="bus_car-des">
+					<h1>Business car leasing</h1>
+					<p>Due to the initial outlay required in purchasing vehicles outright, business leasing has long been a popular route for companies to acquire vehicles. Business leasing allows companies to finance their vehicles without a large outlay of capital and the risk of depreciation. Monthly payments are also fixed against mileage and term, allowing companies the ability to easily predict their ongoing budget.</p>
 
-<div class="show_morbrands"><button>View the benefits <i class="fa fa-angle-down" aria-hidden="true"></i></button></div>
-
-</div>
-
-</div>
-
-</div>
-</div>
+					<div class="show_morbrands"><button>View the benefits <i class="fa fa-angle-down" aria-hidden="true"></i></button></div>
+				</div>
+			</div>
+		</div>
+	</div>
 </section>
 
 
 <div class="home-searchcol">
-<div class="home_search bcar_leasing_search">
-<div class="container">
-<div class="row">
+	<div class="home_search bcar_leasing_search">
+		<div class="container">
+			<div class="row">
 
-	<div class="col-lg-10 col-md-12 col-lg-offset-1">
-	<div class="home_tab_search">
+				<div class="col-lg-10 col-md-12 col-lg-offset-1">
+					<div class="home_tab_search">
 
-  <!-- Tab panes -->
-  <div class="tab-content">
-    <div role="tabpanel" class="tab-pane active" id="home">
-	<div class="hm_search_form">
-	<form class="form-inline">
-  <div class="form-group">
-    <select class="form-control modal-select">
-  <option>Audi</option>
-  <option>2</option>
-  <option>3</option>
-  <option>4</option>
-  <option>5</option>
-</select>
-  </div>
-  <div class="form-group">
- <select class="form-control modal-select">
-  <option value="">Model</option>
-  <option>1</option>
-  <option>2</option>
-  <option>3</option>
-  <option>4</option>
-  <option>5</option>
-</select>
-  </div>
+				  <!-- Tab panes -->
+				  <div class="tab-content">
+				    <div role="tabpanel" class="tab-pane active" id="home">
+					<div class="hm_search_form">
+					<form class="form-inline">
+					  <div class="form-group">
+					    <select class="form-control modal-select">
+							  <option>Audi</option>
+							  <option>2</option>
+							  <option>3</option>
+							  <option>4</option>
+							  <option>5</option>
+							</select>
+					  </div>
+				  <div class="form-group">
+				 		<select class="form-control modal-select">
+						  <option value="">Model</option>
+						  <option>1</option>
+						  <option>2</option>
+						  <option>3</option>
+						  <option>4</option>
+						  <option>5</option>
+						</select>
+				  </div>
 
-   <div class="form-group min-bud">
- <select class="form-control">
- <option value="">Min. Budget</option>
-  <option>1</option>
-  <option>2</option>
-  <option>3</option>
-  <option>4</option>
-  <option>5</option>
-</select>
-  </div>
+				   <div class="form-group min-bud">
+					 <select class="form-control">
+						 	<option value="">Min. Budget</option>
+						  <option>1</option>
+						  <option>2</option>
+						  <option>3</option>
+						  <option>4</option>
+						  <option>5</option>
+						</select>
+				  </div>
 
-   <div class="form-group min-bud">
- <select class="form-control">
-  <option value="">Max. Budget</option>
-  <option>2</option>
-  <option>3</option>
-  <option>4</option>
-  <option>5</option>
-</select>
-  </div>
+				  <div class="form-group min-bud">
+					 <select class="form-control">
+						  <option value="">Max. Budget</option>
+						  <option>2</option>
+						  <option>3</option>
+						  <option>4</option>
+						  <option>5</option>
+						</select>
+				  </div>
 
-  <button type="submit" class="btn btn-search_result"><i><img src="images/search.png"></i>Search XX,XXX Results</button>
+				  <button type="submit" class="btn btn-search_result"><i><img src="images/search.png"></i>Search XX,XXX Results</button>
 
-<div class="search-bottom">
-<div class="row">
-<div class="mob-vew-adv_search">
-  <p>Looking for something more specific?</p>
-  <a href="#">View advanced search options</a>
-  </div>
-<div class="col-md-3 col-sm-3">
-<a class="btn btn-reset" href="#" role="button"><i class="fa fa-refresh" aria-hidden="true"></i>
-Reset Form</a>
-</div>
+					<div class="search-bottom">
+						<div class="row">
+							<div class="mob-vew-adv_search">
+						  	<p>Looking for something more specific?</p>
+						  	<a href="#">View advanced search options</a>
+						  </div>
 
-<div class="col-md-9 col-sm-9 help-car">
-<p>Looking for something more specific? <a href="#">Help me find a car</a></p>
-</div>
+							<div class="col-md-3 col-sm-3">
+								<a class="btn btn-reset" href="#" role="button"><i class="fa fa-refresh" aria-hidden="true"></i> Reset Form</a>
+							</div>
 
-</div>
-</div>
+							<div class="col-md-9 col-sm-9 help-car">
+								<p>Looking for something more specific? <a href="#">Help me find a car</a></p>
+							</div>
 
-</form>
+						</div>
+					</div>
+				</form>
+				</div>
+			</div>
+		</div>
+					</div>
+				</div>
+			</div>
+		</div>
 	</div>
-
-	</div>
-
-
-  </div>
-
-
-
-
-	</div>
-	</div>
-	</div>
-
-</div>
-</div>
 </div>
 
 
@@ -175,7 +163,7 @@ Reset Form</a>
                                        </div>
                                 </div><!--col-lg-2-->
 
-                                <!--------------------------------Brands---------------------------->
+                                <!-- Brands---------------------------->
 
                                 <div class="col-lg-2 col-md-2  col-sm-2   col-xs-2 hm_brandresize" >
                                 	<div class="hm_branddtl">
@@ -233,7 +221,7 @@ Reset Form</a>
                                        </div>
                                 </div><!--col-lg-2-->
 
-                                <!--------------------------------Brands---------------------------->
+                                <!-- Brands---------------------------->
 
                                 <div class="col-lg-2 col-md-2  col-sm-2   col-xs-2 hm_brandresize" >
                                 	<div class="hm_branddtl">
@@ -542,662 +530,8 @@ contract hire and 100% of VAT of any maintenance fees.
 </div>
 </section>
 
-
 <section class="vr_slider">
-<div class="container">
-<div class="col-md-12">
-<div class="title2">
-<h1>Your recently viewed vehicles <button class="btn btn-clear" type="submit"><i class="fa fa-times" aria-hidden="true"></i>
-Clear All</button></h1>
-</div>
-
-</div>
-</div>
-
-<div class="vehicles-slider">
-<div id="cycling_by_slides" class="simple_carousel">
-				<div class="frame">
-					<ul>
-						<li class="">
-			<a href="#">
-			<div class="prd_oursodtl">
-			<figure>
-			<img src="images/hm_spofr1.jpg">
-			</figure>
-			<div class="spoffrsap"><img src="images/sp_ofrline.png"></div>
-
-			<div class="item_spofrname">
-			<h4>Dacia Sandero Hatchback</h4>
-			<h5>1.2 16V Access 5dr</h5>
-			</div>
-
-			<div class="spoffrsap"><img src="images/sp_ofrline.png"></div>
-
-			<div class="apofr_price">
-			<div class="row">
-			<!--start main div-->
-			<div class="prd-list">
-			<div class="col-md-6">
-			<p>MPG <span>38 - 57.7</span></p>
-			</div>
-
-			<div class="col-md-6">
-			<p>Gearbox <span>Manual</span></p>
-			</div>
-			</div>
-			<!--End main div-->
-
-			<!--start main div-->
-			<div class="prd-list">
-			<div class="col-md-6">
-			<p>Co2  <span>130g/km</span></p>
-			</div>
-
-			<div class="col-md-6">
-			<p>Fuel <span>Petrol</span></p>
-			</div>
-			</div>
-			<!--End main div-->
-
-
-
-			</div>
-
-				<div class="hm_viewspo"><button type="submit"><img src="images/hm_spoicon.png"> view again</button></div>
-
-			<div class="hm_addmyshrm"><button type="submit">Add to my showroom</button></div>
-
-
-
-			</div>
-
-
-
-
-			</div>
-			</a>
-
-
-			</li>
-
-			<li class="">
-			<a href="#">
-			<div class="prd_oursodtl">
-			<figure>
-			<img src="images/hm_spofr1.jpg">
-			</figure>
-			<div class="spoffrsap"><img src="images/sp_ofrline.png"></div>
-
-			<div class="item_spofrname">
-			<h4>Dacia Sandero Hatchback</h4>
-			<h5>1.2 16V Access 5dr</h5>
-			</div>
-
-			<div class="spoffrsap"><img src="images/sp_ofrline.png"></div>
-
-			<div class="apofr_price">
-			<div class="row">
-			<!--start main div-->
-			<div class="prd-list">
-			<div class="col-md-6">
-			<p>MPG <span>38 - 57.7</span></p>
-			</div>
-
-			<div class="col-md-6">
-			<p>Gearbox <span>Manual</span></p>
-			</div>
-			</div>
-			<!--End main div-->
-
-			<!--start main div-->
-			<div class="prd-list">
-			<div class="col-md-6">
-			<p>Co2  <span>130g/km</span></p>
-			</div>
-
-			<div class="col-md-6">
-			<p>Fuel <span>Petrol</span></p>
-			</div>
-			</div>
-			<!--End main div-->
-
-
-
-			</div>
-
-				<div class="hm_viewspo"><button type="submit"><img src="images/hm_spoicon.png"> view again</button></div>
-
-			<div class="hm_addmyshrm"><button type="submit">Add to my showroom</button></div>
-
-
-
-			</div>
-
-
-
-
-			</div>
-			</a>
-
-
-			</li>
-
-
-			<li class="">
-			<a href="#">
-			<div class="prd_oursodtl">
-			<figure>
-			<img src="images/hm_spofr1.jpg">
-			</figure>
-			<div class="spoffrsap"><img src="images/sp_ofrline.png"></div>
-
-			<div class="item_spofrname">
-			<h4>Dacia Sandero Hatchback</h4>
-			<h5>1.2 16V Access 5dr</h5>
-			</div>
-
-			<div class="spoffrsap"><img src="images/sp_ofrline.png"></div>
-
-			<div class="apofr_price">
-			<div class="row">
-			<!--start main div-->
-			<div class="prd-list">
-			<div class="col-md-6">
-			<p>MPG <span>38 - 57.7</span></p>
-			</div>
-
-			<div class="col-md-6">
-			<p>Gearbox <span>Manual</span></p>
-			</div>
-			</div>
-			<!--End main div-->
-
-			<!--start main div-->
-			<div class="prd-list">
-			<div class="col-md-6">
-			<p>Co2  <span>130g/km</span></p>
-			</div>
-
-			<div class="col-md-6">
-			<p>Fuel <span>Petrol</span></p>
-			</div>
-			</div>
-			<!--End main div-->
-
-
-
-			</div>
-
-				<div class="hm_viewspo"><button type="submit"><img src="images/hm_spoicon.png"> view again</button></div>
-
-			<div class="hm_addmyshrm"><button type="submit">Add to my showroom</button></div>
-
-
-
-			</div>
-
-
-
-
-			</div>
-			</a>
-
-
-			</li>
-
-
-			<li class="">
-			<a href="#">
-			<div class="prd_oursodtl">
-			<figure>
-			<img src="images/hm_spofr1.jpg">
-			</figure>
-			<div class="spoffrsap"><img src="images/sp_ofrline.png"></div>
-
-			<div class="item_spofrname">
-			<h4>Dacia Sandero Hatchback</h4>
-			<h5>1.2 16V Access 5dr</h5>
-			</div>
-
-			<div class="spoffrsap"><img src="images/sp_ofrline.png"></div>
-
-			<div class="apofr_price">
-			<div class="row">
-			<!--start main div-->
-			<div class="prd-list">
-			<div class="col-md-6">
-			<p>MPG <span>38 - 57.7</span></p>
-			</div>
-
-			<div class="col-md-6">
-			<p>Gearbox <span>Manual</span></p>
-			</div>
-			</div>
-			<!--End main div-->
-
-			<!--start main div-->
-			<div class="prd-list">
-			<div class="col-md-6">
-			<p>Co2  <span>130g/km</span></p>
-			</div>
-
-			<div class="col-md-6">
-			<p>Fuel <span>Petrol</span></p>
-			</div>
-			</div>
-			<!--End main div-->
-
-
-
-			</div>
-
-				<div class="hm_viewspo"><button type="submit"><img src="images/hm_spoicon.png"> view again</button></div>
-
-			<div class="hm_addmyshrm"><button type="submit">Add to my showroom</button></div>
-
-
-
-			</div>
-
-
-
-
-			</div>
-			</a>
-
-
-			</li>
-
-
-			<li class="">
-			<a href="#">
-			<div class="prd_oursodtl">
-			<figure>
-			<img src="images/hm_spofr1.jpg">
-			</figure>
-			<div class="spoffrsap"><img src="images/sp_ofrline.png"></div>
-
-			<div class="item_spofrname">
-			<h4>Dacia Sandero Hatchback</h4>
-			<h5>1.2 16V Access 5dr</h5>
-			</div>
-
-			<div class="spoffrsap"><img src="images/sp_ofrline.png"></div>
-
-			<div class="apofr_price">
-			<div class="row">
-			<!--start main div-->
-			<div class="prd-list">
-			<div class="col-md-6">
-			<p>MPG <span>38 - 57.7</span></p>
-			</div>
-
-			<div class="col-md-6">
-			<p>Gearbox <span>Manual</span></p>
-			</div>
-			</div>
-			<!--End main div-->
-
-			<!--start main div-->
-			<div class="prd-list">
-			<div class="col-md-6">
-			<p>Co2  <span>130g/km</span></p>
-			</div>
-
-			<div class="col-md-6">
-			<p>Fuel <span>Petrol</span></p>
-			</div>
-			</div>
-			<!--End main div-->
-
-
-
-			</div>
-
-				<div class="hm_viewspo"><button type="submit"><img src="images/hm_spoicon.png"> view again</button></div>
-
-			<div class="hm_addmyshrm"><button type="submit">Add to my showroom</button></div>
-
-
-
-			</div>
-
-
-
-
-			</div>
-			</a>
-
-
-			</li>
-
-
-			<li class="">
-			<a href="#">
-			<div class="prd_oursodtl">
-			<figure>
-			<img src="images/hm_spofr1.jpg">
-			</figure>
-			<div class="spoffrsap"><img src="images/sp_ofrline.png"></div>
-
-			<div class="item_spofrname">
-			<h4>Dacia Sandero Hatchback</h4>
-			<h5>1.2 16V Access 5dr</h5>
-			</div>
-
-			<div class="spoffrsap"><img src="images/sp_ofrline.png"></div>
-
-			<div class="apofr_price">
-			<div class="row">
-			<!--start main div-->
-			<div class="prd-list">
-			<div class="col-md-6">
-			<p>MPG <span>38 - 57.7</span></p>
-			</div>
-
-			<div class="col-md-6">
-			<p>Gearbox <span>Manual</span></p>
-			</div>
-			</div>
-			<!--End main div-->
-
-			<!--start main div-->
-			<div class="prd-list">
-			<div class="col-md-6">
-			<p>Co2  <span>130g/km</span></p>
-			</div>
-
-			<div class="col-md-6">
-			<p>Fuel <span>Petrol</span></p>
-			</div>
-			</div>
-			<!--End main div-->
-
-
-
-			</div>
-
-				<div class="hm_viewspo"><button type="submit"><img src="images/hm_spoicon.png"> view again</button></div>
-
-			<div class="hm_addmyshrm"><button type="submit">Add to my showroom</button></div>
-
-
-
-			</div>
-
-
-
-
-			</div>
-			</a>
-
-
-			</li>
-
-
-			<li class="">
-			<a href="#">
-			<div class="prd_oursodtl">
-			<figure>
-			<img src="images/hm_spofr1.jpg">
-			</figure>
-			<div class="spoffrsap"><img src="images/sp_ofrline.png"></div>
-
-			<div class="item_spofrname">
-			<h4>Dacia Sandero Hatchback</h4>
-			<h5>1.2 16V Access 5dr</h5>
-			</div>
-
-			<div class="spoffrsap"><img src="images/sp_ofrline.png"></div>
-
-			<div class="apofr_price">
-			<div class="row">
-			<!--start main div-->
-			<div class="prd-list">
-			<div class="col-md-6">
-			<p>MPG <span>38 - 57.7</span></p>
-			</div>
-
-			<div class="col-md-6">
-			<p>Gearbox <span>Manual</span></p>
-			</div>
-			</div>
-			<!--End main div-->
-
-			<!--start main div-->
-			<div class="prd-list">
-			<div class="col-md-6">
-			<p>Co2  <span>130g/km</span></p>
-			</div>
-
-			<div class="col-md-6">
-			<p>Fuel <span>Petrol</span></p>
-			</div>
-			</div>
-			<!--End main div-->
-
-
-
-			</div>
-
-				<div class="hm_viewspo"><button type="submit"><img src="images/hm_spoicon.png"> view again</button></div>
-
-			<div class="hm_addmyshrm"><button type="submit">Add to my showroom</button></div>
-
-
-
-			</div>
-
-
-
-
-			</div>
-			</a>
-
-
-			</li>
-
-
-			<li class="">
-			<a href="#">
-			<div class="prd_oursodtl">
-			<figure>
-			<img src="images/hm_spofr1.jpg">
-			</figure>
-			<div class="spoffrsap"><img src="images/sp_ofrline.png"></div>
-
-			<div class="item_spofrname">
-			<h4>Dacia Sandero Hatchback</h4>
-			<h5>1.2 16V Access 5dr</h5>
-			</div>
-
-			<div class="spoffrsap"><img src="images/sp_ofrline.png"></div>
-
-			<div class="apofr_price">
-			<div class="row">
-			<!--start main div-->
-			<div class="prd-list">
-			<div class="col-md-6">
-			<p>MPG <span>38 - 57.7</span></p>
-			</div>
-
-			<div class="col-md-6">
-			<p>Gearbox <span>Manual</span></p>
-			</div>
-			</div>
-			<!--End main div-->
-
-			<!--start main div-->
-			<div class="prd-list">
-			<div class="col-md-6">
-			<p>Co2  <span>130g/km</span></p>
-			</div>
-
-			<div class="col-md-6">
-			<p>Fuel <span>Petrol</span></p>
-			</div>
-			</div>
-			<!--End main div-->
-
-
-
-			</div>
-
-				<div class="hm_viewspo"><button type="submit"><img src="images/hm_spoicon.png"> view again</button></div>
-
-			<div class="hm_addmyshrm"><button type="submit">Add to my showroom</button></div>
-
-
-
-			</div>
-
-
-
-
-			</div>
-			</a>
-
-
-			</li>
-
-
-			<li class="">
-			<a href="#">
-			<div class="prd_oursodtl">
-			<figure>
-			<img src="images/hm_spofr1.jpg">
-			</figure>
-			<div class="spoffrsap"><img src="images/sp_ofrline.png"></div>
-
-			<div class="item_spofrname">
-			<h4>Dacia Sandero Hatchback</h4>
-			<h5>1.2 16V Access 5dr</h5>
-			</div>
-
-			<div class="spoffrsap"><img src="images/sp_ofrline.png"></div>
-
-			<div class="apofr_price">
-			<div class="row">
-			<!--start main div-->
-			<div class="prd-list">
-			<div class="col-md-6">
-			<p>MPG <span>38 - 57.7</span></p>
-			</div>
-
-			<div class="col-md-6">
-			<p>Gearbox <span>Manual</span></p>
-			</div>
-			</div>
-			<!--End main div-->
-
-			<!--start main div-->
-			<div class="prd-list">
-			<div class="col-md-6">
-			<p>Co2  <span>130g/km</span></p>
-			</div>
-
-			<div class="col-md-6">
-			<p>Fuel <span>Petrol</span></p>
-			</div>
-			</div>
-			<!--End main div-->
-
-
-
-			</div>
-
-				<div class="hm_viewspo"><button type="submit"><img src="images/hm_spoicon.png"> view again</button></div>
-
-			<div class="hm_addmyshrm"><button type="submit">Add to my showroom</button></div>
-
-
-
-			</div>
-
-
-
-
-			</div>
-			</a>
-
-
-			</li>
-
-
-			<li class="">
-			<a href="#">
-			<div class="prd_oursodtl">
-			<figure>
-			<img src="images/hm_spofr1.jpg">
-			</figure>
-			<div class="spoffrsap"><img src="images/sp_ofrline.png"></div>
-
-			<div class="item_spofrname">
-			<h4>Dacia Sandero Hatchback</h4>
-			<h5>1.2 16V Access 5dr</h5>
-			</div>
-
-			<div class="spoffrsap"><img src="images/sp_ofrline.png"></div>
-
-			<div class="apofr_price">
-			<div class="row">
-			<!--start main div-->
-			<div class="prd-list">
-			<div class="col-md-6">
-			<p>MPG <span>38 - 57.7</span></p>
-			</div>
-
-			<div class="col-md-6">
-			<p>Gearbox <span>Manual</span></p>
-			</div>
-			</div>
-			<!--End main div-->
-
-			<!--start main div-->
-			<div class="prd-list">
-			<div class="col-md-6">
-			<p>Co2  <span>130g/km</span></p>
-			</div>
-
-			<div class="col-md-6">
-			<p>Fuel <span>Petrol</span></p>
-			</div>
-			</div>
-			<!--End main div-->
-
-
-
-			</div>
-
-				<div class="hm_viewspo"><button type="submit"><img src="images/hm_spoicon.png"> view again</button></div>
-
-			<div class="hm_addmyshrm"><button type="submit">Add to my showroom</button></div>
-
-
-
-			</div>
-
-
-
-
-			</div>
-			</a>
-
-
-			</li>
-
-
-
-					</ul>
-				</div>
-
-
-
-</div>
-
-</div>
-
-
+	<?php include('recently_viewed_vehicles.php'); ?>
 </section>
 
 
