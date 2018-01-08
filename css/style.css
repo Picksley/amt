@@ -26,8 +26,6 @@
 }
 
 
-
-
 body {
 	font-family: 'TrebuchetMS';
 	font-weight: normal;
@@ -2985,3 +2983,205 @@ border-bottom: 1px solid #e2e2e2;
 	font-weight:600;
 	letter-spacing:1px;
 }
+
+/****search-manufacturer ccs********/
+.manufa_deals-bg{ width:100%; float:left; background-image:url(../images/menuf_deals_bg.jpg); background-repeat:no-repeat; background-size:cover; padding:50px 0px; position:relative; background-position: center top;}
+.choose_model {
+    width: 100%;
+    float: left;
+    margin-top: 27px;
+}
+.choose_model .form-control{ background-color:#fff; border-color:#3e4b58; height:50px; width:50%;}
+.choose_model p a{ color:#33414e; font-size:16px; font-family: 'TrebuchetMS-Bold'; text-decoration:underline;}
+.choose_model p a:hover{ text-decoration:none;}
+.choose_model p{font-family: 'TrebuchetMS'; font-size:16px; color:#33414e;}
+/*.manufa_deals-bg::after {
+    position: absolute;
+    right: 0;
+    top: 50px;
+    content: '';
+    width: 600px;
+    height: 426px;
+    background-image: url(../images/audi-blue.jpg);
+    background-repeat: no-repeat;
+}*/
+
+.refine_search_col .form-inline .form-group {
+    position: relative;
+}
+.refine_search_col .form-group label {
+    position: absolute;
+    top: 8px;
+    left: 17px;
+    font-size: 12px;
+    color: #33414e;
+    font-family: 'TrebuchetMS';
+}
+.svr_model .adv_dealslistinfo .col-lg-3 {
+    width: 22%;
+    padding-left: 25px;
+}
+.svr_model .adv_dlistinam {
+    padding-top: 0;
+}
+.svr_model .adv_dlistinam h5 {
+    margin: 3px 0 0 0;
+}
+.svr_model .adv_dlistimg {
+    margin-top: 19px;
+}
+
+
+.svr_model .adv_dlistinam::after {
+    top: -53px;
+}
+.svr_model .adv_namspofr {
+    top: -34px;
+}
+.active_blank {
+    margin-top: 39px;
+}
+.active_blank::after {
+    top: -41px !important;
+}
+.image-section .image {
+    background-size: cover;
+    background-position: center; height:480px;
+}
+.image-section .item {
+	position: absolute;
+	right: 0;
+	background: url('../images/audi-blue.jpg') right top no-repeat;
+	background-size: 100%;
+}
+.image-section .image img {
+    display: none;
+}
+
+
+/****search manfacture car list Lovepreet****/
+
+
+
+.srchmodls_carlist {
+  padding: 40px 0 0px 0;
+}
+
+.sm_carinfo {
+	margin: 0 0 45px 0;
+}
+
+.sm_cardtl {
+  background: #fff;
+  border-radius: 4px;
+  border-bottom: solid 4px #BA0C2F;
+  box-shadow: 1px 5px 15px 2px rgba(0,0,0,0.1);
+  transition: all 0.4s ease;
+}
+
+.sm_cardtl:hover{ box-shadow: 2px 9px 18px 4px rgba(0,0,0,0.2);}
+
+.sm_cardtlimg {
+  text-align: center;
+  position: relative;
+  padding: 40px 0 10px 0;
+}
+.sm_cardtlimg figcaption {
+  position: absolute;
+  top: 8px;
+  left: 13px;
+  background: #D6D9DC;
+  border-radius: 3px;
+  padding: 4px 12px;
+  text-transform: uppercase;
+  letter-spacing: 1.0px;
+  font-family: 'Aller-Bold';
+  font-size: 12px;
+  color: #33414e;
+}
+
+.sm_carcontt{
+	 padding: 0 20px;
+	}
+
+.sm_carfeatur ul {
+	margin: 0 0 10px 0;
+	padding: 0;
+	list-style: none;
+}
+.sm_carfeatur ul li {
+  font-size: 14px;
+  line-height: 28px;
+}
+.sm_carfeatur ul li span {
+	margin: 0 0 0 0px;
+	font-weight: 600;
+}
+
+.sm_carnam h3 {
+	font-size: 24px;
+	margin: 0 0 15px 0;
+	line-height: 30px;
+	font-family: 'Aller';
+	color: #33414e;
+}
+
+.sm_carnamsap {
+	margin: 0 0 15px -20px;
+}
+
+.sm_carpersbus {
+	background: #33414E;
+	border-radius: 5px;
+	overflow: hidden;
+}
+.sm_carperlft {
+  height: 52px;
+  color: #fff;
+  text-align: center;
+}
+.sm_carperrgt {
+  height: 65px;
+  text-align: center;
+  background: #485460;
+  margin: 0 0 1px 0;
+}
+.sm_carperlft h5 {
+  font-size: 12px;
+  margin: 0;
+}
+.sm_carperlft h4 {
+  font-size: 15px;
+  margin: 12px 0 3px 0;
+}
+.sm_carperrgt h3 {
+  font-size: 30px;
+  color: #fff;
+  margin: 0px 0 0 0;
+  letter-spacing: 0.2px;
+  font-family: 'Aller-Bold';
+  text-align: center;
+  line-height: 65px;
+}
+
+.sm_carrngviewbtn {
+	width: 100%;
+	padding: 30px 0;
+}
+
+.sm_carrngviewbtn button.hm_redbtns {
+	width: 100%;
+}
+
+.sm_cardtl:hover button.hm_redbtns {
+    background: #8F0823;
+    color: rgba(255,255,255,0.6);
+
+}
+
+.sm_cardtl:hover button.hm_redbtns img {
+    left: 11px;
+    opacity: 0.6;
+}
+
+/****search manfacture car list end Lovepreet****/
