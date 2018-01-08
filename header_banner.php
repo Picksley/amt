@@ -128,13 +128,13 @@ if (strpos($url,'about-us') !== false) {
             <ul class="nav navbar-nav">
               <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Leasing Guide <span class="fa fa-angle-down"></span></a>
                 <ul class="dropdown-menu ldrop">
-                  <li><a href="#">Personal Car leasing</a></li>
-                  <li><a href="<?= $domain ?>/business-car-leasing.php">Business Car Leasing</a></li>
-                  <li><a href="#">Van Leasing</a></li>
+                  <li><a href="<?= $domain ?>/personal-leasing.php">Personal Car leasing</a></li>
+                  <li><a href="<?= $domain ?>/business-leasing.php">Business Car Leasing</a></li>
+                  <li><a href="<?= $domain ?>/van-leasing.php">Van Leasing</a></li>
                   <li>
                     <div class="lg-box">
                       <p>Not Sure what you want?</p>
-                      <a href="#">Help me choose a car</a> </div>
+                      <a href="advanced-search.php">Help me choose a car</a> </div>
                   </li>
                 </ul>
               </li>
@@ -144,7 +144,7 @@ if (strpos($url,'about-us') !== false) {
                 <ul class="dropdown-menu">
                   <li><a href="#">wear and tear</a></li>
                   <li><a href="#">deprecation</a></li>
-                  <li><a href="#">Bik calculator</a></li>
+                  <li><a href="bik-tax-calculator.php">Bik calculator</a></li>
                   <li><a href="#">fuel cost calculator</a></li>
                   <li><a href="#">Glossary of terms</a></li>
                   <li><a href="#">end of contract</a></li>
