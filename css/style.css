@@ -5770,7 +5770,7 @@ color: rgba(255,255,255,0.6);
 }
 
 .contact-cont{
-	font-family:'Aller-Bold';
+	font-family:'Aller';
 }
 .contact-cont h2{
 	padding-top: 20px;
@@ -5787,7 +5787,7 @@ color: rgba(255,255,255,0.6);
 .contact-cont input{
 	width:99%;
 	border-radius:3px;
-	font-size:16px;
+	font-size:12px;
 	padding:15px;
 	margin:8px 8px 8px 5px;
 	border: solid 1px #000;
@@ -5798,10 +5798,11 @@ color: rgba(255,255,255,0.6);
 	border-radius: 3px;
 	padding:15px;
 	margin:5px;
+	font-size:12px;
 	border: solid 1px #000;
 }
 .ct-border-right{
-	border-right: 1px solid #F3F3F4;
+
 }
 .btn-ct{
 	background-color:#BA0C2F;
@@ -5810,7 +5811,7 @@ color: rgba(255,255,255,0.6);
 	font-weight:bold;
 	width:48%;
 	padding: 20px 40px 20px 40px;
-	margin-top:20px;
+	margin-top:0px;
 	margin-bottom:20px
 }
 .btn-ct:hover, .btn-ct:focus, .btn-ct:active{
@@ -5823,13 +5824,50 @@ color: rgba(255,255,255,0.6);
 	padding-bottom:20px;
 }
 .ct-more-info p {
-	margin-bottom:20px;
+	font-size:12px;
+	margin-bottom:5px;
 	letter-spacing:1px;
 }
 .ct-more-info img{
-	padding-right:10px;
+	padding-right:5px;
+}
+.ct-group{
+	margin-bottom:20px;
+}
+.ct-agreement{
+	color:#a7a9ac;
+	font-size:11px;
+}
+.ct-agreement a{
+	color: #a7a9ac;
+text-decoration: underline;
 }
 .contact-icon{
 	margin-top:20px;
 	margin-bottom:20px;
+}
+.ct-border-right::after{
+
+	    position: absolute;
+	    right: 0;
+	    top: 0;
+	    content: "";
+	    background: url(../images/hm_blog_hr.png) right top round;
+	    width: 1px;
+	    height: 88%;
+}
+.ct.icon.social {
+	margin-bottom:10px;
+	background-color:#33414e;
+	color:#fff;
+	margin-right:5px;
+}
+.ct.icon.social:hover, .ct.icon.social:focus, .ct.icon.social:active{
+	background-color:#D3BC8D;
+}
+.ct-spacer{
+	width:100%;
+	height:1px;
+	margin-top:10px;
+	margin-bottom:10px;
 }
