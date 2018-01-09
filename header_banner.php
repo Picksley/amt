@@ -234,6 +234,7 @@ if (strpos($url,'about-us') !== false) {
       </div>
     </div>
   </div>
+</header>
   <!--
   <div class="site-breadcrum">
     <div class=" container">

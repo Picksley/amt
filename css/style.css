@@ -1599,7 +1599,7 @@ textarea {
 
 .light_banner {
 	position: relative;
-	height: 0px;
+	height: auto;
 }
 .light_banner_des {
 	margin: auto;
@@ -2460,12 +2460,41 @@ color: #33414e;
 .hmleasing_steps {
   padding: 0 0 120px 0;
 }
+.hmleasing_steps.steps_alt_bg{
+	padding:40px;
+}
+.hmleasing_steps.steps_alt_bg:nth-child(odd) {
+    background-color: #F6F6F6;
+}
+.hmleasing_steps.steps_alt_bg:nth-child(even) {
+    background-color: #fff;
+}
 .hm_lstepimg {
   padding: 0 0 0 40px;
   /*! text-align: center; */
 }
 
+.hm_cvofferinfo_works p{
+font-size: 13px;
+line-height: 22px;
+width: 100%;
+margin: 0 auto 35px auto;
+text-align: left;
+}
+.hm_cvofferinfo_works h2{
+		font-size: 26px;
+	    line-height: 22px;
+	    width: 100%;
+	    text-align: left;
 
+}
+.hm_cvofferinfo_works::after{
+	width:1px; height:60%; position:absolute; content:''; bottom:0; right:0; background-image:url(../images/hm_blog_hr.png); background-repeat:no-repeat; background-position:top right;
+}
+
+.what_happens_end_leasing{
+	padding: 20px 0 20px 0;
+}
 /***********/
 
 
