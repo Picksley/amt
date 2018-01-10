@@ -1,7 +1,7 @@
 <?php include('header_banner.php'); ?>
 <div class="container">
   <div class="col-md-12">
-    <div class="page-title">
+    <div class="page-title-dark">
       <h1>About us</h1>
       <p>Want to know more about who we are, where we’ve come from and what makes us tick? Then read on.</p>
     </div>

@@ -113,7 +113,7 @@
 
 <section class="what_happens_end_leasing">
   <div class="container">
-    <div class="col-md-12 text-center center-block">
+    <div class="col-md-12 text-center center-block end_leasing">
       <img src="https://www.placecage.com/c/50/50"/>
       <h2> What happens at the end of the leasing contract? </h2>
       <p> We'll be in touch again within plenty of time before your contract is up to discuss your options. If you'd like to take out another lease with AMT, this can easily be arranged. </p>

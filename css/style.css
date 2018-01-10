@@ -225,6 +225,24 @@ header {
 	color: #fff;
 	margin-top: 90px;
 }
+.page-title-dark{
+	width: 100%;
+	float: left;
+	text-align: center;
+	color: #000;
+	margin-top: 90px;
+}
+.page-title-dark h1 {
+	font-size: 60px;
+	margin-top: 0px;
+	margin-bottom: 15px;
+	font-family: 'Aller';
+	font-weight: normal;
+}
+.page-title-dark p {
+	color: #000;
+	font-size: 16px;
+}
 .page-title h1 {
 	font-size: 60px;
 	margin-top: 0px;
@@ -2494,6 +2512,11 @@ text-align: left;
 
 .what_happens_end_leasing{
 	padding: 20px 0 20px 0;
+	font-family:'Aller';
+}
+
+.end_leasing img {
+		margin-top:30px;
 }
 /***********/
 
@@ -5899,4 +5922,18 @@ text-decoration: underline;
 	height:1px;
 	margin-top:10px;
 	margin-bottom:10px;
+}
+.wat {
+	font-family:'Aller';
+	color:#5B6670;
+background-color:#F6F6F6;
+
+
+}
+.wat .wat_content{
+padding:50px;
+width:100%;
+}
+.wat .wat_content a{
+	color:#BE203F;
 }
