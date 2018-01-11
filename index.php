@@ -639,7 +639,7 @@ Still in doubt? Then give us a call.
     <div class="container">
     		<div class="hm_stillinfo">
             			<h3>Still not sure?</h3>
-                        <button type="submit" class="hm_redbtns">Learn about how leasing works <img src="images/hmright_arrow.png"> </button>
+                        <a href="leasing.php"><button type="submit" class="hm_redbtns">Learn about how leasing works <img src="images/hmright_arrow.png"> </button></a>
                         <p>Or visit our <a href="#">FAQ section</a></p>
             </div>
    </div><!--container-->
@@ -1094,7 +1094,7 @@ Still in doubt? Then give us a call.
 </div>
 <div class="row">
 <div class="col-md-12">
-<div class="hm_viewspobtn"><button type="submit" class="hm_redbtns">Read more blog posts<img src="images/hmright_arrow.png"> </button></div>
+<div class="hm_viewspobtn"><a href="blog.php"><button type="submit" class="hm_redbtns">Read more blog posts<img src="images/hmright_arrow.png"> </button></a></div>
 </div>
 </div>
 
