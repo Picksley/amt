@@ -237,24 +237,6 @@ $(function(){
 		});
 	});
 
-	//smooth scroll on page
-	$('[href^="#"]').bind('click', function(event) {
-		event.preventDefault();
-
-		var $this = $(this);
-
-		if (this.hasAttribute('data-toggle') && this.getAttribute('data-toggle') === 'tab' || this.hasAttribute('data-slide') || window.location.href.indexOf('/documentation') !== -1)
-			return;
-
-		var hash = $this.attr('href'),
-			target = $(hash);
-
-		$('html, body').stop().animate({
-			scrollTop: target.offset().top -61
-		}, 1500,'easeInOutExpo');
-
-		window.location.hash = hash.replace('#', '');
-	});
 
 
 	//collapse menu on click on mobile and tablet devices
