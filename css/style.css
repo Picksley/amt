@@ -2515,8 +2515,35 @@ text-align: left;
 	font-family:'Aller';
 }
 
+
+.what_happens_end_leasing::after{
+	width:100%; height:1px; position:absolute; content:''; bottom:0; right:0; background-image:url(../images/cpost_tabsap.png); background-repeat:no-repeat; background-position:top right;
+}
+
 .end_leasing img {
 		margin-top:30px;
+}
+.end_leasing h2 {
+	font-family:'Aller-bold';
+	color:#000;
+	text-align:center;
+	width:47%;
+	margin: 0 auto;
+	padding-bottom: 20px;
+}
+
+
+.business_or_personal_lease{
+	padding: 20px 0 20px 0;
+	font-family:'Aller';
+}
+.business_or_personal_lease h2 {
+	font-family:'Aller-bold';
+	color:#000;
+	text-align:center;
+	width:47%;
+	margin: 0 auto;
+	padding-bottom: 20px;
 }
 /***********/
 
