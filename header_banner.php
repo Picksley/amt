@@ -51,7 +51,7 @@ if (strpos($url,'about-us') !== false) {
 } elseif  (strpos($url,'meet-the-team') !== false) {
       $page_banner = 'meet_team';
 } else {
-  $page_banner = 'light';
+  $page_banner = 'home';
 }
 
 
@@ -234,7 +234,6 @@ if (strpos($url,'about-us') !== false) {
       </div>
     </div>
   </div>
-</header>
   <!--
   <div class="site-breadcrum">
     <div class=" container">

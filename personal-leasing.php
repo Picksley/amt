@@ -14,7 +14,7 @@
 		</div>
 	</div>
 </section>
-
+</header> <?php /* ENSURE THIS </HEADER> LINE IS PRESENT ON EVERY PAGE. DO NOT PLACE IN HEADER FILE. */ ?>
 
 <div class="home-searchcol">
 	<div class="home_search bcar_leasing_search">
