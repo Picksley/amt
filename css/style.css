@@ -2607,7 +2607,7 @@ text-align: left;
 	float:left;
 	width:100%;
 	background:url(../images/hm-brandsbg.jpg) left top no-repeat #F6F7F7;
-	background-size:contain;
+	background-size:cover;
 	padding:120px 0 150px 0
 }
 

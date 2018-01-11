@@ -19,6 +19,7 @@
 .slick-prev,
 .slick-next
 {
+    display:none !important;
     font-size: 0;
     line-height: 0;
 
@@ -201,4 +202,14 @@
 {
     opacity: .75;
     color: black;
+}
+
+.slick-slider-testimonials .slick-slide{
+  opacity:0.6;
+  margin:20px;
+}
+.slick-slider-testimonials .slick-current{
+  opacity:1;
+  margin:20px;
+  box-shadow:0 0 9px 0 #d6c9c9;
 }

@@ -212,12 +212,6 @@ $(function(){
 			});
 		}
 
-		if(navigator.userAgent.indexOf('Macintosh') === -1 && navigator.userAgent.indexOf('Firefox') === -1 && !isTouch && $.srSmoothscroll)
-			$.srSmoothscroll({
-				step: 115,
-				speed: 350
-			});
-
 		$("[data-toggle=popover]").popover();
 
 		$('.nav-tabs a').click(function (e) {
@@ -262,60 +256,6 @@ $(function(){
 		window.location.hash = hash.replace('#', '');
 	});
 
-	$win.load(function() {
-		var url = window.location.href,
-			split = url.split('#'),
-			split2 = split[1] && split[1].split('/') || '',
-			hash = !split2[1] && '#' + split[1] || null,
-			target = $(hash);
-
-		if ($intro_slider[0])
-			intro_slider.init();
-
-		// Examples alignment
-		if ($.fn.isotope)
-			(function(){
-				var $container = $('div.thumbnails');
-				$container.isotope({
-					itemSelector : 'div.col-md-4',
-					masonry: { columnWidth: $container.width() / 3 }
-				});
-				
-				$win.smartresize(function(){
-				  $container.isotope({
-					// update columnWidth to a percentage of container width
-					masonry: { columnWidth: $container.width() / 3 }
-				  });
-				});
-			})();
-
-		/*if ($.fn.stellar && !isTouch)
-			$.stellar();*/
-
-		if(target[0] && url.indexOf('/documentation') === -1) $('html, body').animate({
-			scrollTop: target.offset().top -60
-		}, 1500,'easeInOutExpo');
-
-		$('[data-spy="scroll"]').each(function () {
-			var $spy = $(this).scrollspy('refresh')
-		});
-
-		$("#status", $preloader).fadeOut();
-		$preloader.delay(350).fadeOut("slow", function(){
-			$preloader.remove();
-		});
-
-		scalersHandler();
-
-		if(isTouch)
-			setTimeout(function() {
-				window.scrollTo(0, document.documentElement.scrollTop + 1);
-			}, 0);
-	}).resize(function() {
-		var viewport = getViewport();
-		$intro.css({ width: viewport.width, height: viewport.height });
-		scalersHandler();
-	});
 
 	//collapse menu on click on mobile and tablet devices
 	$('.nav a').click(function () { $(".nav-collapse").collapse("hide") });

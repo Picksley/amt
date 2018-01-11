@@ -102,23 +102,18 @@ AMT Contract Hire & Leasing Ltd is subsidiary of AMT Global Investments Ltd - Re
 </footer>
 
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-<script src="https://code.jquery.com/jquery-2.2.4.js"></script>
+<script src="js/jquery-3.2.1.js"></script>
 
 <!-- Include all compiled plugins (below), or include individual files as needed -->
 <script src="js/bootstrap.min.js"></script>
 <script src="js/wow.min.js"></script>
 <script src="js/group.js"></script>
-<script src="utilcarousel-files/utilcarousel/jquery.utilcarousel.min.js"></script>
 
 <script src="js/slider/js/retina.js" type="text/javascript"></script>
 <script src="js/slider/js/jquery.easing-1.3.pack.js" type="text/javascript"></script>
-<script src="js/slider/js/jquery.simplr.smoothscroll.js" type="text/javascript"></script>
-
-
 
 <script src="js/slider/js/google-code-prettify/prettify.js"></script>
 <script src="js/slider/js/google-code-prettify/lang-css.js"></script>
-
 
 <script src="js/custom.js" type="text/javascript"></script>
 
@@ -131,11 +126,48 @@ AMT Contract Hire & Leasing Ltd is subsidiary of AMT Global Investments Ltd - Re
 
 <script type="text/javascript">
    $(document).ready(function(){
-     $('.slick-slider-start').slick({
-       slidesToShow: 1,
-      slidesToScroll: 1,
-      autoplay: true,
-      autoplaySpeed: 2000,
+     $('.slick-slider-testimonials').slick({
+       dots: true,
+        centerMode: true,
+        centerPadding: 400,
+        slidesToShow: 1,
+        variableWidth: true
+
+     });
+     $('.slick-slider-vehicles').slick({
+       dots: false,
+         infinite: true,
+         speed: 300,
+         slidesToShow: 6,
+         slidesToScroll: 3,
+         responsive: [
+           {
+             breakpoint: 1024,
+             settings: {
+               slidesToShow: 3,
+               slidesToScroll: 3,
+               infinite: true,
+               dots: true
+             }
+           },
+           {
+             breakpoint: 600,
+             settings: {
+               slidesToShow: 2,
+               slidesToScroll: 2
+             }
+           },
+           {
+             breakpoint: 480,
+             settings: {
+               slidesToShow: 1,
+               slidesToScroll: 1
+             }
+           }
+           // You can unslick at a given breakpoint now by adding:
+           // settings: "unslick"
+           // instead of a settings object
+         ]
 
      });
    });
@@ -211,17 +243,6 @@ $(document).ready(function(){
 				return widthNoScroll - widthWithScroll;
 			}
 
-			jQuery(document).ready(function($){
-				var $win = $(window),
-					isTouch = !!('ontouchstart' in window),
-					clickEvent = isTouch ? 'tap' : 'click',
-					scrollbarWidth = getScrollbarWidth();
-
-				$('body').append('<style>html .ilightbox-noscroll { padding-right: ' + scrollbarWidth + 'px; } html .ilightbox-noscroll #navigation { padding-right: ' + (scrollbarWidth + 20) + 'px; }</style>');
-
-
-
-
 			});
 		</script>
 <script type="text/javascript">
@@ -254,97 +275,6 @@ $( ".team-member-block" ).hover(function() {
         var $win = $(window),
             isTouch = !!('ontouchstart' in window),
             clickEvent = isTouch ? 'tap' : 'click';
-
-        (function(){
-            /**
-             * Calculate the slides width in percent based on the parent's width.
-             *
-             * @return {String}
-             */
-            function calculator(width){
-                var percent = '60%';
-
-                if (width <= 480) {
-                    percent = '100%';
-                }
-                else if (width <= 767) {
-                    percent = '55%';
-                }
-
-                return percent;
-            };
-
-            // Global slider's DOM elements
-            var $example = $('#example'),
-                $frame = $('.frame', $example),
-               $details = $('div.details', $example),
-               $title = $('#title', $details),
-               $photographer = $('#photographer', $details),
-                $description = $('#description', $details),
-                lastIndex = -1;
-
-            // Calling new mightySlider class
-            var slider = new mightySlider($frame, {
-                speed: 1000,
-                startAt: 1,
-                autoScale: 1,
-                easing: 'easeOutExpo',
-
-                // Navigation options
-                navigation: {
-                    slideSize: calculator(getViewport().width),
-                    keyboardNavBy: 'slides',
-                    activateOn: clickEvent
-                },
-
-                // Dragging options
-                dragging: {
-                    swingSpeed: 0.12,
-                    onePage: 1
-                },
-
-                // Buttons options
-                buttons: !isTouch ? {
-                    prev: $('a.mSPrev', $frame),
-                    next: $('a.mSNext', $frame)
-                } : {},
-
-
-
-                // Cycling options
-                cycling: {
-                    cycleBy: 'slides'
-                }
-            },
-
-            // Register callbacks to the events
-            {
-                // Register mightySlider :active event callback
-                active: function(name, index) {
-                    var slideOptions = this.slides[index].options;
-
-                    if (lastIndex !== index)
-                        $details.stop().animate({ opacity: 0 }, 500, function(){
-                            $title.html(slideOptions.title);
-                            $photographer.html(slideOptions.photographer);
-                            $description.html(slideOptions.description);
-                            $details.animate({ opacity: 1 }, 500);
-                        });
-
-                    lastIndex = index;
-                }
-            }).init();
-
-            // Register window :resize event callback
-            $win.resize(function(){
-                // Update slider options using 'set' method
-                slider.set({
-                    navigation: {
-                        slideSize: calculator(getViewport().width)
-                    }
-                });
-            });
-        })();
     });
 
 
