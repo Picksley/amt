@@ -3284,7 +3284,6 @@ border-bottom: 1px solid #e2e2e2;
 }
 .benefits-list p{ font-size:16px; line-height:26px; color:#33414e;}
 .no-padd{ padding-left:0px; padding-right:0px;}
-.rtl-nopadd{ padding-right:0px;}
 .left-nopadd{ padding-left:0px;}
 .rtl-noborder{ border-right:none;}
 .bm-border0{ border-bottom:none;}
@@ -3293,14 +3292,6 @@ border-bottom: 1px solid #e2e2e2;
 }
 .last-h {
     min-height: 255px;
-}
-.options-finance{ width:100%; float:left; padding: 90px 0px 100px 0px; border-bottom: 1px solid #e4e5e6;}
-.options-header{ text-align:center; margin:auto; width:60%;}
-.options-header h1{ font-size:40px; color:#000; font-family: 'Aller-Bold'; margin-top:0px; margin-bottom:15px;}
-.options-header p {
-    color: #000;
-    font-size: 16px;
-    margin-bottom: 25px;
 }
 .contract-hire-box {
     width: 100%;
@@ -4920,7 +4911,7 @@ left: -5px;}
     margin-bottom: 10px;
     font-family: 'Aller';
 }
-.benefits-list p{ font-size:16px; line-height:26px; color:#33414e;}
+.benefits-list p{ font-size:16px; line-height:18px; color:#33414e;}
 .no-padd{ padding-left:0px; padding-right:0px;}
 .rtl-nopadd{ padding-right:0px;}
 .left-nopadd{ padding-left:0px;}

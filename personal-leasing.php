@@ -307,7 +307,7 @@ operational benefits from contract hire. They include:
 <div class="benefits-main">
 <div class="row">
 <!--Start List-->
-<div class="col-md-4 col-sm-6 col-xs-12 rtl-nopadd">
+<div class="col-md-4 col-sm-6 col-xs-12 benefit-item rtl-nopadd">
 <div class="benefits-list first-l">
 <span class="benefits-num">1</span>
 <h2>Your payments are fixed</h2>
@@ -319,7 +319,7 @@ operational benefits from contract hire. They include:
 <!--End List-->
 
 <!--Start List-->
-<div class="col-md-4 col-sm-6 col-xs-12 no-padd">
+<div class="col-md-4 col-sm-6 col-xs-12 benefit-item no-padd">
 <div class="benefits-list first-l">
 <span class="benefits-num">2</span>
 <h2>No ownership risks</h2>
@@ -331,7 +331,7 @@ operational benefits from contract hire. They include:
 <!--End List-->
 
 <!--Start List-->
-<div class="col-md-4 col-sm-6 col-xs-12 left-nopadd">
+<div class="col-md-4 col-sm-6 col-xs-12 benefit-item left-nopadd">
 <div class="benefits-list rtl-noborder first-l">
 <span class="benefits-num">3</span>
 <h2>Depreciation is factored in</h2>
@@ -343,10 +343,10 @@ operational benefits from contract hire. They include:
 
 
 <!--Start List-->
-<div class="col-md-4 col-sm-6 col-xs-12 rtl-nopadd">
+<div class="col-md-4 col-sm-6 col-xs-12 benefit-item rtl-nopadd">
 <div class="benefits-list">
 <span class="benefits-num">4</span>
-<h2>A low intitial payment/h2>
+<h2>A low intitial payment</h2>
 <p>Purchasing a new car requires a high payment upfront whereas leasing a car gives you access to a brand-new car with a flexible initial payment - this is normally 3, 6 or 9 months rental up front - depending on your preference.
 </p>
 
@@ -355,7 +355,7 @@ operational benefits from contract hire. They include:
 <!--End List-->
 
 <!--Start List-->
-<div class="col-md-4 col-sm-6 col-xs-12 no-padd">
+<div class="col-md-4 col-sm-6 col-xs-12 benefit-item no-padd">
 <div class="benefits-list">
 <span class="benefits-num">5</span>
 <h2>Cost effective</h2>
@@ -366,7 +366,7 @@ operational benefits from contract hire. They include:
 <!--End List-->
 
 <!--Start List-->
-<div class="col-md-4 col-sm-6 col-xs-12 left-nopadd">
+<div class="col-md-4 col-sm-6 col-xs-12 benefit-item left-nopadd">
 <div class="benefits-list rtl-noborder">
 <span class="benefits-num">6</span>
 <h2>Manufacturer warranty included</h2>
@@ -381,7 +381,7 @@ operational benefits from contract hire. They include:
 
 
 <!--Start List-->
-<div class="col-md-4 col-sm-6 col-xs-12 rtl-nopadd">
+<div class="col-md-4 col-sm-6 col-xs-12 benefit-item rtl-nopadd">
 <div class="benefits-list bm-border0 last-h">
 <span class="benefits-num">7</span>
 <h2>Less hassle all around</h2>
@@ -394,7 +394,7 @@ operational benefits from contract hire. They include:
 <!--End List-->
 
 <!--Start List-->
-<div class="col-md-4 col-sm-6 col-xs-12 no-padd">
+<div class="col-md-4 col-sm-6 col-xs-12 benefit-item no-padd">
 <div class="benefits-list bm-border0 last-h">
 <span class="benefits-num">8</span>
 <h2>What you can get for your money </h2>
@@ -406,7 +406,7 @@ operational benefits from contract hire. They include:
 <!--End List-->
 
 <!--Start List-->
-<div class="col-md-4 col-sm-6 col-xs-12 left-nopadd">
+<div class="col-md-4 col-sm-6 col-xs-12 benefit-item left-nopadd">
 <div class="benefits-list rtl-noborder bm-border0 last-h">
 <span class="benefits-num">9</span>
 <h2>Limited credit? No problem </h2>

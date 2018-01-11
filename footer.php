@@ -102,7 +102,7 @@ AMT Contract Hire & Leasing Ltd is subsidiary of AMT Global Investments Ltd - Re
 </footer>
 
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-<script src="js/jquery-3.2.0.js"></script>
+<script src="https://code.jquery.com/jquery-2.2.4.js"></script>
 
 <!-- Include all compiled plugins (below), or include individual files as needed -->
 <script src="js/bootstrap.min.js"></script>
@@ -114,20 +114,35 @@ AMT Contract Hire & Leasing Ltd is subsidiary of AMT Global Investments Ltd - Re
 <script src="js/slider/js/jquery.easing-1.3.pack.js" type="text/javascript"></script>
 <script src="js/slider/js/jquery.simplr.smoothscroll.js" type="text/javascript"></script>
 
+
+
 <script src="js/slider/js/google-code-prettify/prettify.js"></script>
 <script src="js/slider/js/google-code-prettify/lang-css.js"></script>
 
-<script src="src/js/mightyslider.min.js" type="text/javascript"></script>
+
 <script src="js/custom.js" type="text/javascript"></script>
 
 <script src="js/slider/js/jquery.requestAnimationFrame.js"></script>
 <script src="js/easy-responsive-tabs.js"></script>
 <script src="js/slider/js/ilightbox/js/ilightbox.packed.js"></script>
-<script src="js/jssor.slider-22.1.9.min.js" type="text/javascript"></script>
-<script src="js/amt.js" type="text/javascript"></script>
+<script src="js/jquery.matchHeight.js" type="text/javascript"></script>
+<script src="src/slick/slick.min.js" type="text/javascript"></script>
 
+
+<script type="text/javascript">
+   $(document).ready(function(){
+     $('.slick-slider-start').slick({
+       slidesToShow: 1,
+      slidesToScroll: 1,
+      autoplay: true,
+      autoplaySpeed: 2000,
+
+     });
+   });
+ </script>
 
 <script type="text/jQuery">
+
 $(document).ready(function(){
     jQuery.goup({trigger: 10,
 	containerSize:40,
@@ -170,6 +185,9 @@ $(document).ready(function(){
 
 
 <script>
+
+$(document).ready(function(){
+
 			function getScrollbarWidth() {
 				var outer = document.createElement("div");
 				outer.style.visibility = "hidden";
@@ -203,149 +221,9 @@ $(document).ready(function(){
 
 
 
-				// Cycling By Slides Example
-				(function(){
-					var $carousel = $('#cycling_by_slides'),
-					$frame = $('.frame', $carousel),
-					$controls = $('div.controls', $carousel),
-					$scrollbar = $('div.scrollbar', $carousel);
-					$frame.mightySlider({
-						speed: 300,
-						easing: 'easeOutExpo',
-
-						// Navigation options
-						navigation: {
-							navigationType: 'centered',
-							activateOn: clickEvent
-						},
-
-						// Scrolling options
-						scrolling: {
-							scrollBy: 0,
-							scrollSource: null
-
-						},
-
-						// Scrollbar options
-						scrollBar: {
-							scrollBarSource: $scrollbar
-						},
-
-						// Buttons options
-						buttons: {
-							prev: $('.prev', $controls),
-							next: $('.next', $controls)
-						},
-
-						// Cycling options
-						cycling: {
-							cycleBy: 'slides',
-							pauseTime: 1500,
-							pauseOnHover: 1
-						}
-					});
-
-					var API = $frame.data().mightySlider;
-
-					// Method calling buttons
-					$carousel.on(clickEvent, 'button[data-action]', function () {
-						var action = $(this).data('action');
-
-						switch (action) {
-							case 'add':
-								API.add('<li>' + API.slides.length + '</li>');
-								break;
-							case 'remove':
-								API.remove(-1);
-								break;
-							default:
-								API[action]();
-						}
-					});
-				})();
-				// End of Cycling By Slides Example
-
-
 
 			});
 		</script>
-
-
-
-
-
-
- <script type="text/javascript">
-     jssor_1_slider_init = function() {
-
-         var jssor_1_SlideshowTransitions = [
-           {$Duration:1200,x:0.3,$During:{$Left:[0.3,0.7]},$Easing:{$Left:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
-           {$Duration:1200,x:-0.3,$SlideOut:true,$Easing:{$Left:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
-           {$Duration:1200,x:-0.3,$During:{$Left:[0.3,0.7]},$Easing:{$Left:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
-           {$Duration:1200,x:0.3,$SlideOut:true,$Easing:{$Left:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
-           {$Duration:1200,y:0.3,$During:{$Top:[0.3,0.7]},$Easing:{$Top:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
-           {$Duration:1200,y:-0.3,$SlideOut:true,$Easing:{$Top:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
-           {$Duration:1200,y:-0.3,$During:{$Top:[0.3,0.7]},$Easing:{$Top:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
-           {$Duration:1200,y:0.3,$SlideOut:true,$Easing:{$Top:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
-           {$Duration:1200,x:0.3,$Cols:2,$During:{$Left:[0.3,0.7]},$ChessMode:{$Column:3},$Easing:{$Left:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
-           {$Duration:1200,x:0.3,$Cols:2,$SlideOut:true,$ChessMode:{$Column:3},$Easing:{$Left:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
-           {$Duration:1200,y:0.3,$Rows:2,$During:{$Top:[0.3,0.7]},$ChessMode:{$Row:12},$Easing:{$Top:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
-           {$Duration:1200,y:0.3,$Rows:2,$SlideOut:true,$ChessMode:{$Row:12},$Easing:{$Top:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
-           {$Duration:1200,y:0.3,$Cols:2,$During:{$Top:[0.3,0.7]},$ChessMode:{$Column:12},$Easing:{$Top:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
-           {$Duration:1200,y:-0.3,$Cols:2,$SlideOut:true,$ChessMode:{$Column:12},$Easing:{$Top:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
-           {$Duration:1200,x:0.3,$Rows:2,$During:{$Left:[0.3,0.7]},$ChessMode:{$Row:3},$Easing:{$Left:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
-           {$Duration:1200,x:-0.3,$Rows:2,$SlideOut:true,$ChessMode:{$Row:3},$Easing:{$Left:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
-           {$Duration:1200,x:0.3,y:0.3,$Cols:2,$Rows:2,$During:{$Left:[0.3,0.7],$Top:[0.3,0.7]},$ChessMode:{$Column:3,$Row:12},$Easing:{$Left:$Jease$.$InCubic,$Top:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
-           {$Duration:1200,x:0.3,y:0.3,$Cols:2,$Rows:2,$During:{$Left:[0.3,0.7],$Top:[0.3,0.7]},$SlideOut:true,$ChessMode:{$Column:3,$Row:12},$Easing:{$Left:$Jease$.$InCubic,$Top:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
-           {$Duration:1200,$Delay:20,$Clip:3,$Assembly:260,$Easing:{$Clip:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
-           {$Duration:1200,$Delay:20,$Clip:3,$SlideOut:true,$Assembly:260,$Easing:{$Clip:$Jease$.$OutCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
-           {$Duration:1200,$Delay:20,$Clip:12,$Assembly:260,$Easing:{$Clip:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
-           {$Duration:1200,$Delay:20,$Clip:12,$SlideOut:true,$Assembly:260,$Easing:{$Clip:$Jease$.$OutCubic,$Opacity:$Jease$.$Linear},$Opacity:2}
-         ];
-
-         var jssor_1_options = {
-           $AutoPlay: true,
-           $SlideshowOptions: {
-             $Class: $JssorSlideshowRunner$,
-             $Transitions: jssor_1_SlideshowTransitions,
-             $TransitionsOrder: 1
-           },
-           $ArrowNavigatorOptions: {
-             $Class: $JssorArrowNavigator$
-           },
-           $ThumbnailNavigatorOptions: {
-             $Class: $JssorThumbnailNavigator$,
-             $Cols: 4,
-             $SpacingX: 16,
-             $SpacingY: 16,
-             $Align: 360
-           }
-         };
-
-         var jssor_1_slider = new $JssorSlider$("jssor_1", jssor_1_options);
-
-         /*responsive code begin*/
-         /*you can remove responsive code if you don't want the slider scales while window resizing*/
-         function ScaleSlider() {
-             var refSize = jssor_1_slider.$Elmt.parentNode.clientWidth;
-             if (refSize) {
-                 refSize = Math.min(refSize, 800);
-                 jssor_1_slider.$ScaleWidth(refSize);
-             }
-             else {
-                 window.setTimeout(ScaleSlider, 30);
-             }
-         }
-         ScaleSlider();
-         $Jssor$.$AddEvent(window, "load", ScaleSlider);
-         $Jssor$.$AddEvent(window, "resize", ScaleSlider);
-         $Jssor$.$AddEvent(window, "orientationchange", ScaleSlider);
-         /*responsive code end*/
-     };
- </script>
-
-   <script type="text/javascript">jssor_1_slider_init();</script>
-
 <script type="text/javascript">
 /*
 $( ".team-member-block" ).hover(function() {
@@ -483,7 +361,11 @@ $( ".team-member-block" ).hover(function() {
        mobile: false
    });
    wow.init();
-
+   $(function() {
+   	$('.benefit-item').matchHeight();
+   });
    	</script>
+
+
 </body>
 </html>
