@@ -5955,3 +5955,7 @@ width:100%;
 .wat .wat_content a{
 	color:#BE203F;
 }
+
+.special-offers-slick-css .slick-slide {
+	margin:10px;
+}

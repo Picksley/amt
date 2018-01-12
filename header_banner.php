@@ -4,23 +4,25 @@
 <head>
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
 <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 <title>AMT</title>
 
-<!-- Font Awesome -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css">
 <!-- Bootstrap -->
 <link href="css/bootstrap.min.css" rel="stylesheet">
 
 <link href="css/style.css" rel="stylesheet" type="text/css">
 <link href="css/media.css" rel="stylesheet" type="text/css">
 
-<link rel="stylesheet" href="utilcarousel-files/utilcarousel/util.carousel.css" />
-<link rel="stylesheet" href="utilcarousel-files/utilcarousel/util.carousel.skins.css" />
+<link rel="stylesheet" href="src/font-awesome/css/font-awesome.min.css" type="text/css">
+
+
 
 <link href="src/slick/slick.css" rel="stylesheet" type="text/css">
 <link href="src/slick/slick-theme.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="src/utilcarousel-files/utilcarousel/util.carousel.css" type="text/css"/>
+<link rel="stylesheet" href="src/utilcarousel-files/utilcarousel/util.carousel.skins.css" type="text/css"/>
+
 <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
 <!--[if lt IE 9]>
@@ -33,7 +35,7 @@
 <body>
   <!-- Temporary code, will be fixed in yii implementation -->
   <?php
-    $domain = 'http://localhost/amt/amt';
+    $domain = 'http://localhost/amt';
     $page_banner = '';
   ?>
 

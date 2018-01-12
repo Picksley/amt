@@ -4,10 +4,9 @@
 <head>
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
 <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 <title>AMT</title>
-
 
 <!-- Bootstrap -->
 <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -15,7 +14,7 @@
 <link href="css/style.css" rel="stylesheet" type="text/css">
 <link href="css/media.css" rel="stylesheet" type="text/css">
 
-<link rel="stylesheet" href="css/font-awesome.min.css" type="text/css">
+<link rel="stylesheet" href="src/font-awesome/css/font-awesome.min.css" type="text/css">
 
 <link href="src/slick/slick.css" rel="stylesheet" type="text/css">
 <link href="src/slick/slick-theme.css" rel="stylesheet" type="text/css">
@@ -32,8 +31,7 @@
 <body>
   <!-- Temporary code, will be fixed in yii implementation -->
   <?php
-    $domain = 'http://localhost/amt/amt';
-    $page_banner = '';
+    $domain = 'http://localhost/amt';
   ?>
 
 
@@ -132,9 +130,9 @@
               <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">More<span class="fa fa-angle-down"></span></a>
                 <ul class="dropdown-menu">
                   <li><a href="<?= $domain ?>/about-us.php">About AMT</a></li>
-                  <li><a href="meet-the-team.php">Meet the Team</a></li>
+                  <li><a href="<?= $domain ?>/meet-the-team.php">Meet the Team</a></li>
                   <li><a href="#">Blog</a></li>
-                  <li><a href="#">Contact Us</a></li>
+                  <li><a href="<?= $domain ?>/contact-us.php">Contact Us</a></li>
                 </ul>
               </li>
             </ul>

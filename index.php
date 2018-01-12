@@ -107,7 +107,73 @@ Reset Form</a>
 	</div>
 
 
-    <div role="tabpanel" class="tab-pane" id="profile">...</div>
+    <div role="tabpanel" class="tab-pane" id="profile">
+
+      <form class="form-inline">
+      <div class="form-group">
+        <select class="form-control modal-select">
+      <option>Audi</option>
+      <option>2</option>
+      <option>3</option>
+      <option>4</option>
+      <option>5</option>
+    </select>
+      </div>
+      <div class="form-group">
+     <select class="form-control modal-select">
+      <option value="">Model</option>
+      <option>1</option>
+      <option>2</option>
+      <option>3</option>
+      <option>4</option>
+      <option>5</option>
+    </select>
+      </div>
+
+       <div class="form-group min-bud">
+     <select class="form-control">
+     <option value="">Min. Budget</option>
+      <option>1</option>
+      <option>2</option>
+      <option>3</option>
+      <option>4</option>
+      <option>5</option>
+    </select>
+      </div>
+
+       <div class="form-group min-bud">
+     <select class="form-control">
+      <option value="">Max. Budget</option>
+      <option>2</option>
+      <option>3</option>
+      <option>4</option>
+      <option>5</option>
+    </select>
+      </div>
+
+      <button type="submit" class="btn btn-search_result"><i><img src="images/search.png"></i>Search XX,XXX Results</button>
+
+    <div class="search-bottom">
+    <div class="row">
+    <div class="mob-vew-adv_search">
+      <p>Looking for something more specific?</p>
+      <a href="#">View advanced search options</a>
+      </div>
+    <div class="col-md-3 col-sm-3">
+    <a class="btn btn-reset" href="#" role="button"><i class="fa fa-refresh" aria-hidden="true"></i>
+    Reset Form</a>
+    </div>
+
+    <div class="col-md-9 col-sm-9 help-car">
+    <p>Looking for something more specific? <a href="#">Help me find a car</a></p>
+    </div>
+
+    </div>
+    </div>
+
+    </form>
+
+    </div>
 
   </div>
 
@@ -204,12 +270,12 @@ Reset Form</a>
  <div class="container">
  	<div class="hm_oursoinfo">
     		<h2>Our Special Offers</h2>
-                            <div id="hm_specialofr" class="util-carousel normal-imglist">
-                                        <div class="item">
+                            <div class="special-offers-slick special-offers-slick-css normal-imglist">
+                                        <div>
                                             <a href="#">
                                                 <div class="hm_oursodtl">
                                                         <figure>
-                                                                <img src="images/hm_spofr1.jpg">
+                                                                <img class="img-responsive" src="images/hm_spofr1.jpg">
                                                         </figure>
                                                         <div class="hm_spofrtxt">Special offer</div>
                                                         <div class="item_spofrname">
@@ -233,11 +299,11 @@ Reset Form</a>
                                                         </div><!--hm_oursodtl-->
                                             </a>
                                         </div><!--item-->
-                                        <div class="item">
+                                        <div>
                                             <a href="#">
                                                <div class="hm_oursodtl">
                                                         <figure>
-                                                                <img src="images/hm_spofr2.jpg">
+                                                                <img class="img-responsive" src="images/hm_spofr2.jpg">
 
                                                         </figure>
                                                         <div class="hm_spofrtxt">Special offer</div>
@@ -262,11 +328,11 @@ Reset Form</a>
                                                         </div>  <!--hm_oursodtl-->
                                             </a>
                                         </div><!--item-->
-                                        <div class="item">
+                                        <div>
                                             <a href="#">
                                                     <div class="hm_oursodtl">
                                                         <figure>
-                                                                <img src="images/hm_spofr3.jpg">
+                                                                <img class="img-responsive" src="images/hm_spofr3.jpg">
                                                                 <figcaption><i class="fa fa-star-o" aria-hidden="true"></i> In Stock</figcaption>
                                                         </figure>
                                                         <div class="hm_spofrtxt">Special offer</div>
@@ -291,11 +357,11 @@ Reset Form</a>
                                             </a>
                                         </div><!--item-->
 
-                                         <div class="item">
+                                         <div>
                                             <a href="#">
                                                 <div class="hm_oursodtl">
                                                         <figure>
-                                                                <img src="images/hm_spofr1.jpg">
+                                                                <img class="img-responsive" src="images/hm_spofr1.jpg">
                                                         </figure>
                                                         <div class="hm_spofrtxt">Special offer</div>
                                                         <div class="item_spofrname">
@@ -319,11 +385,11 @@ Reset Form</a>
                                                         </div><!--hm_oursodtl-->
                                             </a>
                                         </div><!--item-->
-                                        <div class="item">
+                                        <div>
                                             <a href="#">
                                                <div class="hm_oursodtl">
                                                         <figure>
-                                                                <img src="images/hm_spofr2.jpg">
+                                                                <img class="img-responsive" src="images/hm_spofr2.jpg">
 
                                                         </figure>
                                                         <div class="hm_spofrtxt">Special offer</div>
@@ -348,11 +414,11 @@ Reset Form</a>
                                                         </div>  <!--hm_oursodtl-->
                                             </a>
                                         </div><!--item-->
-                                        <div class="item">
+                                        <div>
                                             <a href="#">
                                                     <div class="hm_oursodtl">
                                                         <figure>
-                                                                <img src="images/hm_spofr3.jpg">
+                                                                <img class="img-responsive" src="images/hm_spofr3.jpg">
                                                                 <figcaption><i class="fa fa-star-o" aria-hidden="true"></i> In Stock</figcaption>
                                                         </figure>
                                                         <div class="hm_spofrtxt">Special offer</div>
@@ -378,11 +444,11 @@ Reset Form</a>
                                         </div><!--item-->
 
 
-                                         <div class="item">
+                                         <div>
                                             <a href="#">
                                                 <div class="hm_oursodtl">
                                                         <figure>
-                                                                <img src="images/hm_spofr1.jpg">
+                                                                <img class="img-responsive" src="images/hm_spofr1.jpg">
                                                         </figure>
                                                         <div class="hm_spofrtxt">Special offer</div>
                                                         <div class="item_spofrname">
@@ -406,11 +472,11 @@ Reset Form</a>
                                                         </div><!--hm_oursodtl-->
                                             </a>
                                         </div><!--item-->
-                                        <div class="item">
+                                        <div>
                                             <a href="#">
                                                <div class="hm_oursodtl">
                                                         <figure>
-                                                                <img src="images/hm_spofr2.jpg">
+                                                                <img class="img-responsive" src="images/hm_spofr2.jpg">
 
                                                         </figure>
                                                         <div class="hm_spofrtxt">Special offer</div>
@@ -435,34 +501,7 @@ Reset Form</a>
                                                         </div>  <!--hm_oursodtl-->
                                             </a>
                                         </div><!--item-->
-                                        <div class="item">
-                                            <a href="#">
-                                                    <div class="hm_oursodtl">
-                                                        <figure>
-                                                                <img src="images/hm_spofr3.jpg">
-                                                                <figcaption><i class="fa fa-star-o" aria-hidden="true"></i> In Stock</figcaption>
-                                                        </figure>
-                                                        <div class="hm_spofrtxt">Special offer</div>
-                                                        <div class="item_spofrname">
-                                                        <h4>Land Rover Range Rover Sport Estate</h4>
-                                                        <h5>5.0 V8 S/C SVR 5dr Auto</h5>
-                                                        </div>
-                                                        <div class="spoffrsap"><img src="images/sp_ofrline.png"></div>
-                                                        <div class="apofr_price">
-                                                                <h4>£XXX.XX <small>per month incl. tax</small></h4>
-                                                                <ul>
-                                                                        <li>Initial rental: £XXX.XX</li>
-                                                                        <li>48 month lease</li>
-                                                                        <li>10,000 miles per annum</li>
-                                                                </ul>
-                                                                   <div class="hm_viewspo"><button type="submit" ><img src="images/hm_spoicon.png"> view special offer</button></div>
-                                                        <div class="hm_addmyshrm"><button type="submit">Add to my showroom</button></div>
-                                                        </div>
 
-                                                        </div><!--hm_oursodtl-->
-
-                                            </a>
-                                        </div><!--item-->
                             </div><!--hm_specialofr-->
 
                               <div class="hm_viewspobtn"><button type="submit" class="hm_redbtns">View Special offers <img src="images/hmright_arrow.png"> </button></div>

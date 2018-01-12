@@ -109,7 +109,6 @@ AMT Contract Hire & Leasing Ltd is subsidiary of AMT Global Investments Ltd - Re
 <script src="js/wow.min.js"></script>
 <script src="js/group.js"></script>
 
-<script src="js/slider/js/retina.js" type="text/javascript"></script>
 <script src="js/slider/js/jquery.easing-1.3.pack.js" type="text/javascript"></script>
 
 <script src="js/slider/js/google-code-prettify/prettify.js"></script>
@@ -137,6 +136,7 @@ AMT Contract Hire & Leasing Ltd is subsidiary of AMT Global Investments Ltd - Re
           {
             breakpoint: 1024,
             settings: {
+              centerPadding: 1,
               slidesToShow:1,
               slidesToScroll: 1,
               infinite: true,
@@ -146,6 +146,7 @@ AMT Contract Hire & Leasing Ltd is subsidiary of AMT Global Investments Ltd - Re
           {
             breakpoint: 600,
             settings: {
+              centerPadding: 1,
               slidesToShow: 1,
               slidesToScroll: 1
             }
@@ -153,6 +154,7 @@ AMT Contract Hire & Leasing Ltd is subsidiary of AMT Global Investments Ltd - Re
           {
             breakpoint: 480,
             settings: {
+              centerPadding: 1,
               slidesToShow: 1,
               slidesToScroll: 1
             }
@@ -165,7 +167,11 @@ AMT Contract Hire & Leasing Ltd is subsidiary of AMT Global Investments Ltd - Re
 
      });
      $('.slick-slider-vehicles').slick({
-
+       dots: false,
+         infinite: true,
+         speed: 300,
+         slidesToShow: 4,
+         slidesToScroll: 3,
          responsive: [
            {
              breakpoint: 1024,
@@ -194,11 +200,44 @@ AMT Contract Hire & Leasing Ltd is subsidiary of AMT Global Investments Ltd - Re
            // settings: "unslick"
            // instead of a settings object
          ],
-         dots: false,
-           infinite: true,
-           speed: 300,
-           slidesToShow: 4,
-           slidesToScroll: 3,
+
+
+     });
+     $('.special-offers-slick').slick({
+       dots: true,
+         infinite: true,
+         speed: 300,
+         slidesToShow: 3,
+         slidesToScroll: 3,
+         responsive: [
+           {
+             breakpoint: 1024,
+             settings: {
+               slidesToShow: 3,
+               slidesToScroll: 3,
+               infinite: true,
+               dots: true
+             }
+           },
+           {
+             breakpoint: 600,
+             settings: {
+               slidesToShow: 2,
+               slidesToScroll: 2,
+             }
+           },
+           {
+             breakpoint: 480,
+             settings: {
+               slidesToShow: 1,
+               slidesToScroll: 1,
+             }
+           }
+           // You can unslick at a given breakpoint now by adding:
+           // settings: "unslick"
+           // instead of a settings object
+         ],
+
 
      });
    });

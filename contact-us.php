@@ -15,7 +15,7 @@
 
 <section class="contact-cont container">
 	<div class="row">
-		<div class="col-md-7 ct-border-right">
+		<div class="col-md-7 col-sm-7 col-xs-12 ct-border-right">
 			<h2> Send us a message </h2>
 			<form action="" type="">
 				<input type="text" name="name" placeholder="Your Name*" required/>
@@ -33,7 +33,7 @@
 				<button type="submit" class="btn btn-ct btn-default pull-right">SUBMIT ENQUIRY <img src="images/hmright_arrow.png"></img></button>
 			</form>
 		</div>
-		<div class="col-md-5 ct-more-info">
+		<div class="col-md-5 col-sm-7 col-xs-12 ct-more-info">
 			<h2> Want to talk? </h2>
 
 			<h4> Our details </h4>
