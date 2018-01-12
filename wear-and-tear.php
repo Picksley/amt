@@ -23,9 +23,9 @@
         <li> Before the car is returned, the car should be in a clean condition to allow a thorough inspection of the car. </li>
       </ol>
 
-      <table class="table table-striped">
+      <table class="table table-striped amt-table">
         <thead>
-          <tr class="text-center">
+          <tr class="text-center" style="background-color:#33414E;color:#fff;text-align:center">
             <th> What </th>
             <th> Acceptable </th>
             <th> Unacceptable </th>
@@ -38,9 +38,34 @@
             <td> Holes, chips and cracks in the glass, and scratches inside the driver's direct line of site.</td>
           </tr>
           <tr>
-            <td>Lorem</td>
-            <td>Ipsum</td>
-            <td>Si Dolor</td>
+            <td>Wheels</td>
+            <td>Minor scuffage up to 25mm in length. Wheels also meet minimum legal requirements. </td>
+            <td>Scoring and other damage to wheel surface. Damage to side walls or uneven trad wear.</td>
+          </tr>
+          <tr>
+            <td>Wing Mirrors</td>
+            <td>Minor Scuffage as long as no paintwork is damaged.</td>
+            <td>Missing, damaged, or cracked wing mirrors.</td>
+          </tr>
+          <tr>
+            <td>Bumpers</td>
+            <td>Minor scuffing up to 25mm in length.</td>
+            <td>Deep scuffs where paint is broken, dented and cracked areas.</td>
+          </tr>
+          <tr>
+            <td>Bodywork</td>
+            <td>Small areas of chipping. Light scratches up to 25mm in length, relative to the vehicle's age. Dents up to 10mm providing paint is not broken.</td>
+            <td>Stone chips or scratches over 15mm in length that have exposed the bare metal or primer or have rusted. Multiple dents on a single panel. Any impact damages.</td>
+          </tr>
+          <tr>
+            <td>Decals</td>
+            <td>All decals need to be removed and all glue residue removed.</td>
+            <td>Any damage caused by the removal of such badges and advertising.</td>
+          </tr>
+          <tr>
+            <td>Interior Upholstery</td>
+            <td>Should be clean and tidy, with only slight wear and soiling through normal use.</td>
+            <td>Burns, tears or permanen staining. Any damage caused by the fitting of equipment such as mobile phones. Holes in carpet.</td>
           </tr>
         </tbody>
       </table>

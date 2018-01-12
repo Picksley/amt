@@ -207,12 +207,15 @@ AMT Contract Hire & Leasing Ltd is subsidiary of AMT Global Investments Ltd - Re
        dots: true,
          infinite: true,
          speed: 300,
+         autoplay: true,
+         autoplaySpeed: 10000,
          slidesToShow: 3,
          slidesToScroll: 3,
          responsive: [
            {
              breakpoint: 1024,
              settings: {
+                 autoplaySpeed: 10000,
                slidesToShow: 3,
                slidesToScroll: 3,
                infinite: true,
@@ -222,6 +225,7 @@ AMT Contract Hire & Leasing Ltd is subsidiary of AMT Global Investments Ltd - Re
            {
              breakpoint: 600,
              settings: {
+                 autoplaySpeed: 10000,
                slidesToShow: 2,
                slidesToScroll: 2,
              }
@@ -229,6 +233,7 @@ AMT Contract Hire & Leasing Ltd is subsidiary of AMT Global Investments Ltd - Re
            {
              breakpoint: 480,
              settings: {
+                autoplaySpeed: 10000,
                slidesToShow: 1,
                slidesToScroll: 1,
              }
