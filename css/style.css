@@ -1569,6 +1569,9 @@ textarea {
 	bottom: 20px;
 	opacity: 1;
 }
+.black{
+	color:#000;
+}
 
 
 			/* Responsive */
@@ -5958,4 +5961,100 @@ width:100%;
 
 .special-offers-slick-css .slick-slide {
 	margin:10px;
+}
+
+
+.services_col {
+    width: 100%;
+    float: left;
+    padding: 65px 0px 20px 0px;
+}
+.services_des {
+    width: 63%;
+    text-align: center;
+    margin: auto;
+}
+.services_des h1{ font-size:60px; margin-top:0px; margin-bottom:15px; color:#000; font-family: 'Aller';}
+.services_des p{ font-size:16px; color:#33414e;}
+
+.services_amt {
+    width: 100%;
+    float: left;
+    padding: 20px 0px 80px 0px;
+    border-bottom: 1px solid #e4e5e6;
+}
+.services-list {
+    width: 100%;
+    float: left;
+    border-bottom: 1px solid #e4e5e6;
+    border-right: 1px solid #e4e5e6;
+    padding: 30px;
+    min-height: 355px;
+}
+.services-num{ display:block; color:#ba0c2f; font-size:16px; font-family: 'Aller-Bold'; margin-bottom:10px; }
+.services-list h2 {
+    color: #33414e;
+    font-size: 24px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    font-family: 'Aller';
+}
+.services_benefits{
+	height:100%;
+	padding:30px;
+}
+.services_benefits h2{
+	font-family: 'Aller-Bold';
+	font-size:40px;
+	padding-bottom:10px;
+	padding-top:15px;
+	color:#000
+}
+.services_benefits p{
+	line-height:1.5;
+	color:#000;
+}
+.services_benefits a{
+	padding-top:10px;
+	color:#BA0C2F;
+	font-family:'Aller-Bold';
+}
+.gap_insurance{
+	background-color:#edeeee;
+	float:left;
+	width:100%;
+	padding:30px 0 30px 0;
+	text-align:center;
+}
+.gap_insurance_content {
+	background-color:#fff;
+	margin:auto;
+	padding:40px;
+	width:80%;
+	text-align:center;
+}
+.gap_insurance_content h2{
+	font-family: 'Aller-Bold';
+	color:#000;
+	font-size:40px;
+}
+.gap_insurance_content p{
+	font-size:14px;
+	font-family:'Aller';
+	margin-bottom:20px;
+}
+
+.services_info_extra{
+	background-color:#fff;
+	float:left;
+	width:100%;
+	padding:30px 0 30px 0;
+}
+.services_info_extra h2{
+	font-size:40px;
+	color:#000;
+	margin-bottom:20px;
+}
+.services_info_extra p{
+	line-height:1.5
 }
