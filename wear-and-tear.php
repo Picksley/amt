@@ -1,13 +1,12 @@
 <?php include('header.php'); ?>
 <div class="container">
   <div class="col-md-12">
-    <div class="page-title-dark">
+    <div class="page-title-dark wat_head">
       <h1>Wear and Tear</h1>
       <p>When taking a lease car finance option, you have a responsibility to return the car to the finance company in as good a condition as possible.</p>
     </div>
   </div>
 </div>
-
 <section class="wat">
   <div class="container">
     <div class="row">
@@ -77,7 +76,11 @@
 
 </section>
 
-
+<div class="more_questions">
+<h2>Have more questions?</h2>
+<p>Then us a call to discuss, we're here to help!</p>
+<h6><img src="images/icons/phone.svg">0113 350 9776</h6>
+</div>
 
 <section class="keep_mail">
   <div class="container">

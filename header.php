@@ -7,6 +7,20 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
 <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 <meta name="theme-color" content="#BA0C2F"> <!-- THIS IS CODE I ADDED TO CHANGE THE ADDRESS BAR COLOUR ON MOBILE SITES -->
+<link rel="apple-touch-icon" sizes="57x57" href="images/favicon/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="images/favicon/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="images/favicon/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="images/favicon/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="images/favicon/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="images/favicon/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="images/favicon/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="images/favicon/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="images/favicon/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="images/favicon/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png">
+<link rel="manifest" href="/manifest.json">
 <title>AMT</title>
 
 <!-- Bootstrap -->
@@ -132,7 +146,7 @@
                 <ul class="dropdown-menu">
                   <li><a href="<?= $domain ?>/about-us.php">About AMT</a></li>
                   <li><a href="<?= $domain ?>/meet-the-team.php">Meet the Team</a></li>
-                  <li><a href="#">Blog</a></li>
+                  <li><a href="<?= $domain ?>/blog.php">Blog</a></li>
                   <li><a href="<?= $domain ?>/contact-us.php">Contact Us</a></li>
                 </ul>
               </li>

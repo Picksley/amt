@@ -203,6 +203,46 @@ AMT Contract Hire & Leasing Ltd is subsidiary of AMT Global Investments Ltd - Re
 
 
      });
+     $('.slick-slider-vehicles-special-offers').slick({
+       dots: true,
+       arrows:true,
+         infinite: true,
+         speed: 300,
+         slidesToShow: 3,
+         slidesToScroll: 2,
+         responsive: [
+           {
+             breakpoint: 1024,
+             settings: {
+               slidesToShow: 2,
+               slidesToScroll: 2,
+               infinite: true,
+               dots: true
+             }
+           },
+           {
+             breakpoint: 600,
+             settings: {
+               slidesToShow: 2,
+               slidesToScroll: 2,
+               dots:false,
+             }
+           },
+           {
+             breakpoint: 480,
+             settings: {
+               slidesToShow: 1,
+               slidesToScroll: 1,
+               dots:false,
+             }
+           }
+           // You can unslick at a given breakpoint now by adding:
+           // settings: "unslick"
+           // instead of a settings object
+         ],
+
+
+     });
      $('.special-offers-slick').slick({
        dots: true,
          infinite: true,
@@ -405,6 +445,7 @@ $( ".team-member-block" ).hover(function() {
    wow.init();
    $(function() {
    	$('.benefit-item').matchHeight();
+       	$('.ofr_lease').matchHeight();
    });
    	</script>
 

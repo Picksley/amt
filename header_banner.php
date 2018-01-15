@@ -144,9 +144,9 @@ if (strpos($url,'about-us') !== false) {
               <li><a href="<?= $domain; ?>/services.php">Services</a></li>
               <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Leasing <span class="fa fa-angle-down"></span></a>
                 <ul class="dropdown-menu">
-                  <li><a href="#">wear and tear</a></li>
+                  <li><a href="<?= $domain ?>/wear-and-tear.php">wear and tear</a></li>
                   <li><a href="#">deprecation</a></li>
-                  <li><a href="bik-tax-calculator.php">Bik calculator</a></li>
+                  <li><a href="<?= $domain ?>/bik-tax-calculator.php">Bik calculator</a></li>
                   <li><a href="#">fuel cost calculator</a></li>
                   <li><a href="#">Glossary of terms</a></li>
                   <li><a href="#">end of contract</a></li>
@@ -156,9 +156,9 @@ if (strpos($url,'about-us') !== false) {
               <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">More<span class="fa fa-angle-down"></span></a>
                 <ul class="dropdown-menu">
                   <li><a href="<?= $domain ?>/about-us.php">About AMT</a></li>
-                  <li><a href="meet-the-team.php">Meet the Team</a></li>
-                  <li><a href="#">Blog</a></li>
-                  <li><a href="#">Contact Us</a></li>
+                  <li><a href="<?= $domain ?>/meet-the-team.php">Meet the Team</a></li>
+                  <li><a href="<?= $domain ?>/blog.php">Blog</a></li>
+                  <li><a href="<?= $domain ?>/contact-us.php">Contact Us</a></li>
                 </ul>
               </li>
             </ul>

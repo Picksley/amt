@@ -136,7 +136,7 @@
         <div class="row">
             <div class="col-lg-4 col-md-4 col-sm-4">
                 <div class="hm_cvofferinfo_works">
-                    <figure><img class="img-responsive" src="images/hm_vanofr.png"></figure>
+                    <figure class="ofr_lease"><img class="img-responsive" src="images/hm_vanofr.png"></figure>
                     <h2>Personal Leasing</h2>
                     <p>Take a look at our current car leasing special offers. Many of these cars are in stock and can be delivered within two weeks. Hurry, these offers won’t be around for long.</p>
                      <button type="submit" class="hm_redbtns">More about personal leasing <img src="images/hmright_arrow.png"> </button>
@@ -144,7 +144,7 @@
             </div><!--col-lg-6-->
             <div class="col-lg-4 col-md-4 col-sm-4">
                 <div class="hm_cvofferinfo_works">
-                    <figure><img class="img-responsive" src="images/hm_vanofr.png"></figure>
+                    <figure class="ofr_lease"><img class="img-responsive" src="images/hm_vanofr.png"></figure>
                     <h2>Business Leasing</h2>
                     <p>We search the market on a daily basis to bring you a range of fantastic special offers on vans. To take advantage of one of these offers, get in touch today.</p>
                      <button type="submit" class="hm_redbtns">More about business leasing <img src="images/hmright_arrow.png"> </button>
@@ -152,7 +152,7 @@
             </div><!--col-lg-6-->
             <div class="col-lg-4 col-md-4 col-sm-4">
                 <div class="hm_cvofferinfo_works">
-                    <figure><img class="img-responsive" src="images/hm_vanofr.png"></figure>
+                    <figure class="ofr_lease"><img class="img-responsive" src="images/hm_vanofr.png"></figure>
                     <h2>Van Leasing</h2>
                     <p>We search the market on a daily basis to bring you a range of fantastic special offers on vans. To take advantage of one of these offers, get in touch today.</p>
                      <button type="submit" class="hm_redbtns">More about van leasing <img src="images/hmright_arrow.png"> </button>
