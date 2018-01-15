@@ -5886,6 +5886,9 @@ color: rgba(255,255,255,0.6);
 	background-color:#8f0823;
 	color:#fff;
 }
+.ct-more-info{
+	padding-left:40px
+}
 .ct-more-info h4{
 	color:#5B6670;
 	font-weight:normal;
@@ -7118,3 +7121,169 @@ button.srch_btan {
 }
 
 }
+
+.maintenance_content {
+	background-color:#F6F6F6;
+	margin-top:20px;
+	margin-bottom:20px;
+	padding-bottom:40px;
+	font-family:'TrebuchetMS';
+}
+.maintenance_content > .container{
+	width:52%;
+	margin:auto;
+	padding:40px;
+}
+
+.maintenance_content h3 {
+	font-family:'Aller';
+	font-size:20pt;
+	padding-bottom:20px;
+}
+.maintenance_content p{
+	letter-spacing:1.1px;
+	font-family:'TrebuchetMS';
+	font-size:12pt;
+}
+.maintenance_content  p  span {
+	margin-bottom:0px;
+	font-family:'Aller-Bold';
+	font-size:13pt;
+	color:#BA0C2F;
+}
+ .positive_list {
+	list-style-image: url('../images/tick_icon.png');
+}
+ .negative_list {
+	list-style-image: url('../images/cross_icon.png');
+}
+
+.maintenance_content ul li {
+	font-size:12pt;
+margin: 13px 0 13px 0;
+
+}
+
+
+.gap_content {
+	background-color:#F6F6F6;
+	margin-top:20px;
+	margin-bottom:20px;
+	padding-bottom:40px;
+	font-family:'TrebuchetMS';
+}
+.gap_content > .container{
+	width:52%;
+	margin:auto;
+	padding:40px;
+}
+.gap_content h3 {
+	font-family:'Aller';
+	font-size:20pt;
+	padding-bottom:20px;
+}
+.gap_content p{
+	letter-spacing:1.1px;
+	font-family:'TrebuchetMS';
+	font-size:12pt;
+}
+.gap_content  p  span {
+	margin-bottom:0px;
+	font-family:'Aller-Bold';
+	font-size:13pt;
+	color:#BA0C2F;
+}
+.gap_content ul li {
+	font-size:12pt;
+margin: 13px 0 13px 0;
+
+}
+.gap_content_img{
+	width:100%;
+	padding:20px;
+	border-radius:15px;
+	background-color:#fff;
+	margin:auto;
+}
+.gap_content_img img{
+	margin:auto;
+}
+.asterisk-note{
+	color:#ADAEB1
+}
+
+.next_steps{ width:65%; margin:auto; text-align:center; padding:40px; background-color:#fff; border-radius:7px;}
+.next_steps h2{ font-size:30px; font-family: 'Aller'; margin-top:0px; margin-bottom:20px; color:#000;}
+.next_steps p{ color:#33414e; font-size:16px; margin-bottom:20px;}
+
+.part_exchange_col {
+    width: 100%;
+    float: left;
+    padding: 65px 0px 85px 0px;
+}
+.part_exchange_des {
+    width: 63%;
+    text-align: center;
+    margin: auto;
+}
+.part_exchange_des h1{ font-size:60px; margin-top:0px; margin-bottom:15px; color:#000; font-family: 'Aller';}
+.part_exchange_des p{ font-size:16px; color:#33414e;}
+
+.reg_partex {
+	border-radius:3px;
+	padding: 20px 5px 20px 5px;
+	box-shadow: 1px 1px 9px 2px rgba(0,0,0,0.05);
+	transition: all 0.4s ease;
+	height:auto;
+}
+.reg_partex h3{
+	padding: 5px 5px 10px 10px;
+}
+.reg_partex:hover {
+	box-shadow: 1px 1px 9px 2px rgba(0,0,0,0.3);
+}
+
+.part_ex_reason img{
+	margin-left:-10px;
+}
+.part_ex_reason p{
+	font-size:10pt;
+}
+.part_ex_reason p span{
+	color:#BA0C2F;
+	font-family:'Aller-bold';
+}
+
+
+.glossary_content {
+	min-height:400px;
+	background: url(../images/hm-glossary.png);
+background-repeat: no-repeat;
+background-size: cover;
+}
+.glossary_subtitle{
+	padding-top:5%;
+}
+.glossary_nav {
+	width:80%;
+	margin:auto;
+}
+.glossary_nav h4 {
+	font-size:16pt;
+}
+.glossary_nav a {
+	font-family:'TrebuchetMS-Bold';
+	text-decoration: underline;
+	color:#000;
+	font-size:12pt
+}
+.glossary_terms {
+	padding-top:20px 0 20px 0;
+font-family: 'TrebuchetMS';
+}
+.glossary_items{
+	width:80%;
+	margin:auto;
+}
+.glossary_item {font-family: 'TrebuchetMS';font-size:12pt;padding-top:20px;padding-bottom:20px}
+.glossary_item h3 { font-family:'Aller'; font-size:20pt;}
