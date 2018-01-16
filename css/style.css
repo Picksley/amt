@@ -7287,3 +7287,89 @@ font-family: 'TrebuchetMS';
 }
 .glossary_item {font-family: 'TrebuchetMS';font-size:12pt;padding-top:20px;padding-bottom:20px}
 .glossary_item h3 { font-family:'Aller'; font-size:20pt;}
+
+
+.faq_content {
+	min-height:400px;
+	background: url(../images/hm-glossary.png);
+background-repeat: no-repeat;
+background-size: cover;
+}
+.faq_subtitle{
+	padding-top:5%;
+}
+.faq_block {
+	padding:20px;
+	width:auto;
+	background-color:#fff;
+	margin:20px 0 20px 0;
+	border-radius:3px;
+	box-shadow: 1px 1px 9px 2px rgba(0,0,0,0.05);
+	transition: all 0.4s ease;
+}
+.faq_block:hover{
+	box-shadow: 1px 1px 9px 2px rgba(0,0,0,0.3);
+}
+.faq_block span {
+	font-family:'Aller-bold';
+	text-align:center;
+	font-size:12pt;
+	color:#000;
+	padding-left:10px;
+}
+.faq_block:hover span, .faq_block:hover .hvr_arrow{
+	color:#BA0C2F;
+visibility:visible;
+}
+.faq_block .hvr_arrow {
+	margin-top: 50px;
+position: absolute;
+left: 27%;
+visibility: hidden;
+}
+.faq_answers {
+padding: 40px 0 40px 0;
+}
+.faq_answer_item:not(:first-of-type) {
+	padding-top:30px
+}
+.faq_answer_item {
+	padding-left:30px;
+	padding-right:30px;
+}
+.faq_answer_ct{
+	border:1px solid #000
+}
+.faq_answer_item h2 {
+	font-size:40pt;
+	color:#000;
+	font-family:'Aller-bold';
+}
+
+.faq_pills li{
+	list-style-type: none;
+	font-size:12pt;
+	padding-left:10px;
+	padding-top:15px;
+	padding-bottom:10px;
+	border-left: solid 1px #D3BC8D
+}
+.faq_pills li a {
+	color:#000;
+	font-family:'Aller-bold';
+}
+.faq_pills .active{
+	border-left: solid 5px #D3BC8D;
+	transition: all 0.4s ease;
+}
+.faq_pills li:hover:not(.active){
+border-left: solid 2px #D3BC8D;
+transition: all 0.1s ease;
+}
+.faq_pills>li.active>a, .faq_pills>li.active>a:hover, .faq_pills>li.active>a:focus {
+	color:#000;
+	background-color:rgba(0,0,0,0);
+}
+.nav-stacked>li+li{
+	margin-top:0px;
+}

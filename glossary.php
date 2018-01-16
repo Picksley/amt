@@ -64,6 +64,13 @@
 </div>
 </section>
 
+<div class="container">
+  <div class="more_questions">
+  <h2 class="black">Have more questions?</h2>
+  <p>Then give us a call to discuss, we're here to help!:</p>
+  <h6><img src="images/icons/phone.svg">0113 350 9776</h6>
+  </div>
+</div>
 
 <section class="customers-col">
 <div class="container">

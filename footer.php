@@ -430,6 +430,10 @@ $( ".team-member-block" ).hover(function() {
         }
       });
 
+      $('.faq_pill').on('click', function(e) {
+        $('li').toggleClass("active"); //you can list several class names 
+        e.preventDefault();
+      });
 
 </script>
 
@@ -445,7 +449,8 @@ $( ".team-member-block" ).hover(function() {
    wow.init();
    $(function() {
    	$('.benefit-item').matchHeight();
-       	$('.ofr_lease').matchHeight();
+    $('.ofr_lease').matchHeight();
+    $('.faq_col').matchHeight();
    });
    	</script>
 
