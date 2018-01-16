@@ -7406,3 +7406,167 @@ transition: all 0.1s ease;
 	padding-top:20px;
 	padding-bottom:10px;
 }
+
+.selected_vehicles{
+	margin-top:40px
+}
+
+.my_showroom_compare_box h2{
+	font-size:18pt;
+	font-family:'Aller';
+}
+.my_showroom_compare_box .dark_compare{
+	color:#fff;
+	background-color:#33414E
+}
+.my_showroom_compare_box .light_compare{
+	margin-top:20px;
+	background-color:#EDEEEE;
+	color:#000;
+	padding-top:20px;
+	padding-bottom:20px;
+}
+.selected_vehicles{
+	background-color:#fff
+}
+
+.showroom_vehicle {
+	background: #fff;
+    border-radius: 4px;
+    border-bottom: solid 4px #BA0C2F;
+    box-shadow: 1px 5px 15px 2px rgba(0,0,0,0.1);
+    transition: all 0.4s ease;
+}
+.unselected{
+	background: #fff;
+    border-radius: 4px;
+    border: solid 1px #EDEEEE;
+		box-shadow: none;
+		transition: none;
+}
+.unselected:hover{
+	box-shadow:none !important;
+}
+.unselected p {
+	color:#000;
+}
+.unselected:hover .hm_viewspo button {
+	box-shadow:none !important;
+}
+.unselected .showroom_vehicle_specs {
+    padding: 15px 15px 0 15px;
+}
+.showroom_vehicle figure {
+    position: relative;
+    text-align: center;
+    padding: 25px 5px 20px 5px;
+}
+.showroom_vehicle:hover {
+    transition: all 0.4s ease;
+    box-shadow: 2px 9px 18px 4px rgba(0,0,0,0.2);
+	}
+
+	.showroom_vehicle:hover .hm_viewspo button img{ opacity:0.6;left: -5px; }
+	.showroom_vehicle:hover {
+	    transition: all 0.4s ease;
+	    box-shadow: 2px 9px 18px 4px rgba(0,0,0,0.2);
+	}
+
+	.showroom_vehicle figure figcaption {
+	    position: absolute;
+	    top: 8px;
+	    left: 13px;
+	    background: #D6D9DC;
+	    border-radius: 3px;
+	    padding: 4px 12px;
+	    text-transform: uppercase;
+	    letter-spacing: 1.0px;
+	    font-family: 'Aller-Bold';
+	    font-size: 12px;
+	    color: #33414e;
+	}
+	.showroom_vehicle figure figcaption i {
+	    font-size: 18px;
+	}
+	.showroom_vehicle:hover .hm_viewspo button {
+	    background: #8F0823;
+	    color: rgba(255,255,255,0.6);
+}
+.showroom_vehicle_specs {
+    padding: 15px 26px 0 26px;
+}
+.showroom_vehicle_specs p{
+	color:#000;
+}
+.showroom_actions{
+	width:100%;
+	border:1px solid #000;
+	border-radius:5px;
+	margin-bottom:10px;
+}
+.showroom_actions button {
+	background-color:#fff;
+	color:#485460;
+	font-size:12px;
+	font-family:'Aller-bold';
+	width:50%;
+	padding:20px;
+	 transition: all 0.4s ease;
+}
+.showroom_actions button:first-of-type{
+	border-right: 1px solid #000;
+	border-bottom-right-radius: 0;
+	border-top-right-radius: 0;
+}
+.showroom_actions button:last-of-type{
+	border-bottom-left-radius: 0;
+	border-top-left-radius: 0;
+}
+.showroom_actions i {
+	padding-right:5px
+}
+
+.showroom_actions button:hover, .showroom_actions button:focus, .showroom_actions button:active {
+	background-color: #33414E;
+	color: #fff;
+
+}
+
+
+.unselected_vehicle{
+	width:100%;
+}
+
+.short_dark_table{
+	width:90%;
+	color:#fff;
+	padding:10px;
+	font-size:12pt;
+	text-align:center;
+	font-family:'Aller';
+	border: 1px solid #33414E;
+	margin: auto;
+	border-collapse: collapse;
+border-radius: 5px;
+overflow: hidden;
+}
+.short_dark_table table {
+	border-radius:10px;
+}
+.short_dark_table p {
+	margin-bottom:0px;
+}
+.short_dark_table span {
+	font-size:8pt;
+	margin-top:0;
+}
+.short_dark_table .drk {
+	background-color:#33414E
+}
+.short_dark_table .lgt{
+	background-color:#485460
+}
+.short_dark_table tr td {
+	padding:12px;
+	border:1px solid #33414E
+}
