@@ -9,6 +9,7 @@
 
             			<figure>
             			<img src="images/hm_spofr1.jpg">
+									<div class="hm_spofrtxt">Special offer</div>
             			</figure>
 
           			  <div class="spoffrsap"><img src="images/sp_ofrline.png"></div>
@@ -60,6 +61,7 @@
 
                 <figure>
                 <img src="images/hm_spofr1.jpg">
+<div class="hm_spofrtxt">Special offer</div>
                 </figure>
 
                 <div class="spoffrsap"><img src="images/sp_ofrline.png"></div>
@@ -111,6 +113,7 @@
 
               <figure>
               <img src="images/hm_spofr1.jpg">
+<div class="hm_spofrtxt">Special offer</div>
               </figure>
 
               <div class="spoffrsap"><img src="images/sp_ofrline.png"></div>
@@ -162,6 +165,7 @@
 
             <figure>
             <img src="images/hm_spofr1.jpg">
+<div class="hm_spofrtxt">Special offer</div>
             </figure>
 
             <div class="spoffrsap"><img src="images/sp_ofrline.png"></div>
@@ -213,6 +217,7 @@
 
           <figure>
           <img src="images/hm_spofr1.jpg">
+<div class="hm_spofrtxt">Special offer</div>
           </figure>
 
           <div class="spoffrsap"><img src="images/sp_ofrline.png"></div>
@@ -264,6 +269,7 @@
 
           <figure>
           <img src="images/hm_spofr1.jpg">
+<div class="hm_spofrtxt">Special offer</div>
           </figure>
 
           <div class="spoffrsap"><img src="images/sp_ofrline.png"></div>
@@ -315,6 +321,7 @@
 
           <figure>
           <img src="images/hm_spofr1.jpg">
+<div class="hm_spofrtxt">Special offer</div>
           </figure>
 
           <div class="spoffrsap"><img src="images/sp_ofrline.png"></div>
@@ -366,6 +373,7 @@
 
           <figure>
           <img src="images/hm_spofr1.jpg">
+<div class="hm_spofrtxt">Special offer</div>
           </figure>
 
           <div class="spoffrsap"><img src="images/sp_ofrline.png"></div>
@@ -417,6 +425,7 @@
 
           <figure>
           <img src="images/hm_spofr1.jpg">
+<div class="hm_spofrtxt">Special offer</div>
           </figure>
 
           <div class="spoffrsap"><img src="images/sp_ofrline.png"></div>
@@ -468,6 +477,7 @@
 
           <figure>
           <img src="images/hm_spofr1.jpg">
+<div class="hm_spofrtxt">Special offer</div>
           </figure>
 
           <div class="spoffrsap"><img src="images/sp_ofrline.png"></div>
@@ -519,6 +529,7 @@
 
           <figure>
           <img src="images/hm_spofr1.jpg">
+<div class="hm_spofrtxt">Special offer</div>
           </figure>
 
           <div class="spoffrsap"><img src="images/sp_ofrline.png"></div>
@@ -570,6 +581,7 @@
 
           <figure>
           <img src="images/hm_spofr1.jpg">
+<div class="hm_spofrtxt">Special offer</div>
           </figure>
 
           <div class="spoffrsap"><img src="images/sp_ofrline.png"></div>

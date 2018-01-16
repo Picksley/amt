@@ -430,10 +430,6 @@ $( ".team-member-block" ).hover(function() {
         }
       });
 
-      $('.faq_pill').on('click', function(e) {
-        $('li').toggleClass("active"); //you can list several class names 
-        e.preventDefault();
-      });
 
 </script>
 

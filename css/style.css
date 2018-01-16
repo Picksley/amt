@@ -6697,7 +6697,7 @@ color:#000000;
 }
 
 .form-inline .modal-select {
-    width: 240px;
+    width: 270px;
     height: 54px;
 }
 .add-on .input-group-btn > .btn {
@@ -7372,4 +7372,37 @@ transition: all 0.1s ease;
 }
 .nav-stacked>li+li{
 	margin-top:0px;
+}
+.fuel_cost_table{
+	width:100%;
+	color:#fff;
+	padding:50px;
+	font-size:25pt;
+	text-align:center;
+	font-family:'Aller';
+	border: 1px solid #33414E
+}
+.fuel_cost_table .drk {
+	background-color:#33414E
+}
+.fuel_cost_table .lgt{
+	background-color:#485460
+}
+.fuel_cost_table tr td {
+	padding:12px;
+	border:1px solid #33414E
+}
+
+.search_brand_fuel_cost .hm_carbrands {
+    margin: 0 0 20px 0;
+}
+.search_brand_fuel_cost {
+    padding: 170px 0 95px 0;
+}
+
+.clo_result .fuel-cost-text {
+	font-size:12pt;
+	line-height:1.5;
+	padding-top:20px;
+	padding-bottom:10px;
 }
