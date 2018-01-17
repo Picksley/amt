@@ -22,6 +22,7 @@
 <link href="src/slick/slick-theme.css" rel="stylesheet" type="text/css">
 <link rel="stylesheet" href="src/utilcarousel-files/utilcarousel/util.carousel.css" type="text/css"/>
 <link rel="stylesheet" href="src/utilcarousel-files/utilcarousel/util.carousel.skins.css" type="text/css"/>
+<link rel="stylesheet" href="css/responsiveTabs.css" type="text/css">
 
 <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
