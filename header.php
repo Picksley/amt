@@ -119,7 +119,7 @@
           <!-- Collect the nav links, forms, and other content for toggling -->
           <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav">
-              <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Leasing Guide <span class="fa fa-angle-down"></span></a>
+              <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Leasing <span class="fa fa-angle-down"></span></a>
                 <ul class="dropdown-menu ldrop">
                   <li><a href="<?= $domain ?>/personal-leasing.php">Personal Car leasing</a></li>
                   <li><a href="<?= $domain ?>/business-leasing.php">Business Car Leasing</a></li>
@@ -133,7 +133,7 @@
               </li>
               <li><a href="#">Special Offers</a></li>
               <li><a href="<?= $domain; ?>/services.php">Services</a></li>
-              <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Leasing <span class="fa fa-angle-down"></span></a>
+              <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Leasing Guide <span class="fa fa-angle-down"></span></a>
                 <ul class="dropdown-menu">
                   <li><a href="#">wear and tear</a></li>
                   <li><a href="#">deprecation</a></li>

@@ -14,7 +14,6 @@
 		</div>
 	</div>
 </section>
-</header> <?php /* ENSURE THIS </HEADER> LINE IS PRESENT ON EVERY PAGE. DO NOT PLACE IN HEADER FILE. */ ?>
 
 <div class="home-searchcol">
 	<div class="home_search bcar_leasing_search">
@@ -28,68 +27,72 @@
 				  <div class="tab-content">
 				    <div role="tabpanel" class="tab-pane active" id="home">
 					<div class="hm_search_form">
-					<form class="form-inline">
-					  <div class="form-group">
-					    <select class="form-control modal-select">
-							  <option>Audi</option>
-							  <option>2</option>
-							  <option>3</option>
-							  <option>4</option>
-							  <option>5</option>
-							</select>
-					  </div>
-				  <div class="form-group">
-				 		<select class="form-control modal-select">
-						  <option value="">Model</option>
-						  <option>1</option>
-						  <option>2</option>
-						  <option>3</option>
-						  <option>4</option>
-						  <option>5</option>
-						</select>
-				  </div>
+						<form class="form-inline">
+								<div class="form-group">
 
-				   <div class="form-group min-bud">
-					 <select class="form-control">
-						 	<option value="">Min. Budget</option>
-						  <option>1</option>
-						  <option>2</option>
-						  <option>3</option>
-						  <option>4</option>
-						  <option>5</option>
-						</select>
-				  </div>
+										<select class="form-control modal-select home_search_panel">
+												<option>Audi</option>
+												<option>2</option>
+												<option>3</option>
+												<option>4</option>
+												<option>5</option>
+										</select>
+								</div>
+								<div class="form-group">
+										<select class="form-control modal-select home_search_panel">
+												<option value="">Model</option>
+												<option>1</option>
+												<option>2</option>
+												<option>3</option>
+												<option>4</option>
+												<option>5</option>
+										</select>
+								</div>
 
-				  <div class="form-group min-bud">
-					 <select class="form-control">
-						  <option value="">Max. Budget</option>
-						  <option>2</option>
-						  <option>3</option>
-						  <option>4</option>
-						  <option>5</option>
-						</select>
-				  </div>
+								<div class="form-group min-bud">
 
-				  <button type="submit" class="btn btn-search_result"><i><img src="images/search.png"></i>Search XX,XXX Results</button>
+										<select class="form-control home_search_panel">
 
-					<div class="search-bottom">
-						<div class="row">
-							<div class="mob-vew-adv_search">
-						  	<p>Looking for something more specific?</p>
-						  	<a href="#">View advanced search options</a>
-						  </div>
+												<option value="">Min. Budget</option>
+												<option>1</option>
+												<option>2</option>
+												<option>3</option>
+												<option>4</option>
+												<option>5</option>
+										</select>
+								</div>
 
-							<div class="col-md-3 col-sm-3">
-								<a class="btn btn-reset" href="#" role="button"><i class="fa fa-refresh" aria-hidden="true"></i> Reset Form</a>
-							</div>
+								<div class="form-group min-bud">
+										<select class="form-control home_search_panel">
+												<option value="">Max. Budget</option>
+												<option>2</option>
+												<option>3</option>
+												<option>4</option>
+												<option>5</option>
+										</select>
+								</div>
 
-							<div class="col-md-9 col-sm-9 help-car">
-								<p>Looking for something more specific? <a href="#">Help me find a car</a></p>
-							</div>
+								<button type="submit" class="btn btn-search_result"><i><img src="images/search.png"></i>Search XX,XXX Results</button>
 
-						</div>
-					</div>
-				</form>
+								<div class="search-bottom">
+										<div class="row">
+												<div class="mob-vew-adv_search">
+														<p>Looking for something more specific?</p>
+														<a href="#">View advanced search options</a>
+												</div>
+												<div class="col-md-3 col-sm-3">
+														<a class="btn btn-reset" href="#" role="button"><i class="fa fa-refresh" aria-hidden="true"></i>
+Reset Form</a>
+												</div>
+
+												<div class="col-md-9 col-sm-9 help-car">
+														<p>Looking for something more specific? <strong><a href="#">Help me find a car</a></strong></p>
+												</div>
+
+										</div>
+								</div>
+
+						</form>
 				</div>
 			</div>
 		</div>
@@ -526,7 +529,20 @@ operational benefits from contract hire. They include:
 </section>
 
 
-<?php include('recently_viewed_vehicles.php'); ?>
+<section class="hm_brandsbg vr_slider">
+		<div class="container">
+				<div class="col-md-12">
+						<div class="title2">
+								<h1>Your recently viewed vehicles <button class="btn btn-clear" type="submit"><i class="fa fa-times" aria-hidden="true"></i>
+Clear All</button></h1>
+						</div>
+
+				</div>
+		</div>
+
+		<?php include('recently_viewed_vehicles.php'); ?>
+
+</section>
 
 
 

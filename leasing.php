@@ -7,6 +7,7 @@
     </div>
   </div>
 </div>
+</header>
 <section class="hm_carvanofrlease">
     <div class="container">
         <div class="row">
@@ -21,17 +22,21 @@
             <div class="col-lg-4 col-md-4 col-sm-4">
                 <div class="hm_cvofferleaseinfo">
                     <figure class="ofr_lease"><img class="img-responsive" src="images/hm_carofr2.png"></figure>
+                   <div class="seperator_css">
                     <h2>Business Leasing</h2>
                     <p>Business contract hire (business leasing) is a cost-effective, low risk means of acquiring a brand-new vehicle or fleet of vehicles for your business. The upfront costs of purchasing vehicles outright can remove investable capital from your business and add a depreciating asset to your balance sheet, whereas business leasing provides you with a lower risk alternative with all the benefits and more of ownership.</p>
                      <button type="submit" class="hm_redbtns">More about business leasing <img src="images/hmright_arrow.png"> </button>
+                      </div>
                 </div>
             </div><!--col-lg-6-->
             <div class="col-lg-4 col-md-4 col-sm-4">
                 <div class="hm_cvofferleaseinfo">
                     <figure class="ofr_lease"><img class="img-responsive" src="images/hm_vanofr.png"></figure>
+
                     <h2>Van Leasing</h2>
                     <p>We don't simply lease cars, we lease vans too and have access to all manufacturers and models. If you're looking for your next van then use our website search facility or give us a call to discuss your needs.</p>
                      <button type="submit" class="hm_redbtns">More about van leasing <img src="images/hmright_arrow.png"> </button>
+
                 </div>
             </div><!--col-lg-6-->
         </div><!--row-->

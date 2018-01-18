@@ -3,10 +3,10 @@
 
 					<div>
   					<div class="customer-main">
-  					<div class="col-md-5 col-sm-5 col-xs-5">
+  					<div class="col-md-5 col-lg-5 col-sm-5 col-xs-6">
   					<img src="images/girl-testimonials.png" class="img-responsive">
   					</div>
-  					<div class="col-md-7 col-sm-7 col-xs-7">
+  					<div class="col-md-7 col-lg-7 col-sm-7 col-xs-12">
   					<div class="customer-des">
   					<h6><i class="fa fa-clock-o" aria-hidden="true"></i>12 May 2017</h6>
   					<p>Just wanted to say big thank you for the great service I have received from your company when buying my car! </p>
@@ -21,10 +21,10 @@
 
 					<div>
 					<div class="customer-main">
-					<div class="col-md-5 col-sm-5 col-xs-5">
+					<div class="col-md-5 col-lg-5 col-sm-5 col-xs-6 ">
 					<img src="images/girl-testimonials.png" class="img-responsive">
 					</div>
-					<div class="col-md-7 col-sm-7 col-xs-7">
+					<div class="col-md-7 col-lg-7 col-sm-7 col-xs-12">
 					<div class="customer-des">
 					<h6><i class="fa fa-clock-o" aria-hidden="true"></i>12 May 2017</h6>
 					<p>Just wanted to say big thank you for the great service I have received from your company when buying my car! </p>
@@ -39,10 +39,10 @@
 
 					<div>
   					<div class="customer-main">
-  					<div class="col-md-5 col-sm-5 col-xs-5">
+  					<div class="col-md-5 col-lg-5 col-sm-5 col-xs-6">
   					<img src="images/girl-testimonials.png" class="img-responsive">
   					</div>
-  					<div class="col-md-7 col-sm-7 col-xs-7">
+  					<div class="col-md-7 col-lg-7 col-sm-7 col-xs-12">
   					<div class="customer-des">
   					<h6><i class="fa fa-clock-o" aria-hidden="true"></i>12 May 2017</h6>
   					<p>Just wanted to say big thank you for the great service I have received from your company when buying my car! </p>
@@ -57,10 +57,10 @@
 
 					<div>
   					<div class="customer-main">
-  					<div class="col-md-5 col-sm-5 col-xs-5">
+  					<div class="col-md-5 col-lg-5 col-sm-5 col-xs-6">
   					<img src="images/girl-testimonials.png" class="img-responsive">
   					</div>
-  					<div class="col-md-7 col-sm-7 col-xs-7">
+  					<div class="col-md-7 col-lg-7 col-sm-7 col-xs-12">
   					<div class="customer-des">
   					<h6><i class="fa fa-clock-o" aria-hidden="true"></i>12 May 2017</h6>
   					<p>Just wanted to say big thank you for the great service I have received from your company when buying my car! </p>

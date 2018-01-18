@@ -241,8 +241,10 @@ header {
 	font-weight: normal;
 }
 .page-title-dark p {
-	color: #000;
 	font-size: 16px;
+	color: #33414e;
+	width:62%;
+	margin:auto;
 }
 .page-title h1 {
 	font-size: 60px;
@@ -1957,10 +1959,10 @@ padding-bottom: 0px;
 	font-family: 'Aller-Bold';
 	padding: 12px 23px;
 	text-transform: uppercase;
-	transition: 0.5;
-	-moz-transition: 0.5;
-	-ms-transition: 0.5;
-	-webkit-transition: 0.5;
+	transition: 0.5s;
+	-moz-transition: 0.5s;
+	-ms-transition: 0.5s;
+	-webkit-transition: 0.5s;
 }
 .btn-readfaq .fa {
 	margin-left: 5px;
@@ -2024,7 +2026,9 @@ padding-bottom: 0px;
   font-size: 16px;
   line-height: 26px;
 }
-
+.mt-4p{
+	margin-top:4% !important;
+}
 /*********/
 
 .hm_leasingamt {
@@ -2118,11 +2122,11 @@ button.hm_redbtns:hover img {
 }
 
 .hm_carvanofr .col-lg-6:first-child figure {
-	padding: 118px 0 0 0;
+	padding: 207px 0 0 0;
 }
 
 .hm_carvanofr .col-lg-6:last-child figure {
-	padding: 55px 0 0 0;
+	padding: 120px 0 0 0;
 }
 
 .hm_carvanofr .col-lg-6:first-child .hm_cvofferinfo::after {
@@ -2223,7 +2227,7 @@ button.hm_redbtns:hover img {
   font-size: 30px;
   margin: 0 0 15px 0;
   line-height: 30px;
-  font-family: 'Aller';
+  font-family: 'Aller-Bold';
   color: #000;
 }
 .apofr_price h4 small {
@@ -4919,7 +4923,7 @@ left: -5px;}
     border-bottom: 1px solid #e4e5e6;
     border-right: 1px solid #e4e5e6;
     padding: 30px;
-    min-height: 355px;
+    min-height: 373px;
 }
 .benefits-num{ display:block; color:#ba0c2f; font-size:16px; font-family: 'Aller-Bold'; margin-bottom:10px; }
 .benefits-list h2 {
@@ -5828,13 +5832,7 @@ color: rgba(255,255,255,0.6);
 	font-family:'Aller-bold';
 
 }
-@media screen and (max-width: 992px) {
 
-	.van-leasing-benefits{
-		padding:20px;
-	}
-
-}
 .contact_col {
     width: 100%;
     float: left;
@@ -6203,6 +6201,7 @@ text-align:center;
 
 .special-offers-include{
  color:#000;
+
 }
 .special-offers-include h2{
 	font-family:'Aller-bold';
@@ -6546,7 +6545,7 @@ button.hm_redbtns:hover {
     color: rgba(255,255,255,0.6);
 }
 button.hm_redbtns {
-    color: #33414e;
+    color: #fff;
     border: none;
     border-radius: 4px;
     padding: 16px 25px;
@@ -6927,10 +6926,10 @@ font-size: 16px;
     padding: 25px 5px 20px 5px;
 }
 .prd_oursodtl figure img {
-    width: 100%;
+    max-width: 100%;
 }
 .vehicles-slider .spoffrsap img {
-    width: 100%;
+    max-width: 100%;
 }
 
 
@@ -7702,4 +7701,43 @@ line-height: 18px;
 
 .input:focus {
     outline:none;
+}
+a:focus{
+	outline:none;
+}
+
+.seperator_css {margin:30px}
+.seperator_css::before{
+	width:1px; height:100%; position:absolute; content:''; bottom:0; left:0; background-image:url(../images/hm_blog_hr.png); background-repeat:no-repeat; background-position:bottom left;
+}
+.seperator_css::after{
+	width:1px; height:100%; position:absolute; content:''; bottom:0; right:0; background-image:url(../images/hm_blog_hr.png); background-repeat:no-repeat; background-position:bottom right;
+}
+@media screen and (max-width: 992px) {
+.hm_cvofferleaseinfo h2{
+	text-align:center;
+}
+
+.page-title-dark p, .special-offers-include p, .hm_redbtns, .hm_cvofferleaseinfo p{
+	width:100%
+}
+
+	.seperator_css, .seperator_css::before, .seperator_css::after{
+		background-image:none;
+		margin:0px;
+	}
+
+	.special-offers-include{
+		float:left;
+		width:100%;
+	}
+
+	.vehicles-slider .item_spofrname h4{
+		font-size:21px;
+	}
+
+	.van-leasing-benefits{
+		padding:20px;
+	}
+
 }

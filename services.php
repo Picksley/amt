@@ -54,7 +54,7 @@
   <div class="row">
 
     <div class="col-md-6 col-sm-6 col-xs-12 pull-right">
-      <img src="images/no_cred_no_prob.png" class="img-responsive" alt="No credit, no problem at AMT">
+      <img src="images/trackstar.png" class="img-responsive" alt="Trackstar tracking with AMT">
     </div>
 
 

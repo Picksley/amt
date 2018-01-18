@@ -17,7 +17,6 @@
     </div>
 
     </header>
-
     <div class="home-searchcol">
         <div class="home_search">
             <div class="container">
@@ -38,6 +37,7 @@
                                     <div class="hm_search_form">
                                         <form class="form-inline">
                                             <div class="form-group">
+
                                                 <select class="form-control modal-select home_search_panel">
                                                     <option>Audi</option>
                                                     <option>2</option>
@@ -60,6 +60,7 @@
                                             <div class="form-group min-bud">
 
                                                 <select class="form-control home_search_panel">
+
                                                     <option value="">Min. Budget</option>
                                                     <option>1</option>
                                                     <option>2</option>
@@ -106,72 +107,72 @@ Reset Form</a>
 
                                 <div role="tabpanel" class="tab-pane" id="profile">
 
-                                    <form class="form-inline">
-                                        <div class="form-group">
-                                            <select class="form-control modal-select">
-                                                <option>Audi</option>
-                                                <option>2</option>
-                                                <option>3</option>
-                                                <option>4</option>
-                                                <option>5</option>
-                                            </select>
-                                        </div>
-                                        <div class="form-group">
-                                            <select class="form-control modal-select">
-                                                <option value="">Model</option>
-                                                <option>1</option>
-                                                <option>2</option>
-                                                <option>3</option>
-                                                <option>4</option>
-                                                <option>5</option>
-                                            </select>
-                                        </div>
+                                  <form class="form-inline">
+                                      <div class="form-group">
 
-                                        <div class="form-group min-bud">
-                                            <select class="form-control">
-                                                <option value="">Min. Budget</option>
-                                                <option>1</option>
-                                                <option>2</option>
-                                                <option>3</option>
-                                                <option>4</option>
-                                                <option>5</option>
-                                            </select>
-                                        </div>
+                                          <select class="form-control modal-select home_search_panel">
+                                              <option>Audi</option>
+                                              <option>2</option>
+                                              <option>3</option>
+                                              <option>4</option>
+                                              <option>5</option>
+                                          </select>
+                                      </div>
+                                      <div class="form-group">
+                                          <select class="form-control modal-select home_search_panel">
+                                              <option value="">Model</option>
+                                              <option>1</option>
+                                              <option>2</option>
+                                              <option>3</option>
+                                              <option>4</option>
+                                              <option>5</option>
+                                          </select>
+                                      </div>
 
-                                        <div class="form-group min-bud">
-                                            <select class="form-control">
-                                                <option value="">Max. Budget</option>
-                                                <option>2</option>
-                                                <option>3</option>
-                                                <option>4</option>
-                                                <option>5</option>
-                                            </select>
-                                        </div>
+                                      <div class="form-group min-bud">
 
-                                        <button type="submit" class="btn btn-search_result"><i><img src="images/search.png"></i>Search XX,XXX Results</button>
+                                          <select class="form-control home_search_panel">
 
-                                        <div class="col-lg-12 col-sm-12 col-md-12 col-xs-12 search-bottom">
-                                            <div class="row">
-                                                <div class="mob-vew-adv_search">
-                                                    <p>Looking for something more specific?</p>
-                                                    <a href="#">View advanced search options</a>
-                                                </div>
-                                                <div class="col-md-3 col-sm-3">
-                                                  <div class="row">
-                                                    <a class="btn btn-reset" href="#" role="button"><i class="fa fa-refresh" aria-hidden="true"></i>
-    Reset Form</a>                                    </div>
-                                                </div>
+                                              <option value="">Min. Budget</option>
+                                              <option>1</option>
+                                              <option>2</option>
+                                              <option>3</option>
+                                              <option>4</option>
+                                              <option>5</option>
+                                          </select>
+                                      </div>
 
-                                                <div class="col-md-9 col-sm-9 help-car">
-                                                  <div class="row">
-                                                    <p>Looking for something more specific? <a href="<?= $domain ?>/advanced-search.php">Help me find a car</a></p>
-                                                </div>
+                                      <div class="form-group min-bud">
+                                          <select class="form-control home_search_panel">
+                                              <option value="">Max. Budget</option>
+                                              <option>2</option>
+                                              <option>3</option>
+                                              <option>4</option>
+                                              <option>5</option>
+                                          </select>
+                                      </div>
+
+                                      <button type="submit" class="btn btn-search_result"><i><img src="images/search.png"></i>Search XX,XXX Results</button>
+
+                                      <div class="search-bottom">
+                                          <div class="row">
+                                              <div class="mob-vew-adv_search">
+                                                  <p>Looking for something more specific?</p>
+                                                  <a href="#">View advanced search options</a>
+                                              </div>
+                                              <div class="col-md-3 col-sm-3">
+                                                  <a class="btn btn-reset" href="#" role="button"><i class="fa fa-refresh" aria-hidden="true"></i>
+Reset Form</a>
                                               </div>
 
-                                            </div>
-                                        </div>
+                                              <div class="col-md-9 col-sm-9 help-car">
+                                                  <p>Looking for something more specific? <strong><a href="#">Help me find a car</a></strong></p>
+                                              </div>
 
-                                    </form>
+                                          </div>
+                                      </div>
+
+                                  </form>
 
                                 </div>
 
@@ -195,7 +196,7 @@ Reset Form</a>
                 <div class="col-lg-3 col-md-3 col-sm-3">
                     <div class="hm_supotinfo">
                         <figure><img src="images/icons/dedicated-support.svg"></figure>
-                        <h4>Dedicated support</h4>
+                        <h4><strong>Dedicated support</strong></h4>
                         <p>You’ll get a dedicated and experienced account manager to support you throughout the process and beyond.</p>
                     </div>
                 </div>
@@ -203,7 +204,7 @@ Reset Form</a>
                 <div class="col-lg-3 col-md-3 col-sm-3">
                     <div class="hm_supotinfo">
                         <figure><img src="images/icons/flexible-term.svg"></figure>
-                        <h4>Flexible terms</h4>
+                        <h4><strong>Flexible terms</strong></h4>
                         <p>Everything is tailored to you; contract length, payments, terms, finance type, specification and delivery.</p>
                     </div>
                 </div>
@@ -211,7 +212,7 @@ Reset Form</a>
                 <div class="col-lg-3 col-md-3 col-sm-3">
                     <div class="hm_supotinfo">
                         <figure><img src="images/icons/part-exchange.svg"></figure>
-                        <h4>Part exchange</h4>
+                        <h4><strong>Part exchange</strong></h4>
                         <p>Save yourself time and hassle – if you have a vehicle to sell, we can buy it from you in part exchange.</p>
                     </div>
                 </div>
@@ -219,7 +220,7 @@ Reset Form</a>
                 <div class="col-lg-3 col-md-3 col-sm-3">
                     <div class="hm_supotinfo">
                         <figure><img src="images/icons/great-value.svg"></figure>
-                        <h4>Great value</h4>
+                        <h4><strong>Great value</strong></h4>
                         <p>We will search the market for the best deal possible. If you need to act quickly, we have some great value vehicles in stock.</p>
                     </div>
                 </div>
@@ -248,8 +249,8 @@ Reset Form</a>
             <div class="row">
                 <div class="col-lg-6 col-md-6 col-sm-6">
                     <div class="hm_cvofferinfo">
-                        <figure><img src="images/hm_carofr.png"></figure>
-                        <h2>Cars</h2>
+                        <figure><img src="images/hm_carofr.png" class="img-responsive center-block"/></figure>
+                        <h2 class="mt-4p">Cars</h2>
                         <h4>Special Offers</h4>
                         <p>Take a look at our current car leasing special offers. Many of these cars are in stock and can be delivered within two weeks. Hurry, these offers won’t be around for long.</p>
                         <button type="submit" class="hm_redbtns">View Car offers <img src="images/hmright_arrow.png"> </button>
@@ -749,7 +750,7 @@ Reset Form</a>
                 <a href="leasing.php">
                     <button type="submit" class="hm_redbtns">Learn about how leasing works <img src="images/hmright_arrow.png"> </button>
                 </a>
-                <p>Or visit our <a href="#">FAQ section</a></p>
+                <p>Or visit our <a class="" href="#">FAQ section</a></p>
             </div>
         </div>
         <!--container-->
@@ -1159,10 +1160,10 @@ Reset Form</a>
             </div>
             <div class="faq-main">
                 <div class="col-md-8 col-md-offset-2">
-                    <div class="tc-accordion tc-accordion-style1" id="accordion1">
+                    <div class="tc-accordion tc-accordion-style1" id="accordion5">
                         <div class="panel">
                             <h4 class="acdn-title">
-		                                <a data-toggle="collapse" data-parent="#accordion1" href="#collapse4" class="collapsed">What is leasing?</a>
+		                                <a data-toggle="collapse"  onclick="return false;" data-parent="#accordion5" href="#collapse4" class="collapsed">What is leasing?</a>
 		                            </h4>
                             <div id="collapse4" class="panel-collapse collapse in">
                                 <div class="acdn-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut.</div>
@@ -1170,7 +1171,7 @@ Reset Form</a>
                         </div>
                         <div class="panel">
                             <h4 class="acdn-title">
-		                                <a data-toggle="collapse" data-parent="#accordion1" href="#collapse5">Why would you lease instead of buying a car or van?</a>
+		                                <a data-toggle="collapse" onclick="return false;" data-parent="#accordion5" href="#collapse5">Why would you lease instead of buying a car or van?</a>
 		                            </h4>
                             <div id="collapse5" class="panel-collapse collapse">
                                 <div class="acdn-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut.</div>
@@ -1178,7 +1179,7 @@ Reset Form</a>
                         </div>
                         <div class="panel">
                             <h4 class="acdn-title">
-		                                <a data-toggle="collapse" data-parent="#accordion1" href="#collapse6">Why should I lease from AMT Leasing?</a>
+		                                <a data-toggle="collapse" onclick="return false;" data-parent="#accordion5" href="#collapse6">Why should I lease from AMT Leasing?</a>
 		                            </h4>
                             <div id="collapse6" class="panel-collapse collapse">
                                 <div class="acdn-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut.</div>
@@ -1187,7 +1188,7 @@ Reset Form</a>
 
                         <div class="panel">
                             <h4 class="acdn-title">
-		                                <a data-toggle="collapse" onclick="return false;" data-parent="#accordion1" href="#collapse7">How long is the contract hire or lease period?</a>
+		                                <a data-toggle="collapse" onclick="return false;" data-parent="#accordion5" href="#collapse7">How long is the contract hire or lease period?</a>
 		                            </h4>
                             <div id="collapse7" class="panel-collapse collapse">
                                 <div class="acdn-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut.</div>

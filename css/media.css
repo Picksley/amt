@@ -4418,7 +4418,7 @@ border-left:1px solid #a7a9ac !importtant;
     z-index: 2;
     float: left;
     width: 100%;
-    margin-bottom: 0;
+    margin-bottom: 5px;
 }
 .about_ever {
     width: 100%;

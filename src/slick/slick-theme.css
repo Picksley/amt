@@ -122,7 +122,7 @@
 
 .slick-dots
 {
-  
+
     bottom: -25px;
 
     display: block;
@@ -205,6 +205,17 @@
 }
 
 .slick-slider-testimonials .slick-slide{
+  outline:none !important;
+  opacity:0.6;
+  margin:20px;
+}
+.slick-slider-testimonials .slick-current{
+  opacity:1;
+  margin:20px;
+  box-shadow:0 0 9px 0 #d6c9c9;
+}
+.slick-slider-testimonials .slick-slide{
+  outline:none !important;
   opacity:0.6;
   margin:20px;
 }
