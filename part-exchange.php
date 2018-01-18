@@ -21,7 +21,7 @@
 	<div class="row">
 
 		<div class="col-md-7 col-sm-7 col-xs-12 ct-border-right">
-			<h2> Part Exchange </h2>
+			<h2> <strong> Part Exchange </strong> </h2>
 			<form action="" type="">
 
 				<div class="col-md-12 reg_partex">
@@ -97,7 +97,7 @@
                                             <p>Our fuel cost calculator helps you to estimate a vehicles’ average fuel costs so you can take accurate running costs into account when considering a car or van lease.
     </p>
 
-    <button type="submit" class="hm_redbtns">Find out more about amt <img src="images/hmright_arrow.png"> </button></div>
+    <button type="submit" class="hm_redbtns">Calculate Fuel Now<img src="images/hmright_arrow.png"> </button></div>
                                     </div>
                             </div><!--col-lg-4-->
 
@@ -105,17 +105,14 @@
                                     <div class="hm_takealookdtl col-eq">
                                             <figure>
                                                     <img src="images/bik_mg.jpg">
-                                                    <div class="tklokimg2 tklokimg"><img src="images/tklookimg_ovr2.png"></div>
+                                                    <div class="tklokimg3 tklokimg"><img src="images/tklookimg_ovr3.png"></div>
                                             </figure>
                                             <div class="hm_takealookcontt">
-                                            <h3>Part exchange</h3>
-                                            <p>Our fuel cost calculator helps you to estimate a vehicles’ average fuel costs so you can take accurate running costs into account when considering a car or van lease.
+                                            <h3>BIK tax calculator </h3>
+                                            <p>If you want ot estimate the benefit in kind tax you could pay for a vehicle, then use our calculator and make an informed choice. Still in doubt? Then give us a call.
     </p>
 
-   <form class="example" action="/action_page.php">
-  <input type="text" placeholder="Your r3g" name="search2">
-  <button type="submit">get valuation</button>
-</form></div>
+     <button type="submit" class="hm_redbtns">Calculate Tax now <img src="images/hmright_arrow.png"> </button></div></div>
                                     </div>
                             </div><!--col-lg-4-->
 
@@ -131,40 +128,6 @@
 
 
 
-
-<section class="keep_mail">
-  <div class="container">
-    <div class="row">
-      <div class="news_letter">
-        <article>
-          <h2>Sign up to our newsletter</h2>
-          <p>Keep up to date with our latest special offers and industry news</p>
-        </article>
-      </div>
-    </div>
-    <div class="row">
-      <div class="home-newsletter">
-        <div class="input-group">
-          <input type="email" class="form-control" placeholder="Name">
-          <input type="email" class="form-control" placeholder="Email">
-          <span class="input-group-btn hidden-xs">
-          <button class="btn btn-theme" type="submit">Subscribe <i class="fa fa-long-arrow-right" aria-hidden="true"></i></button>
-          </span> </div>
-        <div class="hidden-sm hidden-lg hidden-md text-center">
-          <button type="button" class=" button_in">SUBSCRIBE <i class="fa fa-long-arrow-right" aria-hidden="true"></i></button>
-        </div>
-      </div>
-      <div class="col-lg-12">
-        <div class="newsletr_txt">
-          <div class="checkbox">
-            <input id="checkbox1" type="checkbox">
-            <label for="checkbox1"> Marketing Communications Agreement<br />
-              <span>By entering your details above you are consenting to receive emails and SMS containing offers and informational updates from AMT Contract Hire and Leasing. To opt-out from any marketing communications, please tick this box. Your details will not be shared with any third parties. For more information please read our<a href="#"> Privacy Policy </a>for further details.</span> </label>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
+<?php include('newsletter.php'); ?>
 
 <?php include('footer.php'); ?>

@@ -7117,23 +7117,7 @@ button.srch_btan {
 
 }
 
-@media(min-width: 992px) and (max-width: 1240px) {
-.hm_search_form {
-    width: auto;
-    float: right;
-}
 
-.hm_blog {
-    width: 234px;
-    float: left;
-    border-bottom: 1px solid #e4e5e6;
-    margin: 0px 0;
-}
-.blog_black {
-    text-align: center;
-}
-
-}
 
 .maintenance_content {
 	background-color:#F6F6F6;
@@ -7243,6 +7227,7 @@ margin: 13px 0 13px 0;
 .part_exchange_des p{ font-size:16px; color:#33414e;}
 
 .reg_partex {
+	float:left;
 	border-radius:3px;
 	padding: 20px 5px 20px 5px;
 	box-shadow: 1px 1px 9px 2px rgba(0,0,0,0.05);
@@ -7250,7 +7235,7 @@ margin: 13px 0 13px 0;
 	height:auto;
 }
 .reg_partex h3{
-	padding: 5px 5px 10px 10px;
+	padding: 5px 10px 10px 20px;
 }
 .reg_partex:hover {
 	box-shadow: 1px 1px 9px 2px rgba(0,0,0,0.3);
@@ -7713,12 +7698,78 @@ a:focus{
 .seperator_css::after{
 	width:1px; height:100%; position:absolute; content:''; bottom:0; right:0; background-image:url(../images/hm_blog_hr.png); background-repeat:no-repeat; background-position:bottom right;
 }
+.newsletr_txt .checkbox label, .radio label {
+	min-height: 20px;
+	padding-left: 4px;
+	margin-bottom: 0;
+	font-weight: 600;
+	cursor: pointer;
+	font-size: 16px;
+	color: #33414e;
+	font-weight: 400;
+}
+.checkbox, .form-inline .radio label {
+	padding-left: 20px;
+}
+.checkbox label {
+	display: inline-block;
+	position: relative;
+	padding-left: 5px;
+}
+.checkbox label::before {
+	content: "";
+	display: inline-block;
+	position: absolute;
+	width: 17px;
+	height: 17px;
+	left: 0;
+	margin-left: -20px;
+	border: 1px solid #cccccc;
+	border-radius: 3px;
+	background-color: #fff;
+	-webkit-transition: border 0.15s ease-in-out, color 0.15s ease-in-out;
+	-o-transition: border 0.15s ease-in-out, color 0.15s ease-in-out;
+	transition: border 0.15s ease-in-out, color 0.15s ease-in-out;
+}
 @media screen and (max-width: 992px) {
-.hm_cvofferleaseinfo h2{
+
+	.wat .wat_content {padding:0px;}
+	.wat_content li, .wat_content p, .wat_content h3 {
+		padding:25px;
+	}
+
+	.botm_takealook {
+	    padding: 10px 0 0px 0;
+
+	}
+
+.ct-more-info {
+	padding-left:15px
+}
+
+	.checkbox {
+	    padding-left: 15px;
+	}
+.btn-ct{
+	width:100%
+}
+
+.part_exchange_col{
+	padding: 30px 0px 30px 0px;
+}
+
+.page-title-dark {
+	margin-top:30px;
+	margin-bottom:0px
+}
+.page-title-dark h1, .part_exchange_des h1{
+	font-size:42px;
+}
+.hm_cvofferleaseinfo h2, .services_info_extra h2{
 	text-align:center;
 }
 
-.page-title-dark p, .special-offers-include p, .hm_redbtns, .hm_cvofferleaseinfo p{
+.page-title-dark p, .special-offers-include p, .hm_redbtns, .hm_cvofferleaseinfo p, .next_steps, .maintenance_content > .container, .part_exchange_des, .gap_content > .container, .wat > .container{
 	width:100%
 }
 
@@ -7739,5 +7790,24 @@ a:focus{
 	.van-leasing-benefits{
 		padding:20px;
 	}
+
+}
+@media(min-width: 992px) and (max-width: 1240px) {
+	.maintenance_content > .container {
+    width: 90%;}
+.hm_search_form {
+    width: auto;
+    float: right;
+}
+
+.hm_blog {
+    width: 234px;
+    float: left;
+    border-bottom: 1px solid #e4e5e6;
+    margin: 0px 0;
+}
+.blog_black {
+    text-align: center;
+}
 
 }

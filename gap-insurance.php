@@ -13,7 +13,7 @@
     <p> As lease cars are typically brand-new and as such can lose up to 60% of their value in the first three years, if your car is written off during the lease, you may find that there's a significant gap between value of the car and the amount you still owe on the lease. And with over 450,000 cars written off each year, this can be a real problem to some.</p>
 
     <div class="gap_content_img">
-      <img src="images/gap_insurance.png" class="center-block" alt="GAP Insurance from AMT">
+      <img src="images/gap_insurance.png" class="center-block img-responsive" alt="GAP Insurance from AMT">
     </div>
     <p> GAP Insurance is designed to cover the shortfall between the amount you paid for your car and your insurer's settlement figure based on the value of the car at the time of the claim. If your vehicle is written off and you have gap insurance in place, you will receive the difference between the current value of the vehicle and the amount still owed to the finance company up to a specified limit.</p>
 

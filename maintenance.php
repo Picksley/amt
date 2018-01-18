@@ -65,17 +65,21 @@
 </section>
 
 
-<section class="customers-col">
-<div class="container">
-<div class="col-md-12">
-<div class="title2">
-<h1>What our customers are saying about us</h1>
-</div>
-</div>
-</div>
 
-<?php include('recently_viewed_vehicles.php'); ?>
-</section>
+            <section class="hm_brandsbg vr_slider">
+                <div class="container">
+                    <div class="col-md-12">
+                        <div class="title2">
+                            <h1>Your recently viewed vehicles <button class="btn btn-clear" type="submit"><i class="fa fa-times" aria-hidden="true"></i>
+Clear All</button></h1>
+                        </div>
+
+                    </div>
+                </div>
+
+                <?php include('recently_viewed_vehicles.php'); ?>
+
+            </section>
 
 
 <?php include('newsletter.php'); ?>
