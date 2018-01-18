@@ -206,12 +206,12 @@
 
 
 
-                            <!-- Compare by Standard Equipment -->
+                            <!-- Tab Price 1  -->
                             <div class="resp-tab-content resp-tab-content-active" aria-labelledby="tab_item-0" style="display:block">
 
                                 <div class="container">
                                     <div class="col-lg-12">
-                                        <h2 class="resp-accordion" role="tab" aria-controls="tab_item-0"><span class="resp-arrow"></span>Standard Equipment</h2>
+                                        <h2 class="resp-accordion" role="tab" aria-controls="tab_item-0"><span class="resp-arrow"></span>Price</h2>
 
                                         <div class="col-md-4 col-lg-4 col-sm-4 col-xs-4" style="">
                                             <!-- THIS IS THE FIRST PRICE OPTION FIELD ITEM -->
@@ -309,89 +309,294 @@
 
 
 
-                            <!--  Tab Technical Specifications 2 -->
+                            <!--  Tab Standard Equipment 2 -->
 
                             <div class="resp-tab-content" aria-labelledby="tab_item-1">
-<div class="container">
-  <div class="row">
+                              <div class="container">
+                                <div class="row">
 
-                                <h2 class="resp-accordion" role="tab" aria-controls="tab_item-1"><span class="resp-arrow">1</span>Technical Specifications</h2>
-                                <div class="col-md-4 col-lg-4 col-sm-4 col-xs-4" style="">
-                                    <!-- THIS IS THE FIRST PRICE OPTION FIELD ITEM -->
-                                    <a href="#">
-                                        <div class="showroom_vehicle">
+                                  <h2 class="resp-accordion" role="tab" aria-controls="tab_item-1"><span class="resp-arrow">1</span>Technical Specifications</h2>
+                                  <div class="col-md-4 col-lg-4 col-sm-4 col-xs-4" style="">
+                                      <!-- THIS IS THE FIRST PRICE OPTION FIELD ITEM -->
+                                      <a href="#">
+                                          <div class="showroom_vehicle">
 
-                                          <div class="panel-group" id="accordion">
-                                            <div class="panel panel-default">
-                                              <div class="panel-heading">
-                                                <h4 class="panel-title">
-                                                  <a data-toggle="collapse" data-parent="#accordion" href="#">Collapsible Group 1</a>
-                                                </h4>
+                                            <div class="panel-group" id="accordion">
+                                              <div class="panel panel-default">
+                                                <div class="panel-heading">
+                                                  <h4 class="panel-title">
+                                                    <a data-toggle="collapse" data-parent="#accordion" href="#">Collapsible Group 1</a>
+                                                  </h4>
+                                                </div>
+                                                <div id="collapse1" class="panel-collapse collapse in">
+                                                  <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                                                  sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                                  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+                                                </div>
                                               </div>
-                                              <div id="collapse1" class="panel-collapse collapse in">
-                                                <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                                                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                                                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+                                              <div class="panel panel-default">
+                                                <div class="panel-heading">
+                                                  <h4 class="panel-title">
+                                                    <a data-toggle="collapse" data-parent="#accordion" href="#">Collapsible Group 2</a>
+                                                  </h4>
+                                                </div>
+                                                <div id="collapse2" class="panel-collapse collapse">
+                                                  <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                                                  sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                                  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+                                                </div>
+                                              </div>
+                                              <div class="panel panel-default">
+                                                <div class="panel-heading">
+                                                  <h4 class="panel-title">
+                                                    <a data-toggle="collapse" data-parent="#accordion" href="#">Collapsible Group 3</a>
+                                                  </h4>
+                                                </div>
+                                                <div id="collapse3" class="panel-collapse collapse">
+                                                  <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                                                  sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                                  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+                                                </div>
                                               </div>
                                             </div>
-                                            <div class="panel panel-default">
-                                              <div class="panel-heading">
-                                                <h4 class="panel-title">
-                                                  <a data-toggle="collapse" data-parent="#accordion" href="#">Collapsible Group 2</a>
-                                                </h4>
-                                              </div>
-                                              <div id="collapse2" class="panel-collapse collapse">
-                                                <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                                                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                                                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
-                                              </div>
-                                            </div>
-                                            <div class="panel panel-default">
-                                              <div class="panel-heading">
-                                                <h4 class="panel-title">
-                                                  <a data-toggle="collapse" data-parent="#accordion" href="#">Collapsible Group 3</a>
-                                                </h4>
-                                              </div>
-                                              <div id="collapse3" class="panel-collapse collapse">
-                                                <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                                                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                                                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
-                                              </div>
-                                            </div>
+
                                           </div>
-
-                                        </div>
-                                    </a>
-                                </div>
-                                <!-- THIS IS THE END OF THE FIRST PRICE OPTION FIELD ITEM -->
-</div></div>
+                                      </a>
+                                  </div>
+                                  <!-- THIS IS THE END OF THE FIRST PRICE OPTION FIELD ITEM -->
+                                </div> <!-- ROW END -->
+                              </div> <!-- CONTAINER END -->
                             </div> <!-- TAB 2 END -->
 
 
 
-                              <!--  Optional Extras 3 -->
-                            <div class="" aria-labelledby="tab_item-2">
-                              <div class="containers">
-                                <div class="row">
-                                <h2 class="resp-accordion" role="tab" aria-controls="tab_item-2"><span class="resp-arrow">2</span>Optional Extras</h2>
-                                <p> Tab item 2 </p>
-                              </div>
-                            </div>
-                            </div>
+                              <!--  Technical Spec 3 -->
+                              <div class="resp-tab-content" aria-labelledby="tab_item-2">
+                                <div class="container">
+                                  <div class="row">
+
+                                    <h2 class="resp-accordion" role="tab" aria-controls="tab_item-1"><span class="resp-arrow">1</span>Technical Specifications</h2>
+                                    <div class="col-md-4 col-lg-4 col-sm-4 col-xs-4" style="">
+                                        <!-- THIS IS THE FIRST PRICE OPTION FIELD ITEM -->
+                                        <a href="#">
+                                            <div class="showroom_vehicle">
+
+                                              <div class="panel-group" id="accordion">
+                                                <div class="panel panel-default">
+                                                  <div class="panel-heading">
+                                                    <h4 class="panel-title">
+                                                      <a data-toggle="collapse" data-parent="#accordion" href="#">Collapsible Group 1</a>
+                                                    </h4>
+                                                  </div>
+                                                  <div id="collapse1" class="panel-collapse collapse in">
+                                                    <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                                                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+                                                  </div>
+                                                </div>
+                                                <div class="panel panel-default">
+                                                  <div class="panel-heading">
+                                                    <h4 class="panel-title">
+                                                      <a data-toggle="collapse" data-parent="#accordion" href="#">Collapsible Group 2</a>
+                                                    </h4>
+                                                  </div>
+                                                  <div id="collapse2" class="panel-collapse collapse">
+                                                    <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                                                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+                                                  </div>
+                                                </div>
+                                                <div class="panel panel-default">
+                                                  <div class="panel-heading">
+                                                    <h4 class="panel-title">
+                                                      <a data-toggle="collapse" data-parent="#accordion" href="#">Collapsible Group 3</a>
+                                                    </h4>
+                                                  </div>
+                                                  <div id="collapse3" class="panel-collapse collapse">
+                                                    <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                                                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+                                                  </div>
+                                                </div>
+                                              </div>
+
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <!-- THIS IS THE END OF THE FIRST PRICE OPTION FIELD ITEM -->
+                                  </div> <!-- ROW END -->
+                                </div> <!-- CONTAINER END -->
+                              </div> <!-- TAB 3 END -->
 
 
                             <!--  Optional Extras 4 -->
-                            <div class="" aria-labelledby="tab_item-3">
-                                <h2 class="resp-accordion" role="tab" aria-controls="tab_item-3"><span class="resp-arrow">2</span>Tax Rates</h2>
-                                <p> Tab item 3 </p>
+                            <div class="resp-tab-content" aria-labelledby="tab_item-3">
+                              <div class="container">
+                                <div class="row">
 
-                            </div>
+                                  <h2 class="resp-accordion" role="tab" aria-controls="tab_item-1"><span class="resp-arrow">1</span>Technical Specifications</h2>
+                                  <div class="col-md-4 col-lg-4 col-sm-4 col-xs-4" style="">
+                                      <!-- THIS IS THE FIRST PRICE OPTION FIELD ITEM -->
+                                      <a href="#">
+                                          <div class="showroom_vehicle">
 
-                            <div class="" aria-labelledby="tab_item-4">
-                                <h2 class="resp-accordion" role="tab" aria-controls="tab_item-3"><span class="resp-arrow">2</span>Fuel Costs</h2>
-                                <p> Tab item 4 </p>
 
-                            </div>
+                                            <figure>
+                                                <table class="short_dark_table">
+                                                    <tr>
+                                                        <td class="drk">
+                                                            <p> Personal leasing </p><span> inc. VAT </span></td>
+                                                        <td class="lgt">
+                                                            <p>£XXX.XX</p>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="drk">
+                                                            <p> Annual fuel costs</p><span> excl. VAT </span></td>
+                                                        <td class="lgt">
+                                                            <p>£XXX.XX</p>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </figure>
+                                            <div class="panel-group" id="accordion">
+                                              <div class="panel panel-default">
+                                                <div class="panel-heading">
+                                                  <h4 class="panel-title">
+                                                    <a data-toggle="collapse" data-parent="#accordion" href="#">Collapsible Group 1</a>
+                                                  </h4>
+                                                </div>
+                                                <div id="collapse1" class="panel-collapse collapse in">
+                                                  <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                                                  sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                                  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+                                                </div>
+                                              </div>
+                                              <div class="panel panel-default">
+                                                <div class="panel-heading">
+                                                  <h4 class="panel-title">
+                                                    <a data-toggle="collapse" data-parent="#accordion" href="#">Collapsible Group 2</a>
+                                                  </h4>
+                                                </div>
+                                                <div id="collapse2" class="panel-collapse collapse">
+                                                  <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                                                  sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                                  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+                                                </div>
+                                              </div>
+                                              <div class="panel panel-default">
+                                                <div class="panel-heading">
+                                                  <h4 class="panel-title">
+                                                    <a data-toggle="collapse" data-parent="#accordion" href="#">Collapsible Group 3</a>
+                                                  </h4>
+                                                </div>
+                                                <div id="collapse3" class="panel-collapse collapse">
+                                                  <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                                                  sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                                  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+                                                </div>
+                                              </div>
+                                            </div>
+
+                                          </div>
+                                      </a>
+                                  </div>
+                                  <!-- THIS IS THE END OF THE FIRST PRICE OPTION FIELD ITEM -->
+                                </div> <!-- ROW END -->
+                              </div> <!-- CONTAINER END -->
+                            </div> <!-- TAB 3 END -->
+
+                            <!-- Tax Rates 5 -->
+                            <div class="resp-tab-content" aria-labelledby="tab_item-4">
+
+                                <div class="container">
+                                    <div class="row">
+
+                                        <div class="col-md-4 col-lg-4 col-sm-4 col-xs-4" style="">
+                                            <!-- THIS IS THE FIRST PRICE OPTION FIELD ITEM -->
+                                            <a href="#">
+                                                <div class="showroom_vehicle">
+
+                                                    <figure>
+                                                        <table class="short_dark_table">
+                                                            <tr>
+                                                                <td class="drk">
+                                                                    <p> Personal leasing </p><span> inc. VAT </span></td>
+                                                                <td class="lgt">
+                                                                    <p>£XXX.XX</p>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td class="drk">
+                                                                    <p> Annual fuel costs</p><span> excl. VAT </span></td>
+                                                                <td class="lgt">
+                                                                    <p>£XXX.XX</p>
+                                                                </td>
+                                                            </tr>
+                                                        </table>
+                                                    </figure>
+
+                                                    <div class="showroom_vehicle_specs">
+
+                                                        <div class="hm_viewspo">
+                                                            <button type="submit"> REQUEST A QUOTE </button>
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <!-- THIS IS THE END OF THE FIRST PRICE OPTION FIELD ITEM -->
+
+                                    </div>
+                                </div>
+                            </div>  <!--tab-div-->
+
+                            <!-- Tax Rates 6 -->
+                            <div class="resp-tab-content" aria-labelledby="tab_item-5">
+
+                                <div class="container">
+                                    <div class="row">
+
+                                        <div class="col-md-4 col-lg-4 col-sm-4 col-xs-4" style="">
+                                            <!-- THIS IS THE FIRST PRICE OPTION FIELD ITEM -->
+                                            <a href="#">
+                                                <div class="showroom_vehicle">
+
+                                                    <figure>
+                                                        <table class="short_dark_table">
+                                                            <tr>
+                                                                <td class="drk">
+                                                                    <p> Personal leasing </p><span> inc. VAT </span></td>
+                                                                <td class="lgt">
+                                                                    <p>£XXX.XX</p>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td class="drk">
+                                                                    <p> Annual fuel costs</p><span> excl. VAT </span></td>
+                                                                <td class="lgt">
+                                                                    <p>£XXX.XX</p>
+                                                                </td>
+                                                            </tr>
+                                                        </table>
+                                                    </figure>
+
+                                                    <div class="showroom_vehicle_specs">
+
+                                                        <div class="hm_viewspo">
+                                                            <button type="submit"> REQUEST A QUOTE </button>
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <!-- THIS IS THE END OF THE FIRST PRICE OPTION FIELD ITEM -->
+
+                                    </div>
+                                </div>
+                            </div>  <!--tab-div-->
 
                         </div>
                         <!--resp-tabs-container-->

@@ -1726,8 +1726,8 @@ select {
 	border-color: #33414e;
 	font-size: 16px;
 }
-.form-inline .modal-select {
-	width: 169px;
+.form-inline .modal-select.home_search_panel {
+	width: 188px;
 }
 .home_tab_search select option:first-child {
 	color: #b3b9bd;
@@ -1757,6 +1757,18 @@ select {
 	color: #33414e;
 	font-size: 24px;
 	padding: 14px 65px;
+}
+.home_tab_search .nav-tabs > li > .personal_home_link {
+border-top-left-radius: 4px;
+border-top-right-radius: 0;
+border-bottom-left-radius: 0;
+border-bottom-right-radius:0;
+}
+.home_tab_search .nav-tabs > li > .business_home_link {
+border-top-right-radius: 4px;
+border-top-left-radius: 0;
+border-bottom-left-radius: 0;
+border-bottom-right-radius:0;
 }
 .home_tab_search .nav-tabs > li.active > a, .home_tab_search .nav-tabs > li.active > a:focus, .home_tab_search .nav-tabs > li.active > a:hover {
 	background-color: #fff !important;
@@ -1822,10 +1834,12 @@ select {
 .instead-text a {
 	color: #b3b9bd;
 	font-size: 16px;
-	text-decoration: underline;
+	border-bottom: solid 1px #b3b9bd;
+padding-bottom: 3px;
 }
 .instead-text a:hover {
-	text-decoration: none;
+	border-bottom: none;
+padding-bottom: 0px;
 }
 .mob-bannertext {
 	display: none;
@@ -7684,4 +7698,8 @@ line-height: 18px;
 }
 .showroom_cpost_tabs .tc-accordion-style1 .acdn-body ul li:nth-child(even) {
   background: transparent;
+}
+
+.input:focus {
+    outline:none;
 }
