@@ -92,7 +92,7 @@
             <article>
               <h2>We are passionate about what we do</h2>
               <p>Our team is made up of people who collectively have many many years of experience in the automotive industry! Our Account Managers range from career leasing experts to those who’ve also worked for car dealerships, national rental and fleet management companies, prior to joining the AMT team. If you want to deal with people who are experts in the car and van industries, you’re in the right place.</p>
-              <p> <a href="#">Meet the team behind AMT <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a> </p>
+              <p> <a href="<?= $domain ?>/meet-the-team.php">Meet the team behind AMT <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a> </p>
             </article>
           </div>
         </div>
@@ -239,7 +239,7 @@
             <article>
               <h2 class="main-title">Our finance partners</h2>
               <p>We have partnerships with a number of finance companies so we can remain impartial and have a choice between funders when it comes to securing finance on your lease. This allows us to find you a really competitive lease deal.</p>
-              <p> <a href="#">Meet the team behind AMT <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a> </p>
+              <p> <a href="#"> Learn more about financing options <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a> </p>
             </article>
           </div>
         </div>
@@ -280,7 +280,7 @@
           <div class="arbox_1">
             <article>
               <figure><img src="images/FCA-large.png"  alt="" class="img-responsive"></figure>
-              <h2>bvrla</h2>
+              <h2>FCA</h2>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec viverra lacinia quam, et posuere sem sagittis vel. Pellentesque et risus et dolor rhoncus mollis ac a elit. Praesent posuere elit urna. </p>
             </article>
           </div>
@@ -307,41 +307,7 @@
 
 
 
-
-<section class="keep_mail">
-  <div class="container">
-    <div class="row">
-      <div class="news_letter">
-        <article>
-          <h2>Sign up to our newsletter</h2>
-          <p>Keep up to date with our latest special offers and industry news</p>
-        </article>
-      </div>
-    </div>
-    <div class="row">
-      <div class="home-newsletter">
-        <div class="input-group">
-          <input type="email" class="form-control" placeholder="Name">
-          <input type="email" class="form-control" placeholder="Email">
-          <span class="input-group-btn hidden-xs">
-          <button class="btn btn-theme" type="submit">Subscribe <i class="fa fa-long-arrow-right" aria-hidden="true"></i></button>
-          </span> </div>
-        <div class="hidden-sm hidden-lg hidden-md text-center">
-          <button type="button" class=" button_in">SUBSCRIBE <i class="fa fa-long-arrow-right" aria-hidden="true"></i></button>
-        </div>
-      </div>
-      <div class="col-lg-12">
-        <div class="newsletr_txt">
-          <div class="checkbox">
-            <input id="checkbox1" type="checkbox">
-            <label for="checkbox1"> Marketing Communications Agreement<br />
-              <span>By entering your details above you are consenting to receive emails and SMS containing offers and informational updates from AMT Contract Hire and Leasing. To opt-out from any marketing communications, please tick this box. Your details will not be shared with any third parties. For more information please read our<a href="#"> Privacy Policy </a>for further details.</span> </label>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
+<?php include('newsletter.php'); ?>
 
 
 

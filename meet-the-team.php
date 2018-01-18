@@ -36,7 +36,157 @@
         <h5 class="team-second-title"> Dream Car </h5>
         <p> Audi RS6 </p>
       </div>
-  </div>
+      </div>
+<!-- Single Member Block End -->
+
+<!-- Single Member Block -->
+    <div class="col-md-3 col-sm-6 col-xs-12 team-member-block">
+      <div class="team-main-info">
+        <span>
+          <img src="https://www.placecage.com/130/130" alt="Team Member Name" class="team-member-image center-block"/>
+        </span>
+        <h4 class="team-member-name text-center"> Lorem Ipsum </h4>
+        <h5 class="team-role"> Account Manager </h5>
+
+        <span class="team-more-info"><i class="fa fa-search" aria-hidden="true"></i> More info </span>
+      </div>
+
+      <div class="team-second-info">
+        <h5 class="team-second-title"> Experience </h5>
+        <p> 18 years of automotive experience </p>
+
+        <h5 class="team-second-title"> Current Car </h5>
+        <p> Company Car </p>
+
+        <h5 class="team-second-title"> Dream Car </h5>
+        <p> Audi RS6 </p>
+      </div>
+      </div>
+<!-- Single Member Block End -->
+
+<!-- Single Member Block -->
+    <div class="col-md-3 col-sm-6 col-xs-12 team-member-block">
+      <div class="team-main-info">
+        <span>
+          <img src="https://www.placecage.com/130/130" alt="Team Member Name" class="team-member-image center-block"/>
+        </span>
+        <h4 class="team-member-name text-center"> Lorem Ipsum </h4>
+        <h5 class="team-role"> Account Manager </h5>
+
+        <span class="team-more-info"><i class="fa fa-search" aria-hidden="true"></i> More info </span>
+      </div>
+
+      <div class="team-second-info">
+        <h5 class="team-second-title"> Experience </h5>
+        <p> 18 years of automotive experience </p>
+
+        <h5 class="team-second-title"> Current Car </h5>
+        <p> Company Car </p>
+
+        <h5 class="team-second-title"> Dream Car </h5>
+        <p> Audi RS6 </p>
+      </div>
+      </div>
+<!-- Single Member Block End -->
+
+<!-- Single Member Block -->
+    <div class="col-md-3 col-sm-6 col-xs-12 team-member-block">
+      <div class="team-main-info">
+        <span>
+          <img src="https://www.placecage.com/130/130" alt="Team Member Name" class="team-member-image center-block"/>
+        </span>
+        <h4 class="team-member-name text-center"> Lorem Ipsum </h4>
+        <h5 class="team-role"> Account Manager </h5>
+
+        <span class="team-more-info"><i class="fa fa-search" aria-hidden="true"></i> More info </span>
+      </div>
+
+      <div class="team-second-info">
+        <h5 class="team-second-title"> Experience </h5>
+        <p> 18 years of automotive experience </p>
+
+        <h5 class="team-second-title"> Current Car </h5>
+        <p> Company Car </p>
+
+        <h5 class="team-second-title"> Dream Car </h5>
+        <p> Audi RS6 </p>
+      </div>
+      </div>
+<!-- Single Member Block End -->
+
+<!-- Single Member Block -->
+    <div class="col-md-3 col-sm-6 col-xs-12 team-member-block">
+      <div class="team-main-info">
+        <span>
+          <img src="https://www.placecage.com/130/130" alt="Team Member Name" class="team-member-image center-block"/>
+        </span>
+        <h4 class="team-member-name text-center"> Lorem Ipsum </h4>
+        <h5 class="team-role"> Account Manager </h5>
+
+        <span class="team-more-info"><i class="fa fa-search" aria-hidden="true"></i> More info </span>
+      </div>
+
+      <div class="team-second-info">
+        <h5 class="team-second-title"> Experience </h5>
+        <p> 18 years of automotive experience </p>
+
+        <h5 class="team-second-title"> Current Car </h5>
+        <p> Company Car </p>
+
+        <h5 class="team-second-title"> Dream Car </h5>
+        <p> Audi RS6 </p>
+      </div>
+      </div>
+<!-- Single Member Block End -->
+
+<!-- Single Member Block -->
+    <div class="col-md-3 col-sm-6 col-xs-12 team-member-block">
+      <div class="team-main-info">
+        <span>
+          <img src="https://www.placecage.com/130/130" alt="Team Member Name" class="team-member-image center-block"/>
+        </span>
+        <h4 class="team-member-name text-center"> Lorem Ipsum </h4>
+        <h5 class="team-role"> Account Manager </h5>
+
+        <span class="team-more-info"><i class="fa fa-search" aria-hidden="true"></i> More info </span>
+      </div>
+
+      <div class="team-second-info">
+        <h5 class="team-second-title"> Experience </h5>
+        <p> 18 years of automotive experience </p>
+
+        <h5 class="team-second-title"> Current Car </h5>
+        <p> Company Car </p>
+
+        <h5 class="team-second-title"> Dream Car </h5>
+        <p> Audi RS6 </p>
+      </div>
+      </div>
+<!-- Single Member Block End -->
+
+<!-- Single Member Block -->
+    <div class="col-md-3 col-sm-6 col-xs-12 team-member-block">
+      <div class="team-main-info">
+        <span>
+          <img src="https://www.placecage.com/130/130" alt="Team Member Name" class="team-member-image center-block"/>
+        </span>
+        <h4 class="team-member-name text-center"> Lorem Ipsum </h4>
+        <h5 class="team-role"> Account Manager </h5>
+
+        <span class="team-more-info"><i class="fa fa-search" aria-hidden="true"></i> More info </span>
+      </div>
+
+      <div class="team-second-info">
+        <h5 class="team-second-title"> Experience </h5>
+        <p> 18 years of automotive experience </p>
+
+        <h5 class="team-second-title"> Current Car </h5>
+        <p> Company Car </p>
+
+        <h5 class="team-second-title"> Dream Car </h5>
+        <p> Audi RS6 </p>
+      </div>
+      </div>
 <!-- Single Member Block End -->
 
 

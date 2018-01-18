@@ -3002,12 +3002,14 @@ right: -10px;}
 	border-radius: 4px;
 	transition: all 0.4s ease;
 	text-align:center;
-	margin:20px 20px 20px 20px;
 }
 .team-member-block:hover, .team-member-block:focus {
 	transition: all 0.4s ease;
   box-shadow: 2px 9px 18px 4px rgba(0,0,0,0.2);
 	border-bottom: solid 4px #BA0C2F;
+}
+.team-member-block:hover > .team-second-info {
+	height:250px;
 }
 .team-main-info {
 	border-radius: 2px;
@@ -3015,11 +3017,14 @@ border-bottom: 1px solid #e2e2e2;
 	padding-bottom:20px
 }
 .team-second-info {
-		transition: all 0.4s ease;
-	display:none;
+		transition: height 0.4s ease;
+	height:0px;
+	overflow:hidden;
 	margin: 20px 5px 20px 5px;
+	z-index:3;
 
 }
+
 .team-second-title {
 	font-family: 'Aller';
 	font-size:16px;
