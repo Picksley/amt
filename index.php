@@ -238,7 +238,7 @@ Reset Form</a>
                 <h4>We’ve been established for over 20 years so we know the car leasing and van leasing market.</h4>
                 <p>We partner with a range of different funders so we can remain impartial and work with you to get the best lease deal possible. Accredited by the BVRLA – the UK’s independent vehicle rental and leasing body – you can be rest assured you’re dealing with reputable and knowledgeable car leasing experts. Need a car or van lease at short notice? We have a range of cars and vans in stock which can be available to you in as little as two weeks.
                 </p>
-                <button type="submit" class="hm_redbtns">Find out more about AMT <img src="images/hmright_arrow.png"> </button>
+              <a href="<?= $domain ?>/about-us.php">  <button type="submit" class="hm_redbtns">Find out more about AMT <img src="images/hmright_arrow.png"> </button> </a>
             </div>
         </div>
         <!--container-->
@@ -548,7 +548,7 @@ Reset Form</a>
                 <!--hm_specialofr-->
 
                 <div class="hm_viewspobtn">
-                    <button type="submit" class="hm_redbtns">View Special offers <img src="images/hmright_arrow.png"> </button>
+                    <a href="special-offers.php"><button type="submit" class="hm_redbtns">View Special offers <img src="images/hmright_arrow.png"> </button></a>
                 </div>
             </div>
             <!--hm_oursoinfo-->
@@ -572,7 +572,7 @@ Reset Form</a>
                                 <p>Our wealth of experience, competitive deals, dedicated account management and great customer service are just some of the reasons our customers stay with AMT.
                                 </p>
 
-                                <button type="submit" class="hm_redbtns">Find out more about amt <img src="images/hmright_arrow.png"> </button>
+                              <a href="about-us.php">  <button type="submit" class="hm_redbtns">Find out more about amt <img src="images/hmright_arrow.png"> </button> </a>
                             </div>
                         </div>
                     </div>
@@ -589,7 +589,7 @@ Reset Form</a>
                                 <p>If you’ve got a vehicle to sell, just give us a call or use our calculator and see how much you could expect to receive if you part exchange your vehicle with us. We’re here to help so get in touch today.
                                 </p>
 
-                                <button type="submit" class="hm_redbtns">Free car valuation service <img src="images/hmright_arrow.png"> </button>
+                              <a href="part-exchange.php">  <button type="submit" class="hm_redbtns">Free car valuation service <img src="images/hmright_arrow.png"> </button> </a>
                             </div>
                         </div>
                     </div>
@@ -607,7 +607,7 @@ Reset Form</a>
 
                                 </p>
 
-                                <button type="submit" class="hm_redbtns">Calculate tax now <img src="images/hmright_arrow.png"> </button>
+                              <a href="bik-tax-calculator.php">  <button type="submit" class="hm_redbtns">Calculate tax now <img src="images/hmright_arrow.png"> </button> </a>
                             </div>
 
                         </div>
@@ -750,7 +750,7 @@ Reset Form</a>
                 <a href="leasing.php">
                     <button type="submit" class="hm_redbtns">Learn about how leasing works <img src="images/hmright_arrow.png"> </button>
                 </a>
-                <p>Or visit our <a class="" href="#">FAQ section</a></p>
+                <p>Or visit our <a class="" href="faq.php">FAQ section</a></p>
             </div>
         </div>
         <!--container-->
@@ -774,7 +774,7 @@ Reset Form</a>
                             <article>
                                 <h2>Personal Leasing</h2>
                                 <p>Personal leasing, also known as personal contract hire is an increasing popular way to acquire a car in the UK. Essentially, you rent the vehicle on a long-term basis and for a fixed time period of between one to five years. You pay a monthly fixed fee in return. At the end of the contract you simply return the vehicle. </p>
-                                <p> <a href="#">Learn more about personal leasing <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a> </p>
+                                <p> <a href="personal-leasing.php">Learn more about personal leasing <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a> </p>
                             </article>
 
                         </div>
@@ -787,7 +787,7 @@ Reset Form</a>
                                 <h2>Business Leasing</h2>
                                 <p>Business leasing is much the same as personal leasing, apart from you don’t pay VAT on the vehicle, which gives you lower monthly payments. Those payments can be offset against your business’s taxable profits, in part or even in full. Our Account Managers have helped hundreds of businesses to save money whether acquiring a single car or a fleet of vehicles.
                                 </p>
-                                <p> <a href="#">Learn more about Business leasing <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a> </p>
+                                <p> <a href="business-leasing.php">Learn more about Business leasing <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a> </p>
                             </article>
 
                         </div>
@@ -884,7 +884,7 @@ Reset Form</a>
                         </div>
                         <!--col-lg-2-->
 
-                        <!--------------------------------Brands---------------------------->
+                        <!-- Brands---------------------------->
 
                         <div class="col-lg-2 col-md-2  col-sm-2   col-xs-2 hm_brandresize">
                             <div class="hm_branddtl">
@@ -966,7 +966,7 @@ Reset Form</a>
                         </div>
                         <!--col-lg-2-->
 
-                        <!--------------------------------Brands---------------------------->
+                        <!-- Brands---------------------------->
 
                         <div class="col-lg-2 col-md-2  col-sm-2   col-xs-2 hm_brandresize">
                             <div class="hm_branddtl">
@@ -1163,7 +1163,7 @@ Reset Form</a>
                     <div class="tc-accordion tc-accordion-style1" id="accordion5">
                         <div class="panel">
                             <h4 class="acdn-title">
-		                                <a data-toggle="collapse"  onclick="return false;" data-parent="#accordion5" href="#collapse4" class="collapsed">What is leasing?</a>
+		                                <a data-toggle="collapse"  data-parent="#accordion5" href="#collapse4" class="collapsed">What is leasing?</a>
 		                            </h4>
                             <div id="collapse4" class="panel-collapse collapse in">
                                 <div class="acdn-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut.</div>
@@ -1171,7 +1171,7 @@ Reset Form</a>
                         </div>
                         <div class="panel">
                             <h4 class="acdn-title">
-		                                <a data-toggle="collapse" onclick="return false;" data-parent="#accordion5" href="#collapse5">Why would you lease instead of buying a car or van?</a>
+		                                <a data-toggle="collapse"  data-parent="#accordion5" href="#collapse5">Why would you lease instead of buying a car or van?</a>
 		                            </h4>
                             <div id="collapse5" class="panel-collapse collapse">
                                 <div class="acdn-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut.</div>
@@ -1179,7 +1179,7 @@ Reset Form</a>
                         </div>
                         <div class="panel">
                             <h4 class="acdn-title">
-		                                <a data-toggle="collapse" onclick="return false;" data-parent="#accordion5" href="#collapse6">Why should I lease from AMT Leasing?</a>
+		                                <a data-toggle="collapse" data-parent="#accordion5" href="#collapse6">Why should I lease from AMT Leasing?</a>
 		                            </h4>
                             <div id="collapse6" class="panel-collapse collapse">
                                 <div class="acdn-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut.</div>
@@ -1188,7 +1188,7 @@ Reset Form</a>
 
                         <div class="panel">
                             <h4 class="acdn-title">
-		                                <a data-toggle="collapse" onclick="return false;" data-parent="#accordion5" href="#collapse7">How long is the contract hire or lease period?</a>
+		                                <a data-toggle="collapse"  data-parent="#accordion5" href="#collapse7">How long is the contract hire or lease period?</a>
 		                            </h4>
                             <div id="collapse7" class="panel-collapse collapse">
                                 <div class="acdn-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut.</div>
@@ -1198,7 +1198,7 @@ Reset Form</a>
                     </div>
 
                     <div class="button-col">
-                        <a class="btn btn-readfaq" href="#" role="button">Read more questions <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
+                        <a class="btn btn-readfaq" href="faq.php" role="button">Read more questions <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
                     </div>
                 </div>
             </div>

@@ -41,10 +41,10 @@
     <div class="abt_part2">
       <div class="col-lg-6 col-md-6 text-left">
       <div class="padd-rtl">
-        <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+        <div class="panel-group" id="accordion" role="tablist">
           <div class="panel panel-default">
             <div class="panel-heading" role="tab" id="headingOne">
-              <h4 class="panel-title"> <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne"> We have been around a long time
+              <h4 class="panel-title"> <a data-toggle="collapse" data-parent="#accordion" aria-expanded="true" data-target="#collapseOne" aria-controls="collapseOne"> We have been around a long time
                 and are here to stay </a> </h4>
             </div>
             <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
@@ -53,7 +53,7 @@
           </div>
           <div class="panel panel-default">
             <div class="panel-heading" role="tab" id="headingTwo">
-              <h4 class="panel-title"> <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo"> We have the buying power </a> </h4>
+              <h4 class="panel-title"> <a class="collapsed" data-toggle="collapse" data-parent="#accordion"  data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo"> We have the buying power </a> </h4>
             </div>
             <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
               <div class="panel-body">Quite simply, our people. We have serious ambitions to be the best in the contract hire and leasing market and to delight our customers so they keep coming back to us. We’ve learnt a lot over the last 22 years but we’re not complacent. We have been around a long time and are here to stay</div>
@@ -61,7 +61,7 @@
           </div>
           <div class="panel panel-default">
             <div class="panel-heading" role="tab" id="headingThree">
-              <h4 class="panel-title"> <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree"> And the connections… </a> </h4>
+              <h4 class="panel-title"> <a class="collapsed" data-toggle="collapse" data-parent="#accordion" data-target="#collapseThree"  aria-expanded="false" aria-controls="collapseThree"> And the connections… </a> </h4>
             </div>
             <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
               <div class="panel-body">Quite simply, our people. We have serious ambitions to be the best in the contract hire and leasing market and to delight our customers so they keep coming back to us. We’ve learnt a lot over the last 22 years but we’re not complacent. We have been around a long time and are here to stay </div>
@@ -107,7 +107,7 @@
         <article>
           <h2>Everything in one place</h2>
           <figure><img src="images/video_ng.jpg" alt="" class=" img-responsive"></figure>
-          <button type="button" class=" button3">view more videos on youtube <i class="fa fa-long-arrow-right" aria-hidden="true"></i></button>
+          <a href="https://www.youtube.com/channel/UCcicnE1JBLj11Eldtne0D5Q" target="_blank"><button type="button" class=" button3">view more videos on youtube <i class="fa fa-long-arrow-right" aria-hidden="true"></i></button></a>
         </article>
         <div class="clearfix"></div>
       </div>
@@ -152,31 +152,29 @@
     </div>
 
   <div class="col col-md-6 col-md-push-3">
-    <div id="testimonial" class="util-carousel testimonial normal-imglist">
-						<div class="item">
+    <div class="slick-slider-company-stats">
+						<div>
 							<div class="testimonial-content">
 								We’ve been in business for over 22 years and today AMT employs over 150 staff
 							</div>
 
 						</div>
-						<div class="item">
+						<div>
 							<div class="testimonial-content">
 								We’ve been in business for over 22 years and today AMT employs over 160 staff
 							</div>
 
 						</div>
-						<div class="item">
+						<div>
 							<div class="testimonial-content">
 								We’ve been in business for over 22 years and today AMT employs over 170 staff
 							</div>
 
 						</div>
-						<div class="item">
+						<div>
 							<div class="testimonial-content">
 								We’ve been in business for over 22 years and today AMT employs over 180 staff
 							</div>
-
-
 					</div>
     </div>
 

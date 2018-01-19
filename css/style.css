@@ -24,6 +24,11 @@
   font-weight: normal;
   font-style: normal;
 }
+/* Added this at the top of our custom css as 90% of divs we clicked on gave a horrible blue border. */
+*:focus {
+outline: 0;
+outline: none;
+}
 
 
 body {
@@ -6097,6 +6102,8 @@ text-align:center;
 	font-size:14px;
 	padding:20px;
 }
+
+/* WAT stands for Wear and Tear  */
 .wat_head{
 	padding-bottom:20px;
 }
@@ -6124,9 +6131,10 @@ text-align:center;
 		padding-right:5px;
 }
 .more_questions{ width:65%; margin:auto; text-align:center; padding:40px; background-color:#edeeee; border-radius:7px;}
-.more_questions h2{ font-size:30px; font-family: 'Aller'; margin-top:0px; margin-bottom:20px; color:#000;}
-.more_questions p{ color:#33414e; font-size:16px; margin-bottom:20px;}
-.more_questions h6{ color:#000; margin-top:0px; margin-bottom:15px; font-family: 'TrebuchetMS-Bold'; font-size:16px;}
+.more_questions_faq{ width:100%; margin:auto; text-align:center; padding:40px; background-color:#edeeee; border-radius:7px;margin-top:40px}
+.more_questions, .more_questions_faq h2{ font-size:30px; font-family: 'Aller'; margin-top:0px; margin-bottom:20px; color:#000;}
+.more_questions, .more_questions_faq p{ color:#33414e; font-size:16px; margin-bottom:20px;}
+.more_questions, .more_questions_faq h6{ color:#000; margin-top:0px; margin-bottom:15px; font-family: 'TrebuchetMS-Bold'; font-size:16px;}
 .more_questions h6 img{ width:17px; margin-right:10px; }
 
 
@@ -7738,6 +7746,25 @@ a:focus{
 }
 @media screen and (max-width: 992px) {
 
+		.faq_block {
+    padding: 9px;
+    width: auto;
+    background-color: #fff;
+    margin: 10px 0 5px 0;
+		}
+
+		.faq_pills{display:none}
+
+	.faq_block span {
+	    font-family: 'Aller-bold';
+	    text-align: center;
+	    font-size: 11pt;
+	    color: #000;
+	   padding-left: 0px;
+	}
+	.faq_answer_item h2{ font-size:22pt
+	}
+
 	.wat .wat_content {padding:0px;}
 	.wat_content li, .wat_content p, .wat_content h3 {
 		padding:25px;
@@ -7798,6 +7825,26 @@ a:focus{
 
 }
 @media(min-width: 992px) and (max-width: 1240px) {
+
+	.faq_block {
+	padding: 9px;
+	width: auto;
+	background-color: #fff;
+	margin: 10px 0 5px 0;
+	}
+
+	.faq_pills{display:none}
+
+.faq_block span {
+		font-family: 'Aller-bold';
+		text-align: center;
+		font-size: 9pt;
+		color: #000;
+	 padding-left: 0px;
+}
+.faq_answer_item h2{ font-size:22pt
+}
+
 	.maintenance_content > .container {
     width: 90%;}
 .hm_search_form {
@@ -7814,5 +7861,6 @@ a:focus{
 .blog_black {
     text-align: center;
 }
+
 
 }

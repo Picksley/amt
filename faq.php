@@ -13,9 +13,9 @@
 
       <div class="faq_nav">
 
-          <div class="row">
+          <div class="">
 
-        <div class="col-md-4 col-xs-4 col-lg-4 col-sm-4 faq_left">
+        <div class="col-md-4 col-xs-12 col-lg-4 col-sm-4 faq_left">
           <a href="#about-leasing">
             <div class="faq_block">
             <img src="images/icons/about_leasing.png"/> <span> About leasing </span>
@@ -25,7 +25,7 @@
         </div>
 
 
-        <div class="col-md-4 col-xs-4 col-lg-4 col-sm-4 faq_center">
+        <div class="col-md-4 col-xs-12 col-lg-4 col-sm-4 faq_center">
           <a href="#choosing-the-right-option">
           <div class="faq_block">
             <img src="images/icons/choosing_the_right_option.png"/> <span> Choosing the right leasing option </span>
@@ -34,7 +34,7 @@
           </a>
         </div>
 
-        <div class="col-md-4 col-xs-4 col-lg-4 col-sm-4 faq_right">
+        <div class="col-md-4 col-xs-12 col-lg-4 col-sm-4 faq_right">
           <a href="#delivery">
           <div class="faq_block">
             <img src="images/icons/delivery.png"/> <span> Delivery </span>
@@ -44,8 +44,8 @@
         </div>
       </div>
 
-      <div class="row">
-        <div class="col-md-4 col-xs-4 col-lg-4 col-sm-4 faq_left">
+      <div class="">
+        <div class="col-md-4 col-xs-12 col-lg-4 col-sm-4 faq_left">
           <a href="#the-financials">
           <div class="faq_block">
             <img src="images/icons/the_financials.png"/> <span> The financials </span>
@@ -53,7 +53,7 @@
           </div>
           </a>
         </div>
-        <div class="col-md-4 col-xs-4 col-lg-4 col-sm-4 faq_center">
+        <div class="col-md-4 col-xs-12 col-lg-4 col-sm-4 faq_center">
           <div class="faq_block">
             <a href="#warranty-and-breakdown">
             <img src="images/icons/warranty_and_breakdown.png"/> <span> Warranty and breakdown </span>
@@ -62,7 +62,7 @@
           </a>
         </div>
 
-        <div class="col-md-4 col-xs-4 col-lg-4 col-sm-4 faq_right">
+        <div class="col-md-4 col-xs-12 col-lg-4 col-sm-4 faq_right">
           <a href="#mileage">
           <div class="faq_block">
             <img src="images/icons/mileage.png"/> <span> Mileage </span>
@@ -72,8 +72,8 @@
       </div>
     </div>
 
-    <div class="row">
-        <div class="col-md-4 col-xs-4 col-lg-4 col-sm-4 faq_left">
+    <div class="">
+        <div class="col-md-4 col-xs-12 col-lg-4 col-sm-4 faq_left">
           <a href="#tax-and-insurance">
           <div class="faq_block">
             <img src="images/icons/tax_and_insurance.png"/> <span> Tax and insurance </span>
@@ -81,7 +81,7 @@
           </div>
           </a>
       </div>
-        <div class="col-md-4 col-xs-4 col-lg-4 col-sm-4 faq_center">
+        <div class="col-md-4 col-xs-12 col-lg-4 col-sm-4 faq_center">
           <a href="#maintenance-and-servicing">
           <div class="faq_block">
             <img src="images/icons/maintenance_and_servicing.png"/> <span> Maintenance and servicing</span>
@@ -89,7 +89,7 @@
           </div>
         </a>
       </div>
-        <div class="col-md-4 col-xs-4 col-lg-4 col-sm-4 faq_right">
+        <div class="col-md-4 col-xs-12 col-lg-4 col-sm-4 faq_right">
           <a href="#end-of-contract">
           <div class="faq_block">
             <img src="images/icons/end_of_contract.png"/> <span> End of contract </span>
@@ -159,14 +159,14 @@
       </div>
 
       <div id="the-financials" class="faq_answer_item">
-      <h2> Delivery </h2>
+      <h2> The Financials </h2>
 
         <h3> Lorem Ipsum </h3>
         <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer quis cursus dolor. Ut dictum malesuada ipsum, et finibus enim fringilla a. Aliquam lorem turpis, accumsan nec tortor in, ultrices vestibulum augue. Fusce rutrum dolor libero, venenatis lacinia metus interdum a. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. </p>
       </div>
 
       <div id="warranty-and-breakdown" class="faq_answer_item">
-      <h2> Delivery </h2>
+      <h2> Warranty and Breakdown </h2>
 
         <h3> Lorem Ipsum </h3>
         <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer quis cursus dolor. Ut dictum malesuada ipsum, et finibus enim fringilla a. Aliquam lorem turpis, accumsan nec tortor in, ultrices vestibulum augue. Fusce rutrum dolor libero, venenatis lacinia metus interdum a. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. </p>
@@ -174,42 +174,51 @@
 
 
       <div id="mileage" class="faq_answer_item">
-      <h2> Delivery </h2>
+      <h2> Mileage </h2>
 
         <h3> Lorem Ipsum </h3>
         <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer quis cursus dolor. Ut dictum malesuada ipsum, et finibus enim fringilla a. Aliquam lorem turpis, accumsan nec tortor in, ultrices vestibulum augue. Fusce rutrum dolor libero, venenatis lacinia metus interdum a. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. </p>
       </div>
       <div id="tax-and-insurance" class="faq_answer_item">
-      <h2> Delivery </h2>
+      <h2> Tax and Insurance </h2>
 
         <h3> Lorem Ipsum </h3>
         <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer quis cursus dolor. Ut dictum malesuada ipsum, et finibus enim fringilla a. Aliquam lorem turpis, accumsan nec tortor in, ultrices vestibulum augue. Fusce rutrum dolor libero, venenatis lacinia metus interdum a. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. </p>
       </div>
       <div id="maintenance-and-servicing" class="faq_answer_item">
-      <h2> Delivery </h2>
+      <h2> Maintenance and Servicing </h2>
 
         <h3> Lorem Ipsum </h3>
         <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer quis cursus dolor. Ut dictum malesuada ipsum, et finibus enim fringilla a. Aliquam lorem turpis, accumsan nec tortor in, ultrices vestibulum augue. Fusce rutrum dolor libero, venenatis lacinia metus interdum a. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. </p>
       </div>
       <div id="end-of-contract" class="faq_answer_item">
-      <h2> Delivery </h2>
+      <h2> End of Contract </h2>
 
         <h3> Lorem Ipsum </h3>
         <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer quis cursus dolor. Ut dictum malesuada ipsum, et finibus enim fringilla a. Aliquam lorem turpis, accumsan nec tortor in, ultrices vestibulum augue. Fusce rutrum dolor libero, venenatis lacinia metus interdum a. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. </p>
       </div>
+
+
+        <div class="more_questions_faq">
+        <h2 class="black">Have more questions?</h2>
+        <p>Then give us a call to discuss, we're here to help!:</p>
+        <h6><img src="images/icons/phone.svg">0113 350 9776</h6>
+        </div>
+
+
+
+
     </div>
+
+
+
+
   </div>
 </div>
 
 </section>
 
-<div class="container">
-  <div class="more_questions">
-  <h2 class="black">Have more questions?</h2>
-  <p>Then give us a call to discuss, we're here to help!:</p>
-  <h6><img src="images/icons/phone.svg">0113 350 9776</h6>
-  </div>
-</div>
+
 
 <section class="customers-col">
 <div class="container">
