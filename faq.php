@@ -116,7 +116,7 @@
   <div class="container">
   <div class="row">
     <nav class="col-sm-3">
-      <ul class="nav-pills nav-stacked faq_pills" data-spy="affix" data-offset-top="980">
+      <ul class="nav-pills nav-stacked faq_pills affix-top" data-spy="affix" data-offset-top="980">
         <li class="faq_pill"><a href="#about-leasing">About Leasing</a></li>
         <li class="faq_pill"><a href="#choosing-the-right-option">Choosing the right leasing option</a> </li>
         <li class="faq_pill"><a href="#delivery">Delivery</a></li>
