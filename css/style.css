@@ -2256,7 +2256,7 @@ button.hm_redbtns:hover img {
 	  margin: 18px 0 25px 0;
 }
 
-.hm_oursodtl:hover .hm_viewspo button{ background:#8F0823; color:rgba(255,255,255,0.6); }
+/* .hm_oursodtl:hover .hm_viewspo button{ background:#8F0823; color:rgba(255,255,255,0.6); } */
 
 .hm_viewspo button img {
 	position: relative;
@@ -2816,9 +2816,9 @@ text-align: left;
 .prd-list p span{ font-family: 'TrebuchetMS-Bold'; font-style: normal;}
 
 
-.prd_oursodtl:hover .hm_viewspo button{ background:#8F0823; color:rgba(255,255,255,0.6); }
+/* .prd_oursodtl:hover .hm_viewspo button{ background:#8F0823; color:rgba(255,255,255,0.6); } */
 
-.prd_oursodtl:hover .hm_viewspo button img{ opacity:0.6;left: -5px; }
+/* .prd_oursodtl:hover .hm_viewspo button img{ opacity:0.6;left: -5px; } */
 .prd_oursodtl:hover {
     transition: all 0.4s ease;
     box-shadow: 2px 9px 18px 4px rgba(0,0,0,0.2);
@@ -6976,31 +6976,6 @@ font-size: 16px;
 .prd-list p span{ font-family: 'TrebuchetMS-Bold'; font-style: normal;}
 
 
-.prd_oursodtl:hover .hm_viewspo button{ background:#8F0823; color:rgba(255,255,255,0.6); }
-
-.prd_oursodtl:hover .hm_viewspo button img{ opacity:0.6;left: -5px; }
-.prd_oursodtl:hover {
-    transition: all 0.4s ease;
-    box-shadow: 2px 9px 18px 4px rgba(0,0,0,0.2);
-}
-
-.prd_oursodtl figure figcaption {
-    position: absolute;
-    top: 8px;
-    left: 13px;
-    background: #D6D9DC;
-    border-radius: 3px;
-    padding: 4px 12px;
-    text-transform: uppercase;
-    letter-spacing: 1.0px;
-    font-family: 'Aller-Bold';
-    font-size: 12px;
-    color: #33414e;
-}
-.prd_oursodtl figure figcaption i {
-    font-size: 18px;
-}
-
 .vr_slider{
 	float:left;
 	width:100%;
@@ -7470,14 +7445,14 @@ transition: all 0.1s ease;
 .showroom_vehicle figure {
     position: relative;
     text-align: center;
-    padding: 25px 5px 20px 5px;
+    padding: 25px 5px 10px 5px;
 }
 .showroom_vehicle:hover {
     transition: all 0.4s ease;
     box-shadow: 2px 9px 18px 4px rgba(0,0,0,0.2);
 	}
 
-	.showroom_vehicle:hover .hm_viewspo button img{ opacity:0.6;left: -5px; }
+	/* .showroom_vehicle:hover .hm_viewspo button img{ opacity:0.6;left: -5px; } */
 	.showroom_vehicle:hover {
 	    transition: all 0.4s ease;
 	    box-shadow: 2px 9px 18px 4px rgba(0,0,0,0.2);
@@ -7499,15 +7474,23 @@ transition: all 0.1s ease;
 	.showroom_vehicle figure figcaption i {
 	    font-size: 18px;
 	}
-	.showroom_vehicle:hover .hm_viewspo button {
+	.hm_viewspo button:hover {
 	    background: #8F0823;
 	    color: rgba(255,255,255,0.6);
 }
 .showroom_vehicle_specs {
     padding: 15px 26px 0 26px;
 }
+.my_showroom_comparison h4, .my_showroom_comparison h3{
+	text-align:left;
+	font-size: 24px;
+line-height: 30px;
+font-family: 'Aller';
+color: #33414e;
+}
 .showroom_vehicle_specs p{
 	color:#000;
+	text-align:left;
 }
 .showroom_actions{
 	width:100%;
@@ -7542,7 +7525,33 @@ transition: all 0.1s ease;
 	color: #fff;
 
 }
-
+.showroom_summary::before{
+	background-image: url('../images/adv_namsap.png');
+	content: '';
+	height:auto;
+	width:2px;
+	position:absolute;
+	bottom:0;
+	left:0;
+	background-repeat:no-repeat;
+	background-position:bottom left;
+}
+.compare_by{
+	background: none;
+	color: #33414e;
+	border: solid 1px #33414E;
+	border-radius: 4px;
+	padding: 14px 25px;
+	font-size: 12px;
+	text-transform: uppercase;
+	font-family: 'Aller-Bold';
+	letter-spacing: 1px;
+	transition: all 0.4s ease;
+}
+.compare_by:hover{
+	background: #33414e;
+color: #fff;
+}
 
 .unselected_vehicle{
 	width:100%;
@@ -7697,11 +7706,20 @@ line-height: 18px;
   background: transparent;
 }
 
+.showroom_panel_title{
+	font-size:14pt;
+}
 .input:focus {
     outline:none;
 }
+
 a:focus{
 	outline:none;
+}
+
+.table-striped{
+	color:#000;
+	margin-bottom:0px;
 }
 
 .seperator_css {margin:30px}
